@@ -436,3 +436,34 @@ Preguntas generales:
 Preguntas complementarias:
 - ¿Estaría dispuesto a pagar un precio más alto por un técnico verificado?
 - ¿Prefiere comparar opciones antes de contratar o elegir rápidamente?
+  
+#### 2.2.2 Registro entrevistas
+
+##### Segmento 1: Trabajadores Técnicos Independientes
+- **Entrevista 1**:
+	**Nombre:** Joseth Muñoz  
+	**Género:** Masculino  
+	**Edad:** 20 años  
+	**Distrito:** La Victoria, Lima 
+	**Duración:** 6:01 
+	**Inicio:** 0:16  
+	**Fin:** 6:01
+	
+	**Resumen:**  
+	Joseth, un joven de 20 años que vive en Lima, comenta que cada año y medio necesita contratar a alguien para un servicio técnico. Actualmente, su forma de encontrar técnicos es mediante contactos personales. En una ocasión, tuvo una mala experiencia al contratar a un técnico para reparar su lavadora, ya que este hizo todo menos arreglarla: incluso retiró piezas que estaban en buen estado.
+	
+	Joseth considera que datos como el precio y las reseñas le ayudarían a generar confianza al elegir un técnico. Además, estaría dispuesto a pagar más por un técnico verificado, dependiendo de la gravedad del problema.
+	
+-  **Entrevista 2**:
+	**Nombre:** José Manuel
+	**Género:** Masculino  
+	**Edad:** 24 años  
+	**Distrito:** Surquillo, Lima
+	**Duración:** --
+	**Inicio:** -- 
+	**Fin:** --
+	
+	**Resumen:** 
+	José Manuel es un joven de 24 años del distrito de Surquillo que requiere servicios técnicos cada mes debido a problemas con su computadora. Suele encontrar técnicos mediante páginas de Facebook. En una ocasión, tuvo una mala experiencia con alguien informal que terminó cobrándole de más sin solucionar su problema.
+	
+	Al contratar a un técnico, le interesan mucho las reseñas y un portafolio de trabajos previos, ya que le genera confianza alguien con experiencia en el rubro. Debido a sus malas experiencias, estaría dispuesto a pagar más por un técnico verificado.
