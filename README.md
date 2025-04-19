@@ -441,13 +441,26 @@ Preguntas complementarias:
 
 ##### Segmento 1: Trabajadores Técnicos Independientes
 - **Entrevista 1**:
-	**Nombre:** Joseth Muñoz  
-	**Género:** Masculino  
-	**Edad:** 20 años  
-	**Distrito:** La Victoria, Lima 
-	**Duración:** 6:01 
-	**Inicio:** 0:16  
-	**Fin:** 6:01
+	**Nombre:** Godelino  
+	**Género:** Masculino  
+	**Edad:** 35 años
+	**Distrito:** La Victoria, Lima 
+	**Duración:** --
+	**Inicio:** -- 
+	**Fin:** --
+	
+	**Resumen:**  
+	Godelino, un técnico de 35 años, con más de 10 años de experiencia en el rubro de comercio y técnico de sonido, menciona que actualmente trabaja como técnico de sonido y tiene un negocio de venta de equipos. Su forma de conseguir clientes es a través de contactos personales y redes sociales como Marketplace. Al inicio tuvo algo de desconfianza por parte de los clientes, pero con el tiempo ha logrado generar confianza al mostrar su trabajo y tener buenas referencias. Usualmente utiliza su laptop y su celular para gestionar su trabajo. Considera importante incluir información sobre videos de trabajos previos y reseñas de clientes en su perfil para generar confianza. Prefiere recibir solicitudes por WhatsApp.
+
+##### Segmento 2: Usuarios que requieren servicios técnicos
+- **Entrevista 1**:
+	**Nombre:** Joseth Muñoz  
+	**Género:** Masculino  
+	**Edad:** 20 años  
+	**Distrito:** La Victoria, Lima 
+	**Duración:** 6:01 
+	**Inicio:** 0:16  
+	**Fin:** 6:01
 	
 	**Resumen:**  
 	Joseth, un joven de 20 años que vive en Lima, comenta que cada año y medio necesita contratar a alguien para un servicio técnico. Actualmente, su forma de encontrar técnicos es mediante contactos personales. En una ocasión, tuvo una mala experiencia al contratar a un técnico para reparar su lavadora, ya que este hizo todo menos arreglarla: incluso retiró piezas que estaban en buen estado.
@@ -455,15 +468,17 @@ Preguntas complementarias:
 	Joseth considera que datos como el precio y las reseñas le ayudarían a generar confianza al elegir un técnico. Además, estaría dispuesto a pagar más por un técnico verificado, dependiendo de la gravedad del problema.
 	
 -  **Entrevista 2**:
-	**Nombre:** José Manuel
-	**Género:** Masculino  
-	**Edad:** 24 años  
-	**Distrito:** Surquillo, Lima
-	**Duración:** --
-	**Inicio:** -- 
-	**Fin:** --
+	**Nombre:** José Manuel
+	**Género:** Masculino  
+	**Edad:** 24 años  
+	**Distrito:** Surquillo, Lima
+	**Duración:** --
+	**Inicio:** -- 
+	**Fin:** --
 	
 	**Resumen:** 
 	José Manuel es un joven de 24 años del distrito de Surquillo que requiere servicios técnicos cada mes debido a problemas con su computadora. Suele encontrar técnicos mediante páginas de Facebook. En una ocasión, tuvo una mala experiencia con alguien informal que terminó cobrándole de más sin solucionar su problema.
 	
 	Al contratar a un técnico, le interesan mucho las reseñas y un portafolio de trabajos previos, ya que le genera confianza alguien con experiencia en el rubro. Debido a sus malas experiencias, estaría dispuesto a pagar más por un técnico verificado.
+
+#### 2.2.3 Análisis de entrevistas
