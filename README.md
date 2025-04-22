@@ -444,6 +444,25 @@ Segmento objetivo #2: Usuarios que requieren servicios técnicos
 | Resolver problemas imprevistos en trabajos               | Media      | Alta        |
 | Llevar el control de pagos recibidos y pendientes        | Media      | Alta        |
 
+### Segmento objetivo #2: Jesus Lujan (Usuario dependiente)
+
+| Tarea                                                    | Frecuencia | Importancia |
+|----------------------------------------------------------|------------|-------------|
+| Buscar profesionales para tareas del hogar o educación   | Alta       | Alta        |
+| Comparar precios, calificaciones y experiencia           | Media      | Alta        |
+| Contactar al proveedor de servicio                       | Media      | Alta        |
+| Coordinar horarios o agendar servicios                   | Media      | Alta        |
+| Solicitar presupuesto o cotización                       | Media      | Alta        |
+| Leer opiniones o referencias de otros usuarios           | Baja       | Media       |
+| Guardar perfiles o servicios favoritos                   | Baja       | Media       |
+| Cancelar o reagendar un servicio                         | Baja       | Media       |
+| Dejar una reseña luego del servicio                      | Baja       | Alta        |
+| Compartir el contacto con amigos o familiares            | Baja       | Baja        |
+| Revisar si el servicio tiene garantías o soporte         | Baja       | Media       |
+| Hacer seguimiento al estado del servicio contratado      | Baja       | Media       |
+| Comparar diferentes tipos de servicios                   | Baja       | Media       |
+| Evaluar si volvería a contratar al mismo proveedor       | Media      | Alta        |
+
 
 ### 2.3.3. User Journey Mapping.
 
