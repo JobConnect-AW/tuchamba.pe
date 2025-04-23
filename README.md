@@ -540,5 +540,55 @@ Preguntas complementarias:
 
 =======
 
-#### 2.2.3 Análisis de entrevistas
+# 2.2.3 Análisis de Entrevistas
 
+## Segmento 1: Trabajadores Técnicos Independientes
+
+### Características Objetivas y Subjetivas
+
+| Característica                  | Porcentaje | Sustento en Entrevistas                                                                 | Relación con Entrevistas       |
+|---------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------------------|
+| **Género masculino**            | 100%       | Los 3 entrevistados son hombres                                                        | Entrevistas 1, 2, 3           |
+| **Edad promedio**               | 36 años    | Rango de 27-47 años                                                                     | Entrevistas 1 (35), 2 (27), 3 (47) |
+| **Uso de redes sociales**       | 100%       | Todos mencionaron Marketplace/Facebook                                                 | Godelino, Jorge, Carlos        |
+| **Desconfianza inicial**        | 66.7%      | 2/3 enfrentaron desconfianza de clientes                                               | Jorge, Carlos                  |
+| **Preferencia por WhatsApp**    | 66.7%      | 2/3 prefieren contacto inicial por este medio                                          | Godelino, Carlos               |
+| **Gestión digital básica**      | 100%       | Uso de celular (100%), laptop (33.3%), Excel (33.3%)                                   | Todos                          |
+
+### Hallazgos:
+1. **Visibilidad Digital**  
+   - 100% usa redes sociales pero de forma no especializada  
+   - 100% requiere plataforma con portafolio visual (videos/trabajos previos)
+
+2. **Generación de Confianza**  
+   - 66.7% prioriza mostrar experiencia concreta (Carlos: "Videos del trabajo realizado")  
+   - 100% valora sistema de reseñas verificadas
+
+3. **Gestión Operativa**  
+   - 33.3% usa herramientas profesionales (Excel)  
+   - 66.7% prefiere integración con WhatsApp para comunicación
+
+## Segmento 2: Usuarios que requieren servicios técnicos
+
+### Características Objetivas y Subjetivas
+
+| Característica                  | Porcentaje | Sustento en Entrevistas                                                                 | Relación con Entrevistas       |
+|---------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------------------|
+| **Mala experiencia previa**     | 100%       | Los 3 entrevistados reportaron problemas con técnicos informales                       | Joseth, José, Carol           |
+| **Frecuencia de contratación**  | 33.3% mensual | Solo José Manuel contrata servicios mensualmente                                      | José Manuel                   |
+| **Uso de redes sociales**       | 100%       | Todos mencionaron búsqueda mediante FB/Instagram                                      | Joseth, José, Carol           |
+| **Dispuestos a pagar más**      | 100%       | Los 3 pagarían extra por verificación                                                  | Todos                         |
+| **Comparación de opciones**     | 66.7%      | 2/3 prefieren comparar antes de decidir                                                | Joseth, Carol                 |
+
+### Hallazgos:
+1. **Factores de Decisión**  
+   - 100% prioriza reseñas y portafolios  
+   - 66.7% valora recomendaciones personales (Joseth: "Confío en contactos conocidos")
+
+2. **Dolor Principal**  
+   - 100% sufrió pérdida económica por servicios deficientes  
+   - 66.7% mencionó falta de transparencia en precios (Carol: "Cobros adicionales sin aviso")
+
+3. **Expectativas Tecnológicas**  
+   - 100% demanda perfiles con verificación oficial  
+   - 66.7% espera sistema de calificación post-servicio
