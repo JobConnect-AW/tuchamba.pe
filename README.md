@@ -1,5 +1,4 @@
-﻿
-# Informe del Trabajo Final
+﻿﻿# Informe del Trabajo Final
 
 **Universidad Peruana de Ciencias Aplicadas**
 
@@ -25,7 +24,7 @@
 | Hallasi Saravia, Miguel Angel | U202312391 |
 | Oroncoy Almeyda, Alejandro Daniel       | U202313397 |
 | Cossar Sanchez, Eduardo Jose           | U202312109 |
-| Mostajo Orosco, Maria Fernanda           | U202210838 |
+| Mostajo Orosco, Maria Fernanda           | U202312874|
 
 **Ciclo 2025-01**
 
@@ -34,21 +33,15 @@
 
 | Version | Fecha      | Autor                            | Descripción de modificación                          |
 | ------- | ---------- | -------------------------------- | ------------------------------------------------------ |
-| 1.0     | 01/04/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | Creación del documento de trabajo en formato markdown |
-| 1.1     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo|                                                        |
-| 1.2     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo|                                                        |
-| 1.3     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
-| 1.4     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
-| 1.5     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
-| 1.6     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
-| 1.7     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
-| 1.8     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
+| 1ra    | 25/04/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TB1: Se realizo los capitulos 1, 2, 3, 4 y el primer sprint del capitulo 5 |
+|
+
 
 </div>
 
 # Project Report Collaboration Insights
 
-URL del repositorio para el proyecto: https://github.com/UPC-PaxTech/uTime/
+URL del repositorio para el proyecto: https://github.com/JobConnect-AW/tuchamba.pe
 
 **TB1**
 
@@ -58,12 +51,12 @@ para cada integrante del equipo:
 
 | Integrantes    | Tareas Asignadas |
 | -------------- | ---------------- |
-| Kevin Chi      |                  |
-| Jeremy Paucar   |                  |
-| Miguel Hallasi |                  |
-| Alejandro Oroncoy   |                  |
-| Eduardo Cossar      |                  |
-| Maria Fernanda Mostajo     |                  |
+| Kevin Chi      |   2.3.1 User Persona, 3.2 User Stories, 4.7.1 Class Diagram, Diagramas C4               |
+| Jeremy Paucar   | 2.3.2 User persona, 2.3.3 User Journey mapping, 2.3.4 Empathy mapping, 2.3.2 User matrix, 2.3.5. AS-IS Scenario Mapping, 4.8 Diagrama de base de datos                 |
+| Miguel Hallasi | 2.2 Entrevistas, 3.2 User Stories y Diagramas c4                 |
+| Alejandro Oroncoy   |  2.2 Entrevistas, Capitulo V: Product Implementation, Validation & Deployment                |
+| Eduardo Cossar      | Capitulo I: Introducción,  2.1 Competidores, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design, 4.7.2 Class Dictionary               |
+| Maria Fernanda Mostajo     | 4.1 Style Guidelines, 4.2 Information Architecture, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design                 |
 
 
 **Github Collaboration Insights**
@@ -75,9 +68,9 @@ de versiones.
 Los integrantes son:
 
 - Kevin Chi (Krillsom)
-- Jeremy Paucar (gael-rs)
-- Miguel Hallasi (VarBus)
-- Alejandro Oroncoy (aaaaangie)
+- Jeremy Paucar (asmip10)
+- Miguel Hallasi (mhallasi)
+- Alejandro Oroncoy (alejooroncoy)
 - Eduardo Cossar (coleeeee-dev)
 - Maria Fernanda Mostajo (Mafer-m30)
 
@@ -176,8 +169,8 @@ Se explican las ramas más prominentes:
 
 | Criterio específico                                                | Acciones realizadas                                                                 | Conclusiones |
 |--------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Kevin Chi:<br> Jeremy Paucar:<br> Miguel Hallasi:<br> Alejandro Oroncoy:<br> Eduardo Cossar:<br> Maria Fernanda Mostajo:<br> | ddsa         |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Kevin Chi:<br> Jeremy Paucar:<br> Miguel Hallasi:<br> Alejandro Oroncoy:<br> Eduardo Cossar:<br> Maria Fernanda Mostajo:<br> | ddsa         |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Para el desarrollo del TB1, hubo una buena comunicación en el equipo al momento de deliberar aspectos importantes acerca del desarrollo del trabajo. Todos participamos en las reuniones en las cuales expresamos nuestras ideas y opiniones. | TB1 <br> Para la TB1, el equipo trabajó colaborativamente y se logró una particiapción activa de cada uno de los integrantes. Se realizaron reuniones grupales en la que cada miembro compartió sus ideas de manera oral o escrita y, a partir de ello, se logró una toma de decisiones en conjunto la cual beneficio el equipo en la toma de decisiones y en la ejecución de tareas.       |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Para el desarrollo del TB1, desarrollamos correctamente la capacidad de comunicación escrita donde se ha explicado las ideas que hemos acordado en las reuniones através del presente documento | TB1 <br> Para el TB1, el equipo comunicó las ideas tomadas en el documento de manera conjunta y equitativa, siendo todos parte y responsables del desarrollo del informe        |
 
 # Capítulo I: Introducción
 
@@ -195,8 +188,14 @@ Nuestra visión es convertirnos en la plataforma principal de servicios técnico
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-- 
-
+| **Perfil**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **Foto**                                                                       |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Jeremy Alión Paucar Meneses**<br>Mi nombre es Jeremy, Tengo 22 años. En la actualidad estoy estudiando la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Albergo conocimientos intermedios en algunos lenguajes de programación, tales como C++, JavaScript y Python. Me considero una persona responsable con disposición de apoyar al grupo, también me gustan mucho los retos y así mismo poder cumplirlos.                                                                                                                                                                       | <img src="https://files.catbox.moe/vl4z7c.jpg" alt="angie image" width="200">  |
+| **Kevin Jorge Chi Cruzatt**<br>Mi nombre es Kevin Chi. Tengo 19 años y actualmente estoy cursando el 5° ciclo de ingeniería de software. Me considero una persona con capacidades de liderazgo y capaz de trabajar bajo presión.                                                                                                                                                                                                                                                                                                  | <img src="https://files.catbox.moe/bacwjq.jpg" alt="kevin image" width="200">  |
+| **Miguel Angel Hallasi Saravia**<br> Soy Miguel Hallasi, estudiante del quinto ciclo de la carrera de Ingeniería de Software. Me gusta el aprendizaje continuo y adquirir nuevas experiencias.                                                                            | <img src="https://files.catbox.moe/sds7k5.png" alt="kevin image" width="200">  |
+| **Alejandro Daniel Oroncoy Almeyda**<br>Mi nombre es Alejandro Oroncoy. Tengo 19 años, soy estudiante de la carrera de ingeniería de software, estoy en 5to ciclo. Me considero una persona proactiva, autodidacta y orientada a objetivos.                                                                                                                                                    | <img src="https://files.catbox.moe/v1iqn9.png" alt="gael image" width="200">   
+| **Eduardo Jose Cossar Sanchez**<br>Mi nombre es Eduardo Cossar. Soy estudiante de la carrera de Ingeniería de Software, tengo 19 años y actualmente estoy cursando el quinto ciclo en la UPC. Me considero una persona responsable y comprometida con un gran interés por la tecnología. Como integrante de este equipo, me comprometo a brindar todo mi apoyo y participación activa para afrontar los desafíos que se presenten y dar lo mejor de mí para lograr el éxito de este proyecto. | <img src="https://files.catbox.moe/mw437z.png" alt="kevin image" width="200"> |
+| **Maria Fernanda Mostajo Orosco**<br>Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido.                                                                                                                                                                                            | <img src="https://files.catbox.moe/6moeru.png" alt="gael image" width="200">  
 
 ## 1.2. Solution Profile
 
@@ -275,17 +274,17 @@ Un estudio de la CAF (Banco de Desarrollo de América Latina, 2021), indica que 
 
 El Lean UX es un enfoque de diseño centrado en la colaboración, la retroalimentación continua y la mejora iterativa. Se enfoca en construir productos útiles y funcionales desde etapas tempranas, validando constantemente las ideas con los usuarios reales. En el caso de JobConnect, este enfoque es esencial para crear una plataforma eficiente y confiable que conecte a trabajadores técnicos con clientes que necesitan servicios de calidad.
 
-### 1.2.2. Lean UX Process
-
-El Lean UX es un enfoque de diseño centrado en la colaboración, la retroalimentación continua y la mejora iterativa. Se enfoca en construir productos útiles y funcionales desde etapas tempranas, validando constantemente las ideas con los usuarios reales. En el caso de JobConnect, este enfoque es esencial para crear una plataforma eficiente y confiable que conecte a trabajadores técnicos con clientes que necesitan servicios de calidad.
-
 #### 1.2.2.1. Lean UX Problem Statements
 
-JobConnect busca resolver una problemática muy común en el mercado peruano: la informalidad, baja visibilidad y poca credibilidad de los trabajadores técnicos independientes, lo que dificulta su conexión con potenciales clientes.
+El estado actual del mercado de servicios técnicos en Perú se ha centrado principalmente en redes informales de recomendación, donde los trabajadores independientes carecen de visibilidad digital, credibilidad y acceso a clientes de manera formal. Por su parte, los clientes enfrentan dificultades para verificar la calidad y confiabilidad del servicio, lo que genera desconfianza y pérdida de oportunidades.
 
-Hemos identificado que existe una brecha entre los trabajadores técnicos y los clientes, causada por la falta de canales digitales accesibles que permitan promocionar sus servicios de forma segura y ordenada. Muchos trabajadores no tienen medios formales para ofrecer sus servicios, y los clientes no cuentan con referencias verificadas para tomar decisiones informadas.
+Lo que los servicios existentes no logran abordar es la necesidad de una plataforma accesible y confiable que cierre la brecha entre trabajadores técnicos informales y clientes que buscan servicios verificados y seguros.
 
-En un contexto donde el trabajo técnico es muy demandado pero aún mayormente informal, es crucial facilitar un espacio digital que formalice estos vínculos. Sin una plataforma confiable, se perpetúa la desconfianza, la baja demanda y el limitado crecimiento profesional de estos trabajadores.
+Nuestro servicio abordará esta brecha mediante la creación de una plataforma digital que permita a los trabajadores técnicos mostrar perfiles verificados, facilitar la comunicación transparente y contratar de forma segura mediante calificaciones y reseñas.
+
+Nuestro enfoque inicial será los trabajadores técnicos independientes en zonas urbanas del Perú, así como clientes individuales que requieran servicios técnicos para el hogar o de uso personal.
+
+Sabremos que hemos tenido éxito cuando veamos un aumento en la cantidad de trabajadores que crean perfiles verificados, un flujo constante de solicitudes de servicios a través de la plataforma y altos niveles de satisfacción reflejados en calificaciones positivas y uso recurrente.
 
 **¿Cómo podemos diseñar una plataforma accesible que permita a los trabajadores técnicos visibilizar sus habilidades y a los clientes encontrar y contratar profesionales de forma confiable y segura?**
 
@@ -356,6 +355,10 @@ _Sabremos que estamos en lo correcto cuando el tiempo promedio que toma contrata
 Creemos que ofrecer una versión móvil optimizada de JobConnect aumentará la frecuencia de uso y retención.  
 _Sabremos que estamos en lo correcto cuando el 80% de los usuarios activos utilicen la app desde el celular y la tasa de retención mensual supere el 50%._
 
+#### 1.2.2.4. Lean UX Canva
+
+<img src="img/leanUXcanvaJC.png" class="leanUXcanva" alt="">
+
 #### 1.3. Segmento Objetivo
 
 ##### Trabajadores Técnicos Independientes
@@ -403,7 +406,136 @@ Plataforma en línea que opera en varios países de América Latina, incluyendo 
 - **Clic**  
 Hub digital que ofrece servicios profesionales en diversos rubros, como medicina, psicología, nutrición, fisioterapia, derecho y consultoría. A través de su aplicación, las personas pueden contactar a especialistas y coordinar servicios según sus necesidades.
 
-### 2.2. Entrevistas
+### 2.1.1. Analisis Competitivo
+
+<h2>Análisis Competitivo</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>¿Por qué llevar a cabo este análisis?</th>
+      <td colspan="4">Se llevó a cabo este análisis porque queremos ofrecer un mejor servicio a través de la recopilación de información de nuestros competidores.</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>JobConnect</th>
+      <th>Chambea</th>
+      <th>Workana</th>
+      <th>Clic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Perfil</th>
+      <td>Plataforma peruana que conecta trabajadores técnicos independientes con clientes</td>
+      <td>App móvil que conecta emprendedores y trabajadores independientes con clientes</td>
+      <td>Plataforma de freelancers para proyectos profesionales en LATAM</td>
+      <td>App que conecta profesionales de salud y consultoría con clientes</td>
+    </tr>
+    <tr>
+      <th>Ventaja competitiva</th>
+      <td>Formalización y crecimiento de técnicos</td>
+      <td>Diversidad en categorías y simplicidad</td>
+      <td>Alcance regional y sistema de reputación</td>
+      <td>Especialización en salud y profesiones específicas</td>
+    </tr>
+    <tr>
+      <th>Perfil de marketing</th>
+      <td>Clientes que requieren servicios técnicos y trabajadores independientes</td>
+      <td>Emprendedores, independiente y clientes generales</td>
+      <td>Empresas que requieren freelancers calificados</td>
+      <td>Personas que necesitan servicios profesionales específicos</td>
+    </tr>
+    <tr>
+      <th>Estrategias de marketing</th>
+      <td>Publicidad en redes sociales</td>
+      <td>Presencia en medios locales, redes sociales</td>
+      <td>SEO, anuncios pagos, recomendaciones</td>
+      <td>Promociones online</td>
+    </tr>
+    <tr>
+      <th>Perfil de producto</th>
+      <td>Directorio de técnicos, calificaciones - chat, pagos seguros</td>
+      <td>Directorio de emprendedores por categoría</td>
+      <td>Proyectos, perfiles, contrataciones y pagos</td>
+      <td>Agendamiento, perfiles profesionales, contacto directo</td>
+    </tr>
+    <tr>
+      <th>Precio & Costos</th>
+      <td>Modelo Freemium</td>
+      <td>Uso gratuito con modelos futuros de membresía</td>
+      <td>Comisión por proyecto y opciones premium</td>
+      <td>Tarifas por servicio profesional</td>
+    </tr>
+    <tr>
+      <th>Canales de Distribución</th>
+      <td>Web y app móvil</td>
+      <td>App móvil</td>
+      <td>Web</td>
+      <td>Web y app</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Análisis FODA</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>JobConnect</th>
+      <th>Chambea</th>
+      <th>Workana</th>
+      <th>Clic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Fortalezas</th>
+      <td>Enfoque en servicios técnicos, confianza, formalización</td>
+      <td>App local, variedad de rubros, sencillez</td>
+      <td>Escala internacional, reputación, variedad de profesionales</td>
+      <td>Especialización en profesiones clave, facilidad de uso</td>
+    </tr>
+    <tr>
+      <th>Debilidades</th>
+      <td>Aún en etapa inicial, menor alcance</td>
+      <td>Menor formalidad y validación de perfiles</td>
+      <td>Competencia alta, dificultad para destacar</td>
+      <td>Enfocado solo en rubros específicos</td>
+    </tr>
+    <tr>
+      <th>Oportunidades</th>
+      <td>Ampliar servicios, alianzas con gremios y empresas</td>
+      <td>Monetización a futuro, expansión a otros países</td>
+      <td>Mayor presencia en mercados emergentes</td>
+      <td>Ampliar rubros profesionales, integrar IA</td>
+    </tr>
+    <tr>
+      <th>Amenazas</th>
+      <td>Imitación del modelo, entrada de grandes plataformas</td>
+      <td>Saturación de mercado, apps similares</td>
+      <td>Nuevas plataformas, cambios en la demanda</td>
+      <td>Poca diferenciación en rubros nuevos</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### 2.1.2. Estrategias y tácticas frente a competidores 
+
+Desarrollar estrategias y tácticas efectivas para enfrentar a nuestros competidores requiere de un enfoque centrado en nuestras fortalezas tecnológicas, la experiencia del usuario y el conocimiento profundo del mercado peruano. A continuación, se presentan estrategias clave para obtener una ventaja competitiva:
+
+- Diferenciación mediante la formalización de trabajadores técnicos: JobConnect puede posicionarse como la plataforma que impulsa la formalización laboral, brindando perfiles verificados, procesos seguros y herramientas de gestión para trabajadores técnicos como electricistas, plomeros, gasfiteros y otros oficios.
+
+- Enfoque en la calidad y confiabilidad del servicio: Implementar un sistema robusto de calificaciones, reseñas y verificación de identidad, generando confianza tanto en usuarios como en profesionales técnicos.
+
+- Plataforma centrada en servicios técnicos presenciales y por zonas: A diferencia de otras plataformas más generales o remotas, JobConnect puede optimizar su algoritmo para conectar por proximidad geográfica, asegurando rapidez en la atención y ahorro en costos de desplazamiento.
+
+- Educación y soporte a trabajadores independientes: Ofrecer contenido educativo, talleres gratuitos y herramientas de gestión (como control de ingresos o recordatorios de citas), que agreguen valor y fomenten el uso recurrente de la plataforma.
+
+
+## 2.2. Entrevistas.
 
 #### 2.2.1 Diseño de entrevistas
 
@@ -590,3 +722,108 @@ Preguntas complementarias:
 3. **Expectativas Tecnológicas**  
    - 100% demanda perfiles con verificación oficial  
    - 66.7% espera sistema de calificación post-servicio
+
+## 2.3. Needfinding.
+
+### 2.3.1. User Personas.
+
+Segmento objetivo #1: Trabajadores independientes
+
+<div align="center">
+
+<img src="img/Juan_Carlos_user_persona.png" alt="user_persona_1" />
+
+</div>
+
+Segmento objetivo #2: Usuarios que requieren servicios técnicos
+
+<div align="center">
+<img src="img/USER-PERSONA-Jesús-Lujan.png" alt="user_persona_1" />
+</div>
+
+### 2.3.2. User Task Matrix.
+
+### Segmento objetivo #1: Juan Carlos (Gasfitero Independiente)
+
+| Tarea                                                    | Frecuencia | Importancia |
+|----------------------------------------------------------|------------|-------------|
+| Buscar nuevos clientes                                   | Alta       | Alta        |
+| Coordinar horarios con clientes                          | Alta       | Alta        |
+| Negociar precios y condiciones                           | Media      | Alta        |
+| Repartir volantes o buscar recomendaciones               | Media      | Media       |
+| Recordar fechas o compromisos laborales                  | Alta       | Media       |
+| Pedir reseñas o recomendaciones a clientes               | Baja       | Alta        |
+| Usar redes sociales o apps para promoción                | Muy baja   | Media       |
+| Hacer el trabajo técnico (reparaciones, instalaciones)   | Alta    | Alta        |
+| Dar seguimiento a clientes anteriores                    | Baja       | Media       |
+| Comprar materiales de ferretería                         | Media      | Alta        |
+| Coordinar el precio del servicio por WhatsApp o teléfono | Alta       | Alta        |
+| Transportarse entre un trabajo y otro                    | Alta       | Media       |
+| Resolver problemas imprevistos en trabajos               | Media      | Alta        |
+| Llevar el control de pagos recibidos y pendientes        | Media      | Alta        |
+
+### Segmento objetivo #2: Jesus Lujan (Usuario dependiente)
+
+| Tarea                                                    | Frecuencia | Importancia |
+|----------------------------------------------------------|------------|-------------|
+| Buscar profesionales para tareas del hogar o educación   | Alta       | Alta        |
+| Comparar precios, calificaciones y experiencia           | Media      | Alta        |
+| Contactar al proveedor de servicio                       | Media      | Alta        |
+| Coordinar horarios o agendar servicios                   | Media      | Alta        |
+| Solicitar presupuesto o cotización                       | Media      | Alta        |
+| Leer opiniones o referencias de otros usuarios           | Baja       | Media       |
+| Guardar perfiles o servicios favoritos                   | Baja       | Media       |
+| Cancelar o reagendar un servicio                         | Baja       | Media       |
+| Dejar una reseña luego del servicio                      | Baja       | Alta        |
+| Compartir el contacto con amigos o familiares            | Baja       | Baja        |
+| Revisar si el servicio tiene garantías o soporte         | Baja       | Media       |
+| Hacer seguimiento al estado del servicio contratado      | Baja       | Media       |
+| Comparar diferentes tipos de servicios                   | Baja       | Media       |
+| Evaluar si volvería a contratar al mismo proveedor       | Media      | Alta        |
+
+
+### 2.3.3. User Journey Mapping.
+
+En esta sección, vamos a analizar el recorrido del uso de la plataforma con su correspondiente contrata de servicio.
+Desde el momento en el que un usuario se registra hasta lograr concretar realizar un servicio técnico, o en su caso contratar un servicio técnico, se puede observar que el usuario debe realizar una serie de acciones para poder lograrlo.
+
+User Journey Mapping: Trabajadores independientes
+<div align="center">
+
+<img src="img/Juan_Carlos_journey_mapping.png" alt="journey_mapping_1" />
+
+</div>
+
+User Journey Mapping: Usuarios que requieren servicios técnicos
+<div align="center">
+
+<img src="img/Journey_mapping_custumer.png" alt="journey_mapping_1" />
+
+</div>
+
+### 2.3.4. Empathy Mapping.
+En esta sección se presenta el Empathy Mapping, una herramienta para crear un perfil detallado de los user personas y desarrollar una comprensión profunda de su perspectiva y experiencia. Para cada user persona, se incluyen cinco elementos clave: lo que el usuario ve, lo que el usuario escucha, lo que el usuario dice, lo que el usuario hace y lo que el usuario siente. Además, se incluyen los pains y gains identificados en base a las preguntas: ¿Qué le preocupa? Y ¿Qué puede ayudar a resolver sus problemas? ¿Qué puede convencerlo de que somos la alternativa correcta? ¿Qué dice? Los mapas de empatía se han desarrollado con la herramienta UXPressia.
+
+Empathy Mapping: Trabajadores independientes
+
+<div align="center">
+
+<img src="img/Juan_Carlos_Empathy_Map.png" alt="journey_mapping_1" />
+
+</div>
+
+Empathy Mapping: Usuarios que requieren servicios técnicos
+<div align="center">
+
+<img src="img/Empathy-map-curstumer.png" alt="journey_mapping_2" />
+
+</div>
+
+### 2.3.5. As-is Scenario Mapping.
+
+<div align="center">
+
+<img src="img/AS-IS_ScenarioMappingCustumer.png" alt="journey_mapping_1" />
+
+</div>
+## 2.4. Ubiquitous Language.
