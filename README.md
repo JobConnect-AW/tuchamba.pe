@@ -1,5 +1,4 @@
-﻿
-# Informe del Trabajo Final
+﻿# Informe del Trabajo Final
 
 **Universidad Peruana de Ciencias Aplicadas**
 
@@ -34,21 +33,15 @@
 
 | Version | Fecha      | Autor                            | Descripción de modificación                          |
 | ------- | ---------- | -------------------------------- | ------------------------------------------------------ |
-| 1.0     | 01/04/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | Creación del documento de trabajo en formato markdown |
-| 1.1     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo|                                                        |
-| 1.2     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo|                                                        |
-| 1.3     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
-| 1.4     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
-| 1.5     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
-| 1.6     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
-| 1.7     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
-| 1.8     |            | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo |                                                        |
+| 1ra    | 25/04/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TB1: Se realizo los capitulos 1, 2, 3, 4 y el primer sprint del capitulo 5 |
+|
+
 
 </div>
 
 # Project Report Collaboration Insights
 
-URL del repositorio para el proyecto: https://github.com/UPC-PaxTech/uTime/
+URL del repositorio para el proyecto: https://github.com/JobConnect-AW/tuchamba.pe
 
 **TB1**
 
@@ -58,12 +51,12 @@ para cada integrante del equipo:
 
 | Integrantes    | Tareas Asignadas |
 | -------------- | ---------------- |
-| Kevin Chi      |                  |
-| Jeremy Paucar   |                  |
-| Miguel Hallasi |                  |
-| Alejandro Oroncoy   |                  |
-| Eduardo Cossar      |                  |
-| Maria Fernanda Mostajo     |                  |
+| Kevin Chi      |   2.3.1 User Persona, 3.2 User Stories, 4.7.1 Class Diagram, Diagramas C4               |
+| Jeremy Paucar   | 2.3.2 User persona, 2.3.3 User Journey mapping, 2.3.4 Empathy mapping, 2.3.2 User matrix, 2.3.5. AS-IS Scenario Mapping, 4.8 Diagrama de base de datos                 |
+| Miguel Hallasi | 2.2 Entrevistas, 3.2 User Stories y Diagramas c4                 |
+| Alejandro Oroncoy   |  2.2 Entrevistas, Capitulo V: Product Implementation, Validation & Deployment                |
+| Eduardo Cossar      | Capitulo I: Introducción,  2.1 Competidores, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design, 4.7.2 Class Dictionary               |
+| Maria Fernanda Mostajo     | 4.1 Style Guidelines, 4.2 Information Architecture, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design                 |
 
 
 **Github Collaboration Insights**
@@ -176,8 +169,8 @@ Se explican las ramas más prominentes:
 
 | Criterio específico                                                | Acciones realizadas                                                                 | Conclusiones |
 |--------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Kevin Chi:<br> Jeremy Paucar:<br> Miguel Hallasi:<br> Alejandro Oroncoy:<br> Eduardo Cossar:<br> Maria Fernanda Mostajo:<br> | ddsa         |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Kevin Chi:<br> Jeremy Paucar:<br> Miguel Hallasi:<br> Alejandro Oroncoy:<br> Eduardo Cossar:<br> Maria Fernanda Mostajo:<br> | ddsa         |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Para el desarrollo del TB1, hubo una buena comunicación en el equipo al momento de deliberar aspectos importantes acerca del desarrollo del trabajo. Todos participamos en las reuniones en las cuales expresamos nuestras ideas y opiniones. | TB1 <br> Para la TB1, el equipo trabajó colaborativamente y se logró una particiapción activa de cada uno de los integrantes. Se realizaron reuniones grupales en la que cada miembro compartió sus ideas de manera oral o escrita y, a partir de ello, se logró una toma de decisiones en conjunto la cual beneficio el equipo en la toma de decisiones y en la ejecución de tareas.       |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Para el desarrollo del TB1, desarrollamos correctamente la capacidad de comunicación escrita donde se ha explicado las ideas que hemos acordado en las reuniones através del presente documento | TB1 <br> Para el TB1, el equipo comunicó las ideas tomadas en el documento de manera conjunta y equitativa, siendo todos parte y responsables del desarrollo del informe        |
 
 # Capítulo I: Introducción
 
@@ -195,8 +188,14 @@ Nuestra visión es convertirnos en la plataforma principal de servicios técnico
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-- 
-
+| **Perfil**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **Foto**                                                                       |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Jeremy Alión Paucar Meneses**<br>Mi nombre es Jeremy, Tengo 22 años. En la actualidad estoy estudiando la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Albergo conocimientos intermedios en algunos lenguajes de programación, tales como C++, JavaScript y Python. Me considero una persona responsable con disposición de apoyar al grupo, también me gustan mucho los retos y así mismo poder cumplirlos.                                                                                                                                                                       | <img src="https://files.catbox.moe/vl4z7c.jpg" alt="angie image" width="200">  |
+| **Kevin Jorge Chi Cruzatt**<br>Mi nombre es Kevin Chi. Tengo 19 años y actualmente estoy cursando el 5° ciclo de ingeniería de software. Me considero una persona con capacidades de liderazgo y capaz de trabajar bajo presión.                                                                                                                                                                                                                                                                                                  | <img src="https://files.catbox.moe/bacwjq.jpg" alt="kevin image" width="200">  |
+| **Miguel Angel Hallasi Saravia**<br> Soy Miguel Hallasi, estudiante del quinto ciclo de la carrera de Ingeniería de Software. Me gusta el aprendizaje continuo y adquirir nuevas experiencias.                                                                            | <img src="https://files.catbox.moe/sds7k5.png" alt="kevin image" width="200">  |
+| **Alejandro Daniel Oroncoy Almeyda**<br>Mi nombre es Alejandro Oroncoy. Tengo 19 años, soy estudiante de la carrera de ingeniería de software, estoy en 5to ciclo. Me considero una persona proactiva, autodidacta y orientada a objetivos.                                                                                                                                                    | <img src="https://files.catbox.moe/v1iqn9.png" alt="gael image" width="200">   
+| **Eduardo Jose Cossar Sanchez**<br>Mi nombre es Eduardo Cossar. Soy estudiante de la carrera de Ingeniería de Software, tengo 19 años y actualmente estoy cursando el quinto ciclo en la UPC. Me considero una persona responsable y comprometida con un gran interés por la tecnología. Como integrante de este equipo, me comprometo a brindar todo mi apoyo y participación activa para afrontar los desafíos que se presenten y dar lo mejor de mí para lograr el éxito de este proyecto. | <img src="https://files.catbox.moe/mw437z.png" alt="kevin image" width="200"> |
+| **Maria Fernanda Mostajo Orosco**<br>Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido.                                                                                                                                                                                            | <img src="https://files.catbox.moe/6moeru.png" alt="gael image" width="200">  
 
 ## 1.2. Solution Profile
 
