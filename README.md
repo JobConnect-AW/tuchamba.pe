@@ -538,13 +538,11 @@ Preguntas complementarias:
   Aunque no ha utilizado plataformas específicas para contratar estos servicios, estaría dispuesta a pagar un precio más alto por un técnico verificado, dado que experiencias anteriores con precios bajos no siempre resultaron en trabajos de calidad.  
   Carol prefiere comparar opciones antes de tomar una decisión, aunque en ocasiones contrata rápidamente si la necesidad es urgente.
 
-=======
+### 2.2.3 Análisis de Entrevistas
 
-# 2.2.3 Análisis de Entrevistas
+#### Segmento 1: Trabajadores Técnicos Independientes
 
-## Segmento 1: Trabajadores Técnicos Independientes
-
-### Características Objetivas y Subjetivas
+##### Características Objetivas y Subjetivas
 
 | Característica                  | Porcentaje | Sustento en Entrevistas                                                                 | Relación con Entrevistas       |
 |---------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------------------|
@@ -555,7 +553,7 @@ Preguntas complementarias:
 | **Preferencia por WhatsApp**    | 66.7%      | 2/3 prefieren contacto inicial por este medio                                          | Godelino, Carlos               |
 | **Gestión digital básica**      | 100%       | Uso de celular (100%), laptop (33.3%), Excel (33.3%)                                   | Todos                          |
 
-### Hallazgos:
+##### Hallazgos:
 1. **Visibilidad Digital**  
    - 100% usa redes sociales pero de forma no especializada  
    - 100% requiere plataforma con portafolio visual (videos/trabajos previos)
@@ -568,9 +566,9 @@ Preguntas complementarias:
    - 33.3% usa herramientas profesionales (Excel)  
    - 66.7% prefiere integración con WhatsApp para comunicación
 
-## Segmento 2: Usuarios que requieren servicios técnicos
+#### Segmento 2: Usuarios que requieren servicios técnicos
 
-### Características Objetivas y Subjetivas
+##### Características Objetivas y Subjetivas
 
 | Característica                  | Porcentaje | Sustento en Entrevistas                                                                 | Relación con Entrevistas       |
 |---------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------------------|
@@ -580,7 +578,7 @@ Preguntas complementarias:
 | **Dispuestos a pagar más**      | 100%       | Los 3 pagarían extra por verificación                                                  | Todos                         |
 | **Comparación de opciones**     | 66.7%      | 2/3 prefieren comparar antes de decidir                                                | Joseth, Carol                 |
 
-### Hallazgos:
+##### Hallazgos:
 1. **Factores de Decisión**  
    - 100% prioriza reseñas y portafolios  
    - 66.7% valora recomendaciones personales (Joseth: "Confío en contactos conocidos")
