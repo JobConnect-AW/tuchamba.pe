@@ -714,7 +714,7 @@ En el User Flow de JobConnect, se detalla el *happy path* que sigue Juan, el ele
 
 *Ahora procederemos a mostrar el User Flow Diagram de JobConnect, detallando el happy path que sigue Juan, el electricista, para postularse a una oferta y culminarla de la manera más rápida y eficiente.*
 
-<img src="https://files.catbox.moe/pueu0j.jpg" alt="angie image" width="900">
+<img src="https://files.catbox.moe/pueu0j.jpg" alt="angie image" width="700">
 
 Nota. Este diagrama ilustra el flujo de usuario de Juan, elelectricista, en la postularse y trabajar en una oferta. Se detalla el proceso optimizado que sigue para garantizar una respuesta rápida y eficiente acción de buscar ofertas según sus preferencias.
 
