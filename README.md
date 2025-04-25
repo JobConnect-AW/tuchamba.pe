@@ -25,6 +25,7 @@
 | Oroncoy Almeyda, Alejandro Daniel       | U202313397 |
 | Cossar Sanchez, Eduardo Jose           | U202312109 |
 | Mostajo Orosco, Maria Fernanda           | U202312874|
+| Mostajo Orosco, Maria Fernanda           | U202312874|
 
 **Ciclo 2025-01**
 
@@ -36,11 +37,15 @@
 | 1ra    | 25/04/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TB1: Se realizo los capitulos 1, 2, 3, 4 y el primer sprint del capitulo 5 |
 |
 
+| 1ra    | 25/04/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TB1: Se realizo los capitulos 1, 2, 3, 4 y el primer sprint del capitulo 5 |
+|
+
 
 </div>
 
 # Project Report Collaboration Insights
 
+URL del repositorio para el proyecto: https://github.com/JobConnect-AW/tuchamba.pe
 URL del repositorio para el proyecto: https://github.com/JobConnect-AW/tuchamba.pe
 
 **TB1**
@@ -51,6 +56,12 @@ para cada integrante del equipo:
 
 | Integrantes    | Tareas Asignadas |
 | -------------- | ---------------- |
+| Kevin Chi      |   2.3.1 User Persona, 3.2 User Stories, 4.7.1 Class Diagram, Diagramas C4               |
+| Jeremy Paucar   | 2.3.2 User persona, 2.3.3 User Journey mapping, 2.3.4 Empathy mapping, 2.3.2 User matrix, 2.3.5. AS-IS Scenario Mapping, 4.8 Diagrama de base de datos                 |
+| Miguel Hallasi | 2.2 Entrevistas, 3.2 User Stories y Diagramas c4                 |
+| Alejandro Oroncoy   |  2.2 Entrevistas, Capitulo V: Product Implementation, Validation & Deployment                |
+| Eduardo Cossar      | Capitulo I: Introducción,  2.1 Competidores, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design, 4.7.2 Class Dictionary               |
+| Maria Fernanda Mostajo     | 4.1 Style Guidelines, 4.2 Information Architecture, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design                 |
 | Kevin Chi      |   2.3.1 User Persona, 3.2 User Stories, 4.7.1 Class Diagram, Diagramas C4               |
 | Jeremy Paucar   | 2.3.2 User persona, 2.3.3 User Journey mapping, 2.3.4 Empathy mapping, 2.3.2 User matrix, 2.3.5. AS-IS Scenario Mapping, 4.8 Diagrama de base de datos                 |
 | Miguel Hallasi | 2.2 Entrevistas, 3.2 User Stories y Diagramas c4                 |
@@ -68,6 +79,9 @@ de versiones.
 Los integrantes son:
 
 - Kevin Chi (Krillsom)
+- Jeremy Paucar (asmip10)
+- Miguel Hallasi (mhallasi)
+- Alejandro Oroncoy (alejooroncoy)
 - Jeremy Paucar (asmip10)
 - Miguel Hallasi (mhallasi)
 - Alejandro Oroncoy (alejooroncoy)
@@ -188,6 +202,14 @@ Nuestra visión es convertirnos en la plataforma principal de servicios técnico
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+| **Perfil**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **Foto**                                                                       |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Jeremy Alión Paucar Meneses**<br>Mi nombre es Jeremy, Tengo 22 años. En la actualidad estoy estudiando la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Albergo conocimientos intermedios en algunos lenguajes de programación, tales como C++, JavaScript y Python. Me considero una persona responsable con disposición de apoyar al grupo, también me gustan mucho los retos y así mismo poder cumplirlos.                                                                                                                                                                       | <img src="https://files.catbox.moe/vl4z7c.jpg" alt="angie image" width="200">  |
+| **Kevin Jorge Chi Cruzatt**<br>Mi nombre es Kevin Chi. Tengo 19 años y actualmente estoy cursando el 5° ciclo de ingeniería de software. Me considero una persona con capacidades de liderazgo y capaz de trabajar bajo presión.                                                                                                                                                                                                                                                                                                  | <img src="https://files.catbox.moe/bacwjq.jpg" alt="kevin image" width="200">  |
+| **Miguel Angel Hallasi Saravia**<br> Soy Miguel Hallasi, estudiante del quinto ciclo de la carrera de Ingeniería de Software. Me gusta el aprendizaje continuo y adquirir nuevas experiencias.                                                                            | <img src="https://files.catbox.moe/sds7k5.png" alt="kevin image" width="200">  |
+| **Alejandro Daniel Oroncoy Almeyda**<br>Mi nombre es Alejandro Oroncoy. Tengo 19 años, soy estudiante de la carrera de ingeniería de software, estoy en 5to ciclo. Me considero una persona proactiva, autodidacta y orientada a objetivos.                                                                                                                                                    | <img src="https://files.catbox.moe/v1iqn9.png" alt="gael image" width="200">   
+| **Eduardo Jose Cossar Sanchez**<br>Mi nombre es Eduardo Cossar. Soy estudiante de la carrera de Ingeniería de Software, tengo 19 años y actualmente estoy cursando el quinto ciclo en la UPC. Me considero una persona responsable y comprometida con un gran interés por la tecnología. Como integrante de este equipo, me comprometo a brindar todo mi apoyo y participación activa para afrontar los desafíos que se presenten y dar lo mejor de mí para lograr el éxito de este proyecto. | <img src="https://files.catbox.moe/mw437z.png" alt="kevin image" width="200"> |
+| **Maria Fernanda Mostajo Orosco**<br>Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido.                                                                                                                                                                                            | <img src="https://files.catbox.moe/6moeru.png" alt="gael image" width="200">  
 | **Perfil**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **Foto**                                                                       |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | **Jeremy Alión Paucar Meneses**<br>Mi nombre es Jeremy, Tengo 22 años. En la actualidad estoy estudiando la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Albergo conocimientos intermedios en algunos lenguajes de programación, tales como C++, JavaScript y Python. Me considero una persona responsable con disposición de apoyar al grupo, también me gustan mucho los retos y así mismo poder cumplirlos.                                                                                                                                                                       | <img src="https://files.catbox.moe/vl4z7c.jpg" alt="angie image" width="200">  |
@@ -534,8 +556,193 @@ Desarrollar estrategias y tácticas efectivas para enfrentar a nuestros competid
 
 - Educación y soporte a trabajadores independientes: Ofrecer contenido educativo, talleres gratuitos y herramientas de gestión (como control de ingresos o recordatorios de citas), que agreguen valor y fomenten el uso recurrente de la plataforma.
 
-
 ## 2.2. Entrevistas.
+
+#### 2.2.1 Diseño de entrevistas
+
+##### Segmento 1: Trabajadores Técnicos Independientes
+
+Preguntas generales:
+- ¿Cuál es su edad y distrito?
+-  ¿Cuál es su ocupación principal y cuantos años de experiencia tiene en el rubro?
+- ¿De que forma consigue clientes actualmente o que métodos utiliza (redes sociales, contactos, etc.)?
+- ¿Ha tenia desconfianza por parte de los clientes? ¿Cómo los maneja?
+- ¿Qué dispositivos usa frecuente para gestionar su trabajo?
+- ¿Qué funcionalidades esperaría de una plataforma que lo conecto con clientes?
+- Qué información le gustaría incluir a su perfil para generar confianza?
+
+Preguntas complementarias:
+- ¿Cómo describe su estilo de trabajo actualmente?
+- ¿Prefiere recibir solicitudes de clientes por WhatsApp, llamadas o mensajes en un app?
+  
+##### Segmento 2: Usuarios que requieren servicios técnicos
+
+Preguntas generales:
+- ¿Cuál es su edad y distrito?
+- ¿Cada cuanto requiere servicios técnicos?
+- ¿Actualmente como suele encontrar técnicos (redes sociales, contactos, etc.)?
+- ¿Ha tenido malas experiencias al contratar técnicos informales?
+- ¿Qué datos considera al elegir un técnico (precio, reseñas, recomendaciones)?
+- ¿Qué información le genera confianza para contratar a alguien?
+- ¿Ha usado alguna app o plataforma para contratar servicios? ¿Cuál y por qué?
+
+Preguntas complementarias:
+- ¿Estaría dispuesto a pagar un precio más alto por un técnico verificado?
+- ¿Prefiere comparar opciones antes de contratar o elegir rápidamente?
+
+#### 2.2.2 Registro entrevistas
+
+##### Segmento 1: Trabajadores Técnicos Independientes
+
+- **Entrevista 1**:
+	**Nombre:** Godelino  
+	**Género:** Masculino  
+	**Edad:** 35 años
+	**Distrito:** La Victoria, Lima 
+	**Duración:** --
+	**Inicio:** -- 
+	**Fin:** --
+	
+	**Resumen:**  
+	Godelino, un técnico de 35 años, con más de 10 años de experiencia en el rubro de comercio y técnico de sonido, menciona que actualmente trabaja como técnico de sonido y tiene un negocio de venta de equipos. Su forma de conseguir clientes es a través de contactos personales y redes sociales como Marketplace. Al inicio tuvo algo de desconfianza por parte de los clientes, pero con el tiempo ha logrado generar confianza al mostrar su trabajo y tener buenas referencias. Usualmente utiliza su laptop y su celular para gestionar su trabajo. Considera importante incluir información sobre videos de trabajos previos y reseñas de clientes en su perfil para generar confianza. Prefiere recibir solicitudes por WhatsApp.
+
+- **Entrevista 2**:  
+  **Nombre:** Jorge Videla  
+  **Género:** Masculino  
+  **Edad:** 27 años  
+  **Distrito:** Lima, Perú  
+  **Duración:** --  
+  **Inicio:** -- 
+  **Fin:** --  
+  **Resumen:**  
+  Jorge es un desarrollador web independiente con un año de experiencia.  
+  Principalmente, consigue clientes a través de redes sociales, especialmente el Marketplace de Facebook. En su último trabajo, enfrentó desconfianza de un cliente, lo que lo llevó a reunirse presencialmente para explicar el proyecto y generar mayor confianza, ofreciendo un precio más bajo.
+
+  Utiliza su laptop Asus para desarrollar los sitios web y su teléfono para la gestión del marketing y ventas.  
+  En cuanto a las funcionalidades que esperaría de una plataforma que lo conecte con clientes, sugiere la opción de publicar solicitudes de manera privada.  
+  Además, destacaría la posibilidad de adjuntar archivos o documentos como portafolios para mostrar su experiencia.  
+  Su estilo de trabajo es flexible, controlando sus tiempos, ya que no está sujeto a un horario estricto.  
+  Finalmente, prefiere recibir solicitudes de clientes a través de mensajes en una aplicación dedicada.
+
+- **Entrevista 3**:  
+  **Nombre:** Carlos Alberto Almeyda Romero  
+  **Género:** Masculino  
+  **Edad:** 47 años  
+  **Distrito:** Santa  
+  **Duración:** --  
+  **Inicio:** -- 
+  **Fin:** --  
+  **Resumen:**  
+  Carlos, un técnico automotriz con 30 años de experiencia, trabaja de manera independiente después de haber sido parte de una empresa durante 20 años.  
+  Consigue clientes a través de recomendaciones y redes sociales. Aunque ha enfrentado casos de desconfianza de nuevos clientes, utiliza su experiencia para generar confianza explicando sus procesos de trabajo.
+
+  Carlos utiliza Excel para gestionar su trabajo y cotizaciones.  
+  Cree que una plataforma que lo conecte con clientes podría ayudarle a expandir su alcance.  
+  Entre las funcionalidades que espera de la plataforma, menciona la opción de pago seguro y la posibilidad de ofrecer diagnósticos mediante videos del trabajo realizado en los autos, lo que aumenta la transparencia con el cliente.  
+  En cuanto a la información que debería incluir su perfil, destaca la importancia de mostrar su experiencia, los videos de trabajo realizados y las recomendaciones de otros clientes.  
+  Prefiere recibir solicitudes de clientes principalmente por WhatsApp y llamadas, ya que la mayoría de sus clientes lo contactan por estos medios, especialmente en la fase inicial de su negocio independiente.  
+  Él considera que la honestidad y la transparencia son clave para el éxito de su emprendimiento.
+
+##### Segmento 2: Usuarios que requieren servicios técnicos
+
+- **Entrevista 1**:  
+  **Nombre:** Joseth Muñoz  
+  **Género:** Masculino  
+  **Edad:** 20 años  
+  **Distrito:** La Victoria, Lima  
+  **Duración:** 6:01  
+  **Inicio:** 0:16  
+  **Fin:** 6:01  
+  **Resumen:**  
+  Joseth, un joven de 20 años que vive en Lima, comenta que cada año y medio necesita contratar a alguien para un servicio técnico.  
+  Actualmente, su forma de encontrar técnicos es mediante contactos personales. En una ocasión, tuvo una mala experiencia al contratar a un técnico para reparar su lavadora, ya que este hizo todo menos arreglarla: incluso retiró piezas que estaban en buen estado.
+
+  Joseth considera que datos como el precio y las reseñas le ayudarían a generar confianza al elegir un técnico.  
+  Además, estaría dispuesto a pagar más por un técnico verificado, dependiendo de la gravedad del problema.
+
+- **Entrevista 2**:  
+  **Nombre:** José Manuel  
+  **Género:** Masculino  
+  **Edad:** 24 años  
+  **Distrito:** Surquillo, Lima  
+  **Duración:** --  
+  **Inicio:** --  
+  **Fin:** --  
+  **Resumen:**  
+  José Manuel es un joven de 24 años del distrito de Surquillo que requiere servicios técnicos cada mes debido a problemas con su computadora.  
+  Suele encontrar técnicos mediante páginas de Facebook. En una ocasión, tuvo una mala experiencia con alguien informal que terminó cobrándole de más sin solucionar su problema.
+
+  Al contratar a un técnico, le interesan mucho las reseñas y un portafolio de trabajos previos, ya que le genera confianza alguien con experiencia en el rubro.  
+  Debido a sus malas experiencias, estaría dispuesto a pagar más por un técnico verificado.
+
+- **Entrevista 3**:  
+  **Nombre:** Carol Vega  
+  **Género:** Femenino  
+  **Edad:** 39 años  
+  **Distrito:** El Agustino  
+  **Duración:** --  
+  **Inicio:** -- 
+  **Fin:** --  
+  **Resumen:**  
+  Carol, de 39 años, vive en el distrito de El Agustino y requiere servicios técnicos aproximadamente cada dos años.  
+  Para encontrar técnicos, utiliza principalmente redes sociales, anuncios en la calle y recomendaciones de conocidos. Aunque ha tenido malas experiencias en el pasado al contratar de manera informal, también ha tenido trabajos satisfactorios.
+
+  Considera más importantes las recomendaciones de otras personas y las reseñas de los técnicos en redes sociales, así como la presencia de una tarjeta de presentación como una señal de profesionalismo.  
+  Aunque no ha utilizado plataformas específicas para contratar estos servicios, estaría dispuesta a pagar un precio más alto por un técnico verificado, dado que experiencias anteriores con precios bajos no siempre resultaron en trabajos de calidad.  
+  Carol prefiere comparar opciones antes de tomar una decisión, aunque en ocasiones contrata rápidamente si la necesidad es urgente.
+
+### 2.2.3 Análisis de Entrevistas
+
+#### Segmento 1: Trabajadores Técnicos Independientes
+
+##### Características Objetivas y Subjetivas
+
+| Característica                  | Porcentaje | Sustento en Entrevistas                                                                 | Relación con Entrevistas       |
+|---------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------------------|
+| **Género masculino**            | 100%       | Los 3 entrevistados son hombres                                                        | Entrevistas 1, 2, 3           |
+| **Edad promedio**               | 36 años    | Rango de 27-47 años                                                                     | Entrevistas 1 (35), 2 (27), 3 (47) |
+| **Uso de redes sociales**       | 100%       | Todos mencionaron Marketplace/Facebook                                                 | Godelino, Jorge, Carlos        |
+| **Desconfianza inicial**        | 66.7%      | 2/3 enfrentaron desconfianza de clientes                                               | Jorge, Carlos                  |
+| **Preferencia por WhatsApp**    | 66.7%      | 2/3 prefieren contacto inicial por este medio                                          | Godelino, Carlos               |
+| **Gestión digital básica**      | 100%       | Uso de celular (100%), laptop (33.3%), Excel (33.3%)                                   | Todos                          |
+
+##### Hallazgos:
+1. **Visibilidad Digital**  
+   - 100% usa redes sociales pero de forma no especializada  
+   - 100% requiere plataforma con portafolio visual (videos/trabajos previos)
+
+2. **Generación de Confianza**  
+   - 66.7% prioriza mostrar experiencia concreta (Carlos: "Videos del trabajo realizado")  
+   - 100% valora sistema de reseñas verificadas
+
+3. **Gestión Operativa**  
+   - 33.3% usa herramientas profesionales (Excel)  
+   - 66.7% prefiere integración con WhatsApp para comunicación
+
+#### Segmento 2: Usuarios que requieren servicios técnicos
+
+##### Características Objetivas y Subjetivas
+
+| Característica                  | Porcentaje | Sustento en Entrevistas                                                                 | Relación con Entrevistas       |
+|---------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------------------|
+| **Mala experiencia previa**     | 100%       | Los 3 entrevistados reportaron problemas con técnicos informales                       | Joseth, José, Carol           |
+| **Frecuencia de contratación**  | 33.3% mensual | Solo José Manuel contrata servicios mensualmente                                      | José Manuel                   |
+| **Uso de redes sociales**       | 100%       | Todos mencionaron búsqueda mediante FB/Instagram                                      | Joseth, José, Carol           |
+| **Dispuestos a pagar más**      | 100%       | Los 3 pagarían extra por verificación                                                  | Todos                         |
+| **Comparación de opciones**     | 66.7%      | 2/3 prefieren comparar antes de decidir                                                | Joseth, Carol                 |
+
+##### Hallazgos:
+1. **Factores de Decisión**  
+   - 100% prioriza reseñas y portafolios  
+   - 66.7% valora recomendaciones personales (Joseth: "Confío en contactos conocidos")
+
+2. **Dolor Principal**  
+   - 100% sufrió pérdida económica por servicios deficientes  
+   - 66.7% mencionó falta de transparencia en precios (Carol: "Cobros adicionales sin aviso")
+
+3. **Expectativas Tecnológicas**  
+   - 100% demanda perfiles con verificación oficial  
+   - 66.7% espera sistema de calificación post-servicio
 
 ## 2.3. Needfinding.
 
@@ -641,6 +848,58 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 
 </div>
 ## 2.4. Ubiquitous Language.
+
+# Capítulo III: Requirements Specification
+
+## 3.2. User Stories.
+
+### 3.2.1. Requisitos Funcionales
+| **Epic/User Story ID** | **Título**                              | **Descripción**                                                                                                                                                                                                                         | **Criterios de Aceptación**                                                                                                                                                                                                               | **Relacion con (Epic ID)** |
+| ---------------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| EP01                   | Creación de Cuenta y Autenticación      | **Como cliente o trabajador técnico**, quiero registrarme e iniciar sesión de forma segura, para acceder a todas las funcionalidades de la plataforma según mi rol.                                                                     |                                                                                                                                                                                                                                           |                            |
+| EP02                   | Navegación y Experiencia de Usuario     | **Como cliente**, quiero navegar fácilmente por categorías de servicios, para encontrar trabajadores técnicos cerca de mi ubicación. **Como trabajador**, quiero acceder a un panel intuitivo, para gestionar mis servicios y clientes. |                                                                                                                                                                                                                                           |                            |
+| EP03                   | Gestión de Perfiles                     | **Como trabajador técnico**, quiero completar mi perfil con mis habilidades, experiencia y tarifas, para atraer más clientes. **Como cliente**, quiero personalizar mis preferencias, para recibir recomendaciones relevantes.          |                                                                                                                                                                                                                                           |                            |
+| EP04                   | Sistema de Confiabilidad                | **Como cliente**, quiero ver perfiles de trabajadores verificados y leer reseñas de otros usuarios, para contratar con confianza. **Como trabajador**, quiero mostrar mis certificaciones, para demostrar mi profesionalismo.           |                                                                                                                                                                                                                                           |                            |
+| EP05                   | Búsqueda y Filtros                      | **Como cliente**, quiero buscar trabajadores técnicos por especialidad, precio o calificación, para encontrar al profesional que mejor se adapte a mis necesidades.                                                                     |                                                                                                                                                                                                                                           |                            |
+| EP06                   | Comparación de Perfiles                 | **Como cliente**, quiero comparar hasta 3 perfiles de trabajadores técnicos en una misma pantalla, para tomar la mejor decisión basada en habilidades, costos y reseñas.                                                                |                                                                                                                                                                                                                                           |                            |
+| EP07                   | Gestión de Suscripciones                | **Como trabajador técnico**, quiero conocer los planes de suscripción disponibles (gratis/premium), para aumentar mi visibilidad y oportunidades de trabajo en la plataforma.                                                           |                                                                                                                                                                                                                                           |                            |
+| EP08                   | Comunicación y Contratación                | **Como plataforma**, quiero facilitar la comunicación directa entre clientes y trabajadores, así como un sistema seguro para propuestas y pagos, para formalizar acuerdos y proteger a ambas partes.                                                           |                                                                                                                                                                                                                                           |                            |
+| EP09                   | Landing Page y Contenido Informativo       | **Como plataforma**, quiero ofrecer una página de inicio con información esencial (testimonios, beneficios y funcionamiento), para captar nuevos usuarios y comunicar el valor de nuestros servicios. |
+| US01                   | Inicio de sesión                        | Como usuario, quiero iniciar sesión en la aplicación, para acceder a mi cuenta personal.                                                                                                                                                | 1. Dado que el usuario ingrese credenciales válidas, entonces deberá poder acceder al sistema.  <br>2. Dado que las credenciales sean incorrectas, el sistema deberá mostrar un mensaje de error.                                         | EP01                       |
+| US02                   | Creación de cuenta                      | Como nuevo usuario, quiero registrarme en la plataforma, para poder usar los servicios.                                                                                                                                                 | 1. Dado que el usuario complete todos los campos requeridos, el sistema deberá permitir la creación de cuenta.  <br>2. Dado que falte un dato obligatorio, el sistema deberá informar el error.                                           | EP01                       |
+| US03                   | Recuperar contraseña                    | Como usuario, quiero recuperar mi contraseña, para poder acceder si la olvido.                                                                                                                                                          | 1. Dado que el usuario introduzca su correo, el sistema deberá enviar un enlace de recuperación.  <br>2. Dado que el enlace sea usado, el sistema deberá permitir establecer una nueva contraseña.                                        | EP01                       |
+| US04                   | Cambio de vista cliente/trabajador      | Como usuario, quiero cambiar entre vista de cliente y trabajador, para usar la plataforma según mi rol.                                                                                                                                 | 1. Dado que el usuario haga clic en el cambio de rol, la vista deberá actualizarse correctamente.  <br>2. Dado que el rol cambie, las funcionalidades disponibles deberán adaptarse al nuevo rol.                                         | EP02                       |
+| US05                   | Navegación en la interfaz: Cliente      | Como cliente, quiero navegar por la interfaz fácilmente, para explorar y contratar trabajadores.                                                                                                                                        | 1. Dado que el cliente esté en su panel, deberá ver botones claros para buscar, comparar y contactar.  <br>2. Dado que navegue entre secciones, el sistema deberá cargar el contenido sin errores.                                        | EP02                       |
+| US06                   | Navegación interfaz trabajador          | Como trabajador, quiero navegar fácilmente por mi panel, para gestionar mis servicios y clientes.                                                                                                                                       | 1. Dado que el trabajador ha iniciado sesión, cuando acceda a su panel, entonces deberá poder ver su calendario, mensajes y configuración.  <br>2. Dado que el trabajador navegue entre secciones, estas deben cargar correctamente.      | EP02                       |
+| US07                   | Personalización de perfil técnico       | Como trabajador, quiero personalizar mi perfil, para destacar mis habilidades y experiencia.                                                                                                                                            | 1. Dado que el trabajador accede a su perfil, cuando edite sus datos, entonces deberá poder guardar la información con éxito.  <br>2. Dado que haya completado su perfil, deberá visualizarse con formato profesional al público.         | EP03                       |
+| US08                   | Personalización de perfil cliente       | Como cliente, quiero personalizar mi perfil, para recibir mejores recomendaciones.                                                                                                                                                      | 1. Dado que el cliente acceda a su perfil, cuando actualice sus preferencias, entonces el sistema deberá guardar los cambios.  <br>2. Dado que el perfil esté completo, el sistema deberá usarlo para mejorar la experiencia de búsqueda. | EP03                       |
+| US09                   | Configuración                           | Como usuario, quiero acceder a configuración de mi cuenta, para gestionar notificaciones, idioma, etc.                                                                                                                                  | 1. Dado que el usuario acceda a la configuración, podrá modificar sus preferencias y guardarlas.  <br>2. Dado que se realicen cambios, estos deberán reflejarse inmediatamente en la interfaz correspondiente.                            | EP03                       |
+| US10                   | Verificación del perfil del trabajador  | Como cliente, quiero ver que un trabajador esté verificado, para confiar en contratarlo.                                                                                                                                                | 1. Dado que un trabajador haya verificado su identidad/documentos, el sistema deberá mostrar un sello de verificación.  <br>2. Dado que un cliente vea un perfil verificado, deberá poder acceder al detalle del proceso.                 | EP04                       |
+| US11                   | Sistema de reseñas y calificación       | Como cliente, quiero dejar una reseña y calificación, para ayudar a otros usuarios a tomar decisiones.                                                                                                                                  | 1. Dado que el cliente haya contratado un servicio, podrá calificarlo una vez finalizado.  <br>2. Dado que una reseña sea publicada, esta deberá ser visible en el perfil del trabajador.                                                 | EP04                       |
+| US12                   | Denuncia de perfil                      | Como usuario, quiero denunciar un perfil sospechoso, para mantener la seguridad de la plataforma.                                                                                                                                       | 1. Dado que un usuario encuentre un perfil sospechoso, podrá usar un botón para reportarlo.  <br>2. Dado que se envíe un reporte, el sistema deberá notificar a los moderadores para revisión.                                            | EP04                       |
+| US13                   | Búsqueda por lenguaje natural           | Como cliente, quiero buscar trabajadores describiendo mi problema, para encontrar rápidamente a quien necesito.                                                                                                                         | 1. Dado que el cliente escriba una descripción, el sistema deberá mostrar resultados relevantes.  <br>2. Dado que el sistema interprete el texto, deberá resaltar palabras clave y perfiles coincidentes.                                 | EP05                       |
+| US14                   | Búsqueda por filtro                     | Como cliente, quiero filtrar trabajadores por ubicación, experiencia, etc., para encontrar el perfil ideal.                                                                                                                             | 1. Dado que el cliente aplique filtros, los resultados deberán actualizarse dinámicamente.  <br>2. Dado que se combinen múltiples filtros, el sistema deberá mantener los criterios activos.                                              | EP05                       |
+| US15                   | Recomendación de perfil                 | Como cliente, quiero recibir recomendaciones de trabajadores, para agilizar mi elección.                                                                                                                                                | 1. Dado que el cliente navegue regularmente, el sistema deberá sugerir trabajadores según su comportamiento.  <br>2. Dado que haya historial de contrataciones, el sistema deberá usarlo para mejorar las recomendaciones.                | EP05                       |
+| US16                   | Comparación de perfiles                 | Como cliente, quiero comparar varios perfiles, para tomar una mejor decisión de contratación.                                                                                                                                           | 1. Dado que el cliente seleccione varios perfiles, el sistema deberá mostrar una vista comparativa.  <br>2. Dado que vea la comparación, podrá acceder a enlaces directos para contratar o contactar.                                     | EP06                       |
+| US17                   | Visualización de reseñas en comparación | Como cliente, quiero ver las reseñas durante la comparación, para valorar mejor a los trabajadores.                                                                                                                                     | 1. Dado que el cliente esté comparando perfiles, las reseñas deberán mostrarse de forma compacta y ordenada.  <br>2. Dado que el cliente necesite más información, deberá poder expandir las reseñas desde la comparación.                | EP06                       |
+| US18                   | Gestión de disponibilidad               | Como trabajador, quiero actualizar mis horarios disponibles, para que los clientes sepan cuándo puedo atender.                                                                                                                          | 1. Dado que el trabajador edite su calendario, el sistema deberá reflejar los cambios en su perfil.  <br>2. Dado que un cliente consulte un día ocupado, el sistema mostrará "No disponible".                                             | EP03                       |
+| US19                   | Subir portafolio de trabajos            | Como trabajador, quiero subir fotos de mis proyectos anteriores, para demostrar mi experiencia.                                                                                                                                         | 1. Dado que el trabajador adjunte imágenes, el sistema deberá permitir previsualizarlas.  <br>2. Dado que el portafolio supere 10 fotos, el sistema mostrará un mensaje de límite.                                                        | EP03                       |
+| US20                   | Respuesta a reseñas                     | Como trabajador, quiero responder a las reseñas de los clientes, para aclarar dudas o agradecer.                                                                                                                                        | 1. Dado que el trabajador acceda a una reseña, podrá escribir una respuesta pública.  <br>2. Dado que envíe una respuesta, esta se mostrará bajo la reseña original.                                                                      | EP04                       |
+| US21                   | Búsqueda por geolocalización            | Como cliente, quiero buscar trabajadores cerca de mi ubicación actual, para contratar servicios urgentes.                                                                                                                               | 1. Dado que el cliente active la geolocalización, el sistema mostrará trabajadores en un radio de 5 km.  <br>2. Dado que no haya resultados cercanos, el sistema sugerirá ampliar el radio.                                               | EP05                       |
+| US22                   | Exportar comparación                    | Como cliente, quiero exportar la comparación de perfiles en PDF, para compartirla con otras personas.                                                                                                                                   | 1. Dado que el cliente finalice la comparación, el sistema ofrecerá un botón de exportación.  <br>2. Dado que se genere el PDF, este incluirá imágenes y datos clave de los perfiles.                                                     | EP06                       |
+| US23                   | Chat personal                          | Como cliente, quiero comunicarme directamente con el trabajador técnico, para resolver dudas y coordinar detalles del servicio.                                                                                                           | 1. Dado que el cliente seleccione un trabajador, podrá iniciar un chat desde su perfil.  <br>2. Dado que se envíe un mensaje, el sistema notificará al receptor en tiempo real.                                                           | EP08                       |
+| US24                   | Crear y enviar propuestas             | Como trabajador técnico, quiero enviar propuestas personalizadas a los clientes, para ofrecer soluciones y tarifas adaptadas a sus necesidades.                                                                                          | 1. Dado que el cliente describa su problema, el trabajador podrá crear una propuesta con costo y plazo.  <br>2. Dado que el cliente reciba la propuesta, podrá aceptarla, rechazarla o negociar cambios.                                 | EP08                       |
+| US25                   | Pago seguro dentro de la app          | Como usuario, quiero realizar pagos dentro de la plataforma, para garantizar seguridad y respaldo en caso de inconvenientes.                                                                                                              | 1. Dado que el cliente confirme un servicio, el sistema redirigirá a un gateway de pago integrado.  <br>2. Dado que el pago sea exitoso, el trabajador recibirá una notificación y el monto se retendrá hasta la confirmación del servicio. | EP08                       |
+| US26                   | Gestión de habilidades técnicas        | Como trabajador técnico, quiero mantener actualizada mi lista de habilidades y campo de especialización, para que los clientes conozcan mis competencias específicas.                                                                   | 1. Dado que el trabajador agregue una habilidad, esta se añadirá a su lista de habilidades. <br>2. Dado que seleccione un campo de especialización, este se mostrará destacado en su perfil.                                            | EP03                       |
+| US27                   | Gestión de recomendaciones externas    | Como trabajador técnico, quiero poder agregar recomendaciones externas a mi perfil, para aumentar mi credibilidad profesional.                                                                                                         | 1. Dado que el trabajador añada una recomendación externa, esta se mostrará en una sección específica de su perfil. <br>2. Dado que tenga múltiples recomendaciones, se mostrarán ordenadas cronológicamente.                          | EP03                       |
+| US28                   | Gestión de tarifa por hora             | Como trabajador técnico, quiero establecer y actualizar mi tarifa por hora, para que los clientes conozcan mis costos antes de contactarme.                                                                                            | 1. Dado que el trabajador establezca su tarifa, el sistema la mostrará en su moneda local. <br>2. Dado que actualice su tarifa, el cambio se reflejará en todas las búsquedas y comparaciones.                                         | EP03                       |
+| US29 | Formulario de contacto  | Como visitante, quiero enviar consultas a través de un formulario, para resolver dudas sobre la plataforma. | 1. Dado que el visitante complete los campos obligatorios (nombre, correo, mensaje), el sistema enviará la consulta al equipo de soporte.<br>2. Dado que el formulario se envíe, el usuario recibirá un correo de confirmación. | EP09 |
+| US30 | Sección de testimonios  | Como visitante, quiero ver testimonios seleccionados por la plataforma, para confiar en los servicios ofrecidos. | 1. Dado que el visitante acceda al landing page, verá al menos 4 testimonios con foto, nombre y servicio contratado.<br>2. Dado que haya más testimonios, el sistema mostrará un botón "Ver más" para cargar otros 4. | EP09 |
+| US31 | Categorías de servicios | Como visitante, quiero explorar las categorías de servicios disponibles (ej: plomería, electricidad), para conocer el alcance de la plataforma. | 1. Dado que el visitante navegue por la sección, verá hasta 6 categorías destacadas con iconos y descripciones breves.<br>2. Dado que el visitante quiera ver más, habrá un botón "Ver todos los servicios" que lo redirigirá al registro o búsqueda. | EP09 |
+| US32 | Sección de beneficios   | Como visitante, quiero conocer los beneficios de registrarme (seguridad, ahorro de tiempo, etc.), para decidir unirme a la plataforma. | 1. Dado que el visitante revise la sección, verá 3 beneficios para clientes y 3 para trabajadores, con iconos y textos claros.<br>2. Dado que un beneficio incluya un enlace (ej: "Comenzar Ahora"), este funcionará correctamente. | EP09 |
+| US33 | Sección "Cómo funciona" | Como visitante, quiero entender los pasos para usar la plataforma, tanto como cliente como trabajador, para saber cómo empezar. | 1. Dado que el visitante acceda a la sección, verá dos flujos: Para trabajadores (crear perfil, promocionar servicios, conectar con clientes) y Para clientes (buscar, comparar, contratar).<br>2. Dado que el visitante esté interesado, habrá un botón "Comenzar ahora" que lo redirigirá al registro. | EP09 |
+
+# Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
 
