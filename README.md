@@ -1801,6 +1801,10 @@ Unhappy path: El usuario no logra reestablecer su contraseña por no validar su 
  
  ### 4.8.1. Database Diagram.
 
+    <div align="center">
+    <img src="img/Base_de_datos.png" alt="Database-Diagram" />
+    </div>
+
 # Capítulo V: Product Implementation, Validation & Deployment
  
  ## 5.1. Software Configuration Management.
