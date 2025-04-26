@@ -26,7 +26,6 @@
 | Oroncoy Almeyda, Alejandro Daniel       | U202313397 |
 | Cossar Sanchez, Eduardo Jose           | U202312109 |
 | Mostajo Orosco, Maria Fernanda           | U202312874|
-| Mostajo Orosco, Maria Fernanda           | U202312874|
 
 **Ciclo 2025-01**
 
@@ -36,10 +35,6 @@
 | Version | Fecha      | Autor                            | Descripción de modificación                          |
 | ------- | ---------- | -------------------------------- | ------------------------------------------------------ |
 | 1ra    | 25/04/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TB1: Se realizo los capitulos 1, 2, 3, 4 y el primer sprint del capitulo 5 |
-|
-
-| 1ra    | 25/04/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TB1: Se realizo los capitulos 1, 2, 3, 4 y el primer sprint del capitulo 5 |
-|
 
 
 </div>
@@ -63,12 +58,6 @@ para cada integrante del equipo:
 | Alejandro Oroncoy   |  2.2 Entrevistas, Capitulo V: Product Implementation, Validation & Deployment                |
 | Eduardo Cossar      | Capitulo I: Introducción,  2.1 Competidores, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design, 4.7.2 Class Dictionary               |
 | Maria Fernanda Mostajo     | 4.1 Style Guidelines, 4.2 Information Architecture, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design                 |
-| Kevin Chi      |   2.3.1 User Persona, 3.2 User Stories, 4.7.1 Class Diagram, Diagramas C4               |
-| Jeremy Paucar   | 2.3.2 User persona, 2.3.3 User Journey mapping, 2.3.4 Empathy mapping, 2.3.2 User matrix, 2.3.5. AS-IS Scenario Mapping, 4.8 Diagrama de base de datos                 |
-| Miguel Hallasi | 2.2 Entrevistas, 3.2 User Stories y Diagramas c4                 |
-| Alejandro Oroncoy   |  2.2 Entrevistas, Capitulo V: Product Implementation, Validation & Deployment                |
-| Eduardo Cossar      | Capitulo I: Introducción,  2.1 Competidores, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design, 4.7.2 Class Dictionary               |
-| Maria Fernanda Mostajo     | 4.1 Style Guidelines, 4.2 Information Architecture, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design                 |
 
 
 **Github Collaboration Insights**
@@ -80,9 +69,6 @@ de versiones.
 Los integrantes son:
 
 - Kevin Chi (Krillsom)
-- Jeremy Paucar (asmip10)
-- Miguel Hallasi (mhallasi)
-- Alejandro Oroncoy (alejooroncoy)
 - Jeremy Paucar (asmip10)
 - Miguel Hallasi (mhallasi)
 - Alejandro Oroncoy (alejooroncoy)
@@ -408,6 +394,8 @@ _Sabremos que estamos en lo correcto cuando el 80% de los usuarios activos utili
 - Valoran la rapidez y facilidad al momento de contratar un servicio técnico.  
 - Quieren tener seguridad y confianza durante el proceso de contratación, evitando fraudes o estafas.
 
+# Capítulo II: Requirements Elicitation & Analysis
+
 ### 2.1. Competidores
 
 Hemos identificado tres competidores clave en el mercado peruano que ofrecen soluciones para conectar a profesionales independientes con potenciales clientes:
@@ -581,7 +569,7 @@ Preguntas complementarias:
 - ¿Estaría dispuesto a pagar un precio más alto por un técnico verificado?
 - ¿Prefiere comparar opciones antes de contratar o elegir rápidamente?
 
-#### 2.2.2 Registro entrevistas
+#### 2.2.2 Registro de entrevistas
 
 ##### Segmento 1: Trabajadores Técnicos Independientes
 
@@ -844,6 +832,8 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 
 ## 3.2. User Stories.
 
+## 3.1. To-Be Scenario Mapping.
+
 ### 3.2.3 User Stories
 | **Epic/User Story ID** | **Título**                              | **Descripción**                                                                                                                                                                                                                         | **Criterios de Aceptación**                                                                                                                                                                                                               | **Relacion con (Epic ID)** |
 | ---------------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
@@ -889,6 +879,10 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 | US31 | Categorías de servicios | Como visitante, quiero explorar las categorías de servicios disponibles (ej: plomería, electricidad), para conocer el alcance de la plataforma. | 1. Dado que el visitante navegue por la sección, verá hasta 6 categorías destacadas con iconos y descripciones breves.<br>2. Dado que el visitante quiera ver más, habrá un botón "Ver todos los servicios" que lo redirigirá al registro o búsqueda. | EP09 |
 | US32 | Sección de beneficios   | Como visitante, quiero conocer los beneficios de registrarme (seguridad, ahorro de tiempo, etc.), para decidir unirme a la plataforma. | 1. Dado que el visitante revise la sección, verá 3 beneficios para clientes y 3 para trabajadores, con iconos y textos claros.<br>2. Dado que un beneficio incluya un enlace (ej: "Comenzar Ahora"), este funcionará correctamente. | EP09 |
 | US33 | Sección "Cómo funciona" | Como visitante, quiero entender los pasos para usar la plataforma, tanto como cliente como trabajador, para saber cómo empezar. | 1. Dado que el visitante acceda a la sección, verá dos flujos: Para trabajadores (crear perfil, promocionar servicios, conectar con clientes) y Para clientes (buscar, comparar, contratar).<br>2. Dado que el visitante esté interesado, habrá un botón "Comenzar ahora" que lo redirigirá al registro. | EP09 |
+
+### 3.2.4 Technical Stories
+
+## 3.3. Impact Mapping.
 
 ## 3.4. Product Backlog.
 
@@ -1687,7 +1681,6 @@ Unhappy path: El usuario no logra reestablecer su contraseña por no validar su 
  Los prototipos han sido diseñados para simular la interacción y la navegación, siguiendo los caminos establecidos en los diagramas de flujo de usuario. A través de estos prototipos, los usuarios pueden experimentar las funcionalidades clave de la aplicación y comprender cómo los distintos elementos interactúan entre sí.
 
  Enlace: https://youtu.be/9PC1qOfyiXI 
-## 4.6. Domain-Driven Software Architecture.
 
 ## 4.6. Domain-Driven Software Architecture.
 
@@ -1785,3 +1778,47 @@ Unhappy path: El usuario no logra reestablecer su contraseña por no validar su 
                 <td><strong>Ticket</strong></td>
                 <td>Representa una queja o disputa surgida durante una orden de servicio. Permite resolver conflictos entre usuarios, ya sea a favor del cliente o trabajador.</td>
             </tr>
+
+ ## 4.8. Database Design.
+ 
+ ### 4.8.1. Database Diagram.
+
+# Capítulo V: Product Implementation, Validation & Deployment
+ 
+ ## 5.1. Software Configuration Management.
+ 
+ ## 5.1.1. Software Development Environment Configuration.
+ 
+ ### 5.1.2. Source Code Management.
+ 
+ ### 5.1.3. Source Code Style Guide & Conventions.
+ 
+ ### 5.1.4. Software Deployment Configuration.
+ 
+ ## 5.2. Landing Page, Services & Applications Implementation.
+ 
+ ### 5.2.1. Sprint 1
+ 
+ #### 5.2.1.1. Sprint Planning 1.
+ 
+ #### 5.2.1.2. Aspect Leaders and Collaborators.
+ 
+ #### 5.2.1.3. Sprint Backlog 1.
+ 
+ #### 5.2.1.4. Development Evidence for Sprint Review.
+ 
+ #### 5.2.1.5. Execution Evidence for Sprint Review.
+ 
+ #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+ 
+ #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+ 
+ #### 5.2.1.8. Team Collaboration Insights during Sprint.
+ 
+ # Conclusiones
+ 
+ ## 6.1 Conclusiones y recomendaciones
+ 
+ # Bibliografía
+ 
+ # Anexos
