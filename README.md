@@ -590,9 +590,9 @@ Preguntas complementarias:
   **Género:** Masculino  
   **Edad:** 27 años  
   **Distrito:** Lima, Perú  
-  **Duración:** --  
-  **Inicio:** -- 
-  **Fin:** --  
+  **Duración:** 07:39  
+  **Inicio:** 14:50 
+  **Fin:** 22:29  
   **Resumen:**  
   Jorge es un desarrollador web independiente con un año de experiencia.  
   Principalmente, consigue clientes a través de redes sociales, especialmente el Marketplace de Facebook. En su último trabajo, enfrentó desconfianza de un cliente, lo que lo llevó a reunirse presencialmente para explicar el proyecto y generar mayor confianza, ofreciendo un precio más bajo.
@@ -608,9 +608,9 @@ Preguntas complementarias:
   **Género:** Masculino  
   **Edad:** 47 años  
   **Distrito:** Santa  
-  **Duración:** --  
-  **Inicio:** -- 
-  **Fin:** --  
+  **Duración:** 09:27  
+  **Inicio:** 05:22 
+  **Fin:** 14:49
   **Resumen:**  
   Carlos, un técnico automotriz con 30 años de experiencia, trabaja de manera independiente después de haber sido parte de una empresa durante 20 años.  
   Consigue clientes a través de recomendaciones y redes sociales. Aunque ha enfrentado casos de desconfianza de nuevos clientes, utiliza su experiencia para generar confianza explicando sus procesos de trabajo.
@@ -629,9 +629,9 @@ Preguntas complementarias:
   **Género:** Masculino  
   **Edad:** 20 años  
   **Distrito:** La Victoria, Lima  
-  **Duración:** 6:01  
-  **Inicio:** 0:16  
-  **Fin:** 6:01  
+  **Duración:** 03:36  
+  **Inicio:** 22:30  
+  **Fin:** 26:06  
   **Resumen:**  
   Joseth, un joven de 20 años que vive en Lima, comenta que cada año y medio necesita contratar a alguien para un servicio técnico.  
   Actualmente, su forma de encontrar técnicos es mediante contactos personales. En una ocasión, tuvo una mala experiencia al contratar a un técnico para reparar su lavadora, ya que este hizo todo menos arreglarla: incluso retiró piezas que estaban en buen estado.
@@ -659,9 +659,9 @@ Preguntas complementarias:
   **Género:** Femenino  
   **Edad:** 39 años  
   **Distrito:** El Agustino  
-  **Duración:** --  
-  **Inicio:** -- 
-  **Fin:** --  
+  **Duración:** 5:21  
+  **Inicio:** 0:00 
+  **Fin:** 5:21  
   **Resumen:**  
   Carol, de 39 años, vive en el distrito de El Agustino y requiere servicios técnicos aproximadamente cada dos años.  
   Para encontrar técnicos, utiliza principalmente redes sociales, anuncios en la calle y recomendaciones de conocidos. Aunque ha tenido malas experiencias en el pasado al contratar de manera informal, también ha tenido trabajos satisfactorios.
