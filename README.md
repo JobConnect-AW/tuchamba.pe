@@ -826,6 +826,8 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 <img src="img/AS-IS_ScenarioMappingCustumer.png" alt="journey_mapping_1" />
 
 </div>
+
+
 ## 2.4. Ubiquitous Language.
 
 # Capítulo III: Requirements Specification
