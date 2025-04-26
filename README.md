@@ -823,7 +823,7 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 
 <div align="center">
 
-<img src="img/AS-IS_ScenarioMappingCustumer.png" alt="journey_mapping_1" />
+<img src="img/AS-IS-CUSTUMEr.png" alt="journey_mapping_1" />
 
 </div>
 
@@ -839,6 +839,16 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 ## 3.2. User Stories.
 
 ## 3.1. To-Be Scenario Mapping.
+
+<div align="center">
+
+<img src="img/TO-BE-CUSTUMER.png" alt="to_be_scenario_mapping_1" />
+
+</div>
+
+<div align="center">
+<img src="img/TO-BE-PROVEDOR_TECNICO.png" alt="to_be_scenario_mapping_2" />
+</div>
 
 ### 3.2.3 User Stories
 | **Epic/User Story ID** | **Título**                              | **Descripción**                                                                                                                                                                                                                         | **Criterios de Aceptación**                                                                                                                                                                                                               | **Relacion con (Epic ID)** |
