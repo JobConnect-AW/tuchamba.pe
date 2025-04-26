@@ -827,6 +827,10 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 
 </div>
 
+<div align="center">
+<img src="img/as-is.png" alt="journey_mapping_1" />
+</div>
+
 
 ## 2.4. Ubiquitous Language.
 
