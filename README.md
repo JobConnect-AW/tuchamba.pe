@@ -1858,6 +1858,16 @@ Unhappy path: El usuario no logra reestablecer su contraseña por no validar su 
  ## 6.1 Conclusiones y recomendaciones
  
  # Bibliografía
+
+Informalidad en Perú: porcentaje sobre la población ocupada hasta 2023. (s/f). Statista. Recuperado el 26 de abril de 2025, de https://es.statista.com/estadisticas/1344716/economia-informal-poblacion-con-empleos-informales-en-peru/
+
+EYNG. (2023, julio 19). Informalidad en Perú supera el 75% y afecta a millones de trabajadores. EYNG; Fernando Chevarría León, director de EYNG. https://eyng.pe/web/2023/07/19/informalidad-en-peru-supera-el-75-y-afecta-a-millones-de-trabajadores/?utm_source=chatgpt.com
+
+Informalidad: 3 de cada 4 trabajadores son informales en el Perú. (2020, noviembre 17). RPP. https://rpp.pe/economia/economia/informalidad-3-de-cada-4-trabajadores-es-informal-en-el-peru-empleo-inei-noticia-1304506
+
+Inga, R. (2023, marzo 27). Empleo informal en el Perú continúa creciendo. La Cámara; Cámara de Comercio de Lima. https://lacamara.pe/empleo-informal-en-el-peru-continua-creciendo/
+
+
  
  # Anexos
 
