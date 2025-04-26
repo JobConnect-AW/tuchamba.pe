@@ -570,7 +570,7 @@ Preguntas complementarias:
 - ¿Prefiere comparar opciones antes de contratar o elegir rápidamente?
 
 #### 2.2.2 Registro de entrevistas
-**Link de la grabación:** [Entrevistas JobConnect]()
+**Link de la grabación:** [Entrevistas JobConnect](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312391_upc_edu_pe/ETRsN2Qt-ztDkIH1A5ZO_I4BPW0eZ3x5ieDkQOWZHTL1dA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FthuRz)
 
 ##### Segmento 1: Trabajadores Técnicos Independientes
 
@@ -651,18 +651,19 @@ Preguntas complementarias:
   Además, estaría dispuesto a pagar más por un técnico verificado, dependiendo de la gravedad del problema.
 
 - **Entrevista 2:**  
-  **Nombre:** José Manuel  
-  **Género:** Masculino  
-  **Edad:** 24 años  
-  **Distrito:** Surquillo, Lima  
-  **Duración:** --  
-  **Inicio:** --  
-  **Fin:** --  
+  **Nombre:** Aide  
+  **Género:** Femenino  
+  **Edad:** 38 años  
+  **Distrito:** Surco, Lima  
+  **Duración:** 2:34  
+  **Inicio:** 33:19  
+  **Fin:** 35:53
+  ![Aide](/img/entrevista-2-so-2.png)  
   **Resumen:**  
-  José Manuel es un joven de 24 años del distrito de Surquillo que requiere servicios técnicos cada mes debido a problemas con su computadora.  
-  Suele encontrar técnicos mediante páginas de Facebook.  
+  Aide de 38 años del distrito de Surco que requiere servicios técnicos cada dos meses debido a problemas con su hogar.  
+  Suele encontrar técnicos mediante páginas de Facebook o por recomendaciones.  
   En una ocasión, tuvo una mala experiencia con alguien informal que terminó cobrándole de más sin solucionar su problema.  
-  Al contratar a un técnico, le interesan mucho las reseñas y un portafolio de trabajos previos, ya que le genera confianza alguien con experiencia en el rubro.  
+  Al contratar a un técnico, le interesan mucho las reseñas, estudios y un portafolio de trabajos previos, ya que le genera confianza alguien con experiencia en el rubro. 
   Debido a sus malas experiencias, estaría dispuesto a pagar más por un técnico verificado.
 
 - **Entrevista 3:**  
