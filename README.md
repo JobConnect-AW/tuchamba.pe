@@ -853,8 +853,6 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 
 # Capítulo III: Requirements Specification
 
-## 3.2. User Stories.
-
 ## 3.1. To-Be Scenario Mapping.
 
 <div align="center">
