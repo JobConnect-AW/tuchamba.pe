@@ -570,51 +570,59 @@ Preguntas complementarias:
 - ¿Prefiere comparar opciones antes de contratar o elegir rápidamente?
 
 #### 2.2.2 Registro de entrevistas
+**Link de la grabación:** [Entrevistas JobConnect]()
 
 ##### Segmento 1: Trabajadores Técnicos Independientes
 
-- **Entrevista 1**:
-	**Nombre:** Godelino  
-	**Género:** Masculino  
-	**Edad:** 35 años
-	**Distrito:** La Victoria, Lima 
-	**Duración:** --
-	**Inicio:** -- 
-	**Fin:** --
-	
-	**Resumen:**  
-	Godelino, un técnico de 35 años, con más de 10 años de experiencia en el rubro de comercio y técnico de sonido, menciona que actualmente trabaja como técnico de sonido y tiene un negocio de venta de equipos. Su forma de conseguir clientes es a través de contactos personales y redes sociales como Marketplace. Al inicio tuvo algo de desconfianza por parte de los clientes, pero con el tiempo ha logrado generar confianza al mostrar su trabajo y tener buenas referencias. Usualmente utiliza su laptop y su celular para gestionar su trabajo. Considera importante incluir información sobre videos de trabajos previos y reseñas de clientes en su perfil para generar confianza. Prefiere recibir solicitudes por WhatsApp.
+- **Entrevista 1:**  
+  **Nombre:** Godelino  
+  **Género:** Masculino  
+  **Edad:** 35 años  
+  **Distrito:** La Victoria, Lima  
+  **Duración:** 6:53  
+  **Inicio:** 26:26  
+  **Fin:** 33:19  
+  **Screenshot:**  
+  ![Godelino](/img/entrevista-1-so-1.png)  
 
-- **Entrevista 2**:  
+  **Resumen:**  
+  Godelino, un técnico de 35 años, con más de 10 años de experiencia en el rubro de comercio y técnico de sonido, menciona que actualmente trabaja como técnico de sonido y tiene un negocio de venta de equipos. Su forma de conseguir clientes es a través de contactos personales y redes sociales como Marketplace. Al inicio tuvo algo de desconfianza por parte de los clientes, pero con el tiempo ha logrado generar confianza al mostrar su trabajo y tener buenas referencias. Usualmente utiliza su laptop y su celular para gestionar su trabajo. Considera importante incluir información sobre videos de trabajos previos y reseñas de clientes en su perfil para generar confianza. Prefiere recibir solicitudes por WhatsApp.
+
+- **Entrevista 2:**  
   **Nombre:** Jorge Videla  
   **Género:** Masculino  
   **Edad:** 27 años  
   **Distrito:** Lima, Perú  
   **Duración:** 07:39  
-  **Inicio:** 14:50 
+  **Inicio:** 14:50  
   **Fin:** 22:29  
+  **Screenshot:**  
+  ![Jorge](/img/entrevista-2-so-1.png)  
+
   **Resumen:**  
   Jorge es un desarrollador web independiente con un año de experiencia.  
-  Principalmente, consigue clientes a través de redes sociales, especialmente el Marketplace de Facebook. En su último trabajo, enfrentó desconfianza de un cliente, lo que lo llevó a reunirse presencialmente para explicar el proyecto y generar mayor confianza, ofreciendo un precio más bajo.
-
+  Principalmente, consigue clientes a través de redes sociales, especialmente el Marketplace de Facebook. En su último trabajo, enfrentó desconfianza de un cliente, lo que lo llevó a reunirse presencialmente para explicar el proyecto y generar mayor confianza, ofreciendo un precio más bajo.  
   Utiliza su laptop Asus para desarrollar los sitios web y su teléfono para la gestión del marketing y ventas.  
   En cuanto a las funcionalidades que esperaría de una plataforma que lo conecte con clientes, sugiere la opción de publicar solicitudes de manera privada.  
   Además, destacaría la posibilidad de adjuntar archivos o documentos como portafolios para mostrar su experiencia.  
   Su estilo de trabajo es flexible, controlando sus tiempos, ya que no está sujeto a un horario estricto.  
   Finalmente, prefiere recibir solicitudes de clientes a través de mensajes en una aplicación dedicada.
 
-- **Entrevista 3**:  
+- **Entrevista 3:**  
   **Nombre:** Carlos Alberto Almeyda Romero  
   **Género:** Masculino  
   **Edad:** 47 años  
   **Distrito:** Santa  
   **Duración:** 09:27  
-  **Inicio:** 05:22 
-  **Fin:** 14:49
+  **Inicio:** 05:22  
+  **Fin:** 14:49  
+  **Screenshot:**  
+  ![Carlos](/img/entrevista-3-so-1.png)  
+
   **Resumen:**  
   Carlos, un técnico automotriz con 30 años de experiencia, trabaja de manera independiente después de haber sido parte de una empresa durante 20 años.  
-  Consigue clientes a través de recomendaciones y redes sociales. Aunque ha enfrentado casos de desconfianza de nuevos clientes, utiliza su experiencia para generar confianza explicando sus procesos de trabajo.
-
+  Consigue clientes a través de recomendaciones y redes sociales.  
+  Aunque ha enfrentado casos de desconfianza de nuevos clientes, utiliza su experiencia para generar confianza explicando sus procesos de trabajo.  
   Carlos utiliza Excel para gestionar su trabajo y cotizaciones.  
   Cree que una plataforma que lo conecte con clientes podría ayudarle a expandir su alcance.  
   Entre las funcionalidades que espera de la plataforma, menciona la opción de pago seguro y la posibilidad de ofrecer diagnósticos mediante videos del trabajo realizado en los autos, lo que aumenta la transparencia con el cliente.  
@@ -624,7 +632,7 @@ Preguntas complementarias:
 
 ##### Segmento 2: Usuarios que requieren servicios técnicos
 
-- **Entrevista 1**:  
+- **Entrevista 1:**  
   **Nombre:** Joseth Muñoz  
   **Género:** Masculino  
   **Edad:** 20 años  
@@ -632,14 +640,17 @@ Preguntas complementarias:
   **Duración:** 03:36  
   **Inicio:** 22:30  
   **Fin:** 26:06  
+  **Screenshot:**  
+  ![Joseth](/img/entrevista-1-so-2.png)  
+
   **Resumen:**  
   Joseth, un joven de 20 años que vive en Lima, comenta que cada año y medio necesita contratar a alguien para un servicio técnico.  
-  Actualmente, su forma de encontrar técnicos es mediante contactos personales. En una ocasión, tuvo una mala experiencia al contratar a un técnico para reparar su lavadora, ya que este hizo todo menos arreglarla: incluso retiró piezas que estaban en buen estado.
-
+  Actualmente, su forma de encontrar técnicos es mediante contactos personales.  
+  En una ocasión, tuvo una mala experiencia al contratar a un técnico para reparar su lavadora, ya que este hizo todo menos arreglarla: incluso retiró piezas que estaban en buen estado.  
   Joseth considera que datos como el precio y las reseñas le ayudarían a generar confianza al elegir un técnico.  
   Además, estaría dispuesto a pagar más por un técnico verificado, dependiendo de la gravedad del problema.
 
-- **Entrevista 2**:  
+- **Entrevista 2:**  
   **Nombre:** José Manuel  
   **Género:** Masculino  
   **Edad:** 24 años  
@@ -649,23 +660,26 @@ Preguntas complementarias:
   **Fin:** --  
   **Resumen:**  
   José Manuel es un joven de 24 años del distrito de Surquillo que requiere servicios técnicos cada mes debido a problemas con su computadora.  
-  Suele encontrar técnicos mediante páginas de Facebook. En una ocasión, tuvo una mala experiencia con alguien informal que terminó cobrándole de más sin solucionar su problema.
-
+  Suele encontrar técnicos mediante páginas de Facebook.  
+  En una ocasión, tuvo una mala experiencia con alguien informal que terminó cobrándole de más sin solucionar su problema.  
   Al contratar a un técnico, le interesan mucho las reseñas y un portafolio de trabajos previos, ya que le genera confianza alguien con experiencia en el rubro.  
   Debido a sus malas experiencias, estaría dispuesto a pagar más por un técnico verificado.
 
-- **Entrevista 3**:  
+- **Entrevista 3:**  
   **Nombre:** Carol Vega  
   **Género:** Femenino  
   **Edad:** 39 años  
   **Distrito:** El Agustino  
   **Duración:** 5:21  
-  **Inicio:** 0:00 
+  **Inicio:** 0:00  
   **Fin:** 5:21  
+  **Screenshot:**  
+  ![Carol](/img/entrevista-3-so-2.png)  
+
   **Resumen:**  
   Carol, de 39 años, vive en el distrito de El Agustino y requiere servicios técnicos aproximadamente cada dos años.  
-  Para encontrar técnicos, utiliza principalmente redes sociales, anuncios en la calle y recomendaciones de conocidos. Aunque ha tenido malas experiencias en el pasado al contratar de manera informal, también ha tenido trabajos satisfactorios.
-
+  Para encontrar técnicos, utiliza principalmente redes sociales, anuncios en la calle y recomendaciones de conocidos.  
+  Aunque ha tenido malas experiencias en el pasado al contratar de manera informal, también ha tenido trabajos satisfactorios.  
   Considera más importantes las recomendaciones de otras personas y las reseñas de los técnicos en redes sociales, así como la presencia de una tarjeta de presentación como una señal de profesionalismo.  
   Aunque no ha utilizado plataformas específicas para contratar estos servicios, estaría dispuesta a pagar un precio más alto por un técnico verificado, dado que experiencias anteriores con precios bajos no siempre resultaron en trabajos de calidad.  
   Carol prefiere comparar opciones antes de tomar una decisión, aunque en ocasiones contrata rápidamente si la necesidad es urgente.
