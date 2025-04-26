@@ -925,9 +925,11 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 | US32 | Sección de beneficios   | Como visitante, quiero conocer los beneficios de registrarme (seguridad, ahorro de tiempo, etc.), para decidir unirme a la plataforma. | 1. Dado que el visitante revise la sección, verá 3 beneficios para clientes y 3 para trabajadores, con iconos y textos claros.<br>2. Dado que un beneficio incluya un enlace (ej: "Comenzar Ahora"), este funcionará correctamente. | EP09 |
 | US33 | Sección "Cómo funciona" | Como visitante, quiero entender los pasos para usar la plataforma, tanto como cliente como trabajador, para saber cómo empezar. | 1. Dado que el visitante acceda a la sección, verá dos flujos: Para trabajadores (crear perfil, promocionar servicios, conectar con clientes) y Para clientes (buscar, comparar, contratar).<br>2. Dado que el visitante esté interesado, habrá un botón "Comenzar ahora" que lo redirigirá al registro. | EP09 |
 
-### 3.2.4 Technical Stories
-
 ## 3.3. Impact Mapping.
+
+<div align="center">
+<img src="img/immpact-mapping.jpg" alt="user_persona_1" />
+</div>
 
 ## 3.4. Product Backlog.
 
