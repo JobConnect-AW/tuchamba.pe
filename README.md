@@ -823,16 +823,49 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 
 <div align="center">
 
-<img src="img/AS-IS_ScenarioMappingCustumer.png" alt="journey_mapping_1" />
+<img src="img/AS-IS-CUSTUMEr.png" alt="journey_mapping_1" />
 
 </div>
+
+<div align="center">
+<img src="img/as-is.png" alt="journey_mapping_1" />
+</div>
+
+
 ## 2.4. Ubiquitous Language.
+
+| Término                   | Definición                                                                                  | Ejemplo de uso                                 |
+|---------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------|
+| **Usuario**               | Persona que interactúa con la plataforma. Puede ser **Cliente** o **Trabajador**.           | “El Usuario inició sesión.”                   |
+| **Cliente**               | Usuario que crea una **Petición de Servicio** describiendo el trabajo que necesita.          | “El Cliente publicó una Petición de Servicio.” |
+| **Trabajador**            | Usuario que responde a una Petición de Servicio con una **Propuesta**.                       | “El Trabajador envió una Propuesta.”           |
+| **Perfil**                | Página pública que muestra foto, experiencia, tarifas y reseñas de un Usuario.               | “Abrió el Perfil del gasfitero.”               |
+| **Petición de Servicio**  | Petición inicial que hace un Cliente con descripción del problema y detalles (qué y cuándo). | “Petición: reparar Fuga de caño en cocina.”    |
+| **Propuesta**             | Respuesta del Trabajador a una Petición con precio y plazo estimado.                         | “Propuesta: S/120 en 2 horas.”                 |
+| **Confirmación**          | Acción de aceptar una Propuesta, cerrando el acuerdo entre Cliente y Trabajador.             | “El Cliente confirmó la Propuesta.”            |
+| **Chat Interno**          | Canal para negociar detalles de Petición y Propuesta sin salir de la app.                    | “Mandó un mensaje por el Chat Interno.”        |
+| **Notificación**          | Alerta automática sobre nuevas Peticiones, Propuestas o Confirmaciones.                      | “Recibió notificación de nueva Propuesta.”     |
+| **Pago**                  | Transacción que realiza el Cliente al Trabajador tras la Confirmación.                       | “Completó el Pago en la app.”                  |
+| **Reseña**                | Comentario y estrellas que deja un Cliente al finalizar el servicio.                         | “Dejó una Reseña de 5 estrellas.”              |
+| **Calificación**          | Promedio de todas las Reseñas visible en el Perfil del Trabajador.                           | “Calificación promedio: 4.9.”                  |
+| **Verificación**          | Proceso para validar identidad/documentos del Trabajador; genera un sello de “verificado”.    | “Obtuvo la Verificación de su DNI.”            |
+| **Historial de Servicios**| Registro de todas las Peticiones, Propuestas, Confirmaciones y Pagos de un Usuario.          | “Consultó su Historial de Servicios.”          |
 
 # Capítulo III: Requirements Specification
 
 ## 3.2. User Stories.
 
 ## 3.1. To-Be Scenario Mapping.
+
+<div align="center">
+
+<img src="img/TO-BE-CUSTUMER.png" alt="to_be_scenario_mapping_1" />
+
+</div>
+
+<div align="center">
+<img src="img/TO-BE-PROVEDOR_TECNICO.png" alt="to_be_scenario_mapping_2" />
+</div>
 
 ### 3.2.3 User Stories
 | **Epic/User Story ID** | **Título**                              | **Descripción**                                                                                                                                                                                                                         | **Criterios de Aceptación**                                                                                                                                                                                                               | **Relacion con (Epic ID)** |
@@ -1784,6 +1817,10 @@ Unhappy path: El usuario no logra reestablecer su contraseña por no validar su 
  ## 4.8. Database Design.
  
  ### 4.8.1. Database Diagram.
+
+<div align="center">
+<img src="img/Base_de_datos.png" alt="data_base" />
+</div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
  
