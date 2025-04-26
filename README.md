@@ -1708,6 +1708,8 @@ Unhappy path: El usuario no logra reestablecer su contraseña por no validar su 
 
 ### 4.7.1. Class Diagrams.
 
+![Class Diagram](./img/class-diagram.png)
+
 ### 4.7.2. Class Dictionary.
 
 <table>
@@ -1822,4 +1824,4 @@ Unhappy path: El usuario no logra reestablecer su contraseña por no validar su 
  # Bibliografía
  
  # Anexos
- 
+ e
