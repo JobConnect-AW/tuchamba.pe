@@ -42,7 +42,6 @@
 # Project Report Collaboration Insights
 
 URL del repositorio para el proyecto: https://github.com/JobConnect-AW/tuchamba.pe
-URL del repositorio para el proyecto: https://github.com/JobConnect-AW/tuchamba.pe
 
 **TB1**
 
