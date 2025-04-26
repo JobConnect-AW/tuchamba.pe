@@ -1813,6 +1813,7 @@ Unhappy path: El usuario no logra reestablecer su contraseña por no validar su 
                 <td><strong>Ticket</strong></td>
                 <td>Representa una queja o disputa surgida durante una orden de servicio. Permite resolver conflictos entre usuarios, ya sea a favor del cliente o trabajador.</td>
             </tr>
+<table>
 
  ## 4.8. Database Design.
  
@@ -1861,4 +1862,4 @@ Unhappy path: El usuario no logra reestablecer su contraseña por no validar su 
  # Bibliografía
  
  # Anexos
- e
+
