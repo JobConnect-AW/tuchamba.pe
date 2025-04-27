@@ -924,6 +924,8 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 | US31 | Categorías de servicios | Como visitante, quiero explorar las categorías de servicios disponibles (ej: plomería, electricidad), para conocer el alcance de la plataforma. | 1. Dado que el visitante navegue por la sección, verá hasta 6 categorías destacadas con iconos y descripciones breves.<br>2. Dado que el visitante quiera ver más, habrá un botón "Ver todos los servicios" que lo redirigirá al registro o búsqueda. | EP09 |
 | US32 | Sección de beneficios   | Como visitante, quiero conocer los beneficios de registrarme (seguridad, ahorro de tiempo, etc.), para decidir unirme a la plataforma. | 1. Dado que el visitante revise la sección, verá 3 beneficios para clientes y 3 para trabajadores, con iconos y textos claros.<br>2. Dado que un beneficio incluya un enlace (ej: "Comenzar Ahora"), este funcionará correctamente. | EP09 |
 | US33 | Sección "Cómo funciona" | Como visitante, quiero entender los pasos para usar la plataforma, tanto como cliente como trabajador, para saber cómo empezar. | 1. Dado que el visitante acceda a la sección, verá dos flujos: Para trabajadores (crear perfil, promocionar servicios, conectar con clientes) y Para clientes (buscar, comparar, contratar).<br>2. Dado que el visitante esté interesado, habrá un botón "Comenzar ahora" que lo redirigirá al registro. | EP09 |
+| US34 | Cambiar idioma del landing  | Como visitante del segmento objetivo "Trabajador/Cliente", quiero cambiar el idioma del landing a español o inglés, para entender mejor los beneficios de la plataforma. | 1. Dado que el visitante acceda al landing, verá un selector de idioma (ES/EN).<br>2. Dado que seleccione un idioma, el contenido estático se actualizará. | EP09                  |
+| US35 | Contenido traducido         | Como visitante del segmento objetivo "Trabajador/Cliente", quiero ver todo el contenido del landing en mi idioma preferido, para evaluar claramente el valor de la plataforma. | 1. Dado que el idioma se cambie, los textos clave (beneficios, testimonios, contacto) estarán traducidos.<br>2. Dado que el idioma sea inglés, los elementos de navegación (menús, botones) también estarán traducidos.<br>3. Dado que se cargue el landing, los testimonios se mostrarán en el idioma seleccionado. | EP09                  |
 
 ## 3.3. Impact Mapping.
 
@@ -968,6 +970,9 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 | 31    | US31          | Categorías de servicios            | Como visitante, quiero explorar las categorías de servicios disponibles (ej: plomería, electricidad), para conocer el alcance de la plataforma.               | 3            |
 | 32    | US32          | Sección de beneficios              | Como visitante, quiero conocer los beneficios de registrarme (seguridad, ahorro de tiempo, etc.), para decidir unirme a la plataforma.                        | 2            |
 | 33    | US33          | Sección "Cómo funciona"            | Como visitante, quiero entender los pasos para usar la plataforma, tanto como cliente como trabajador, para saber cómo empezar.                               | 2            |
+ 34    | US34          | Cambiar idioma del landing  | Como visitante del segmento objetivo "Trabajador/Cliente", quiero cambiar el idioma del landing a español o inglés, para entender mejor los beneficios de la plataforma. | 3            |
+| 35    | US35          | Contenido traducido         | Como visitante del segmento objetivo "Trabajador/Cliente", quiero ver todo el contenido del landing en mi idioma preferido, para evaluar claramente el valor de la plataforma. | 3            |
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
