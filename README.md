@@ -1990,7 +1990,7 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 
 ### 5.1.2. Source Code Management.
 
-Hemos empleado Git Flow (<<cita>), para el desarrollo y mantenimiento de nuestro proyecto. Para ello, hemos creado 5 ramas principales, las cuale son Main, Hotfix, Release, Develop y feature. En este sentido, al inicializar el primer commit es en el main, desde el cual parte la rama develop, cada sección de nuestra landing page es una feature tiene su propia rama con la nomenclatura feature/<nombre_de_feature>, en donde se desarrolla cada sección por separado, como por ejemplo el Header, el footer o las secciones de nuestra landing. Luego, terminado el desarrollo de cada feature se hace un merge a la rama develop, donde se hace la unión de las secciones de la web, ya con la rama con un avance significativo (suele ser al termino de un sprint), se crea un nuevo release con nomenclatura semver (semantic versioning 2.0.0), donde
+Hemos empleado Git Flow (<<cita>>), para el desarrollo y mantenimiento de nuestro proyecto. Para ello, hemos creado 5 ramas principales, las cuale son Main, Hotfix, Release, Develop y feature. En este sentido, al inicializar el primer commit es en el main, desde el cual parte la rama develop, cada sección de nuestra landing page es una feature tiene su propia rama con la nomenclatura feature/<nombre_de_feature>, en donde se desarrolla cada sección por separado, como por ejemplo el Header, el footer o las secciones de nuestra landing. Luego, terminado el desarrollo de cada feature se hace un merge a la rama develop, donde se hace la unión de las secciones de la web, ya con la rama con un avance significativo (suele ser al termino de un sprint), se crea un nuevo release con nomenclatura semver (semantic versioning 2.0.0), donde
 FORMA
 122
 se hace el testeo y documentación del código dentro del README.md. Además, utilizamos la rama HotFix para la solución de problemas en la rama main. Para esto, creamos una rama
@@ -1998,8 +1998,8 @@ hotfix/<nombre_de_hotfix>. Para finalizar, se sube a la rama main para la salida
 
 Repositorios de GitHub:
 
-Enlace para acceder a la organización de GitHub: https://github.com/UPC-PaxTech
-Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
+Enlace para acceder a la organización de GitHub: [JobConnect-Org](https://github.com/JobConnect-AW/)
+Enlace para acceder a repositorio de la Landing Page: [JobConnect-landing](https://github.com/JobConnect-AW/landing-page)
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
