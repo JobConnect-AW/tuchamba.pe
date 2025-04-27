@@ -989,15 +989,15 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 | 33    | US33          | Sección "Cómo funciona"            | Como visitante, quiero entender los pasos para usar la plataforma, tanto como cliente como trabajador, para saber cómo empezar.                               | 2            |
  34    | US34          | Cambiar idioma del landing  | Como visitante del segmento objetivo "Trabajador/Cliente", quiero cambiar el idioma del landing a español o inglés, para entender mejor los beneficios de la plataforma. | 3            |
 | 35    | US35          | Contenido traducido         | Como visitante del segmento objetivo "Trabajador/Cliente", quiero ver todo el contenido del landing en mi idioma preferido, para evaluar claramente el valor de la plataforma. | 3            |
-| TS01  | Integración con pasarela de pagos       | Como developer, quiero integrar Stripe para procesar pagos seguros de suscripciones y servicios.             | 5            |
-| TS02  | Implementar autenticación JWT           | Como developer, quiero usar JWT para gestionar sesiones seguras y autorización de roles (cliente/trabajador).       | 5            |
-| TS03  | Encriptación de datos sensibles         | Como developer, quiero encriptar contraseñas y datos financieros usando bcrypt y AES-256, para cumplir con estándares de seguridad. | 5            |
-| TS04  | Validación de formularios multi-nivel    | Como developer, quiero validar campos en frontend (JavaScript) y backend (C#), para prevenir inyecciones SQL. | 3            |
-| TS05  | Diseño responsive para dispositivos móviles| Como developer, quiero garantizar que el 95% del sitio sea responsive usando CSS Grid y Flexbox, para móviles y tablets. | 5            |
-| TS06  | Endpoint para registro de trabajadores  | Como developer, quiero crear POST /api/workers para registrar perfiles técnicos con validación de habilidades.  | 3            |
-| TS07  | Endpoint para búsqueda/filtro      | Como developer, quiero desarrollar GET /api/search-worker con filtros dinámicos (ubicación, precio, rating), para clientes. | 5            |
-| TS08  | Endpoint para comparación de perfiles   | Como developer, quiero implementar POST /api/compare para analizar hasta 3 perfiles técnicos y devolver métricas.   | 3            |
-| TS09  | Endpoint para gestión de propuestas      | Como developer, quiero crear los endpoints POST /propuestas y PUT /proposal/{id}, para que los trabajadores envíen propuestas y los clientes las gestionen. | 5            |
+|36| TS01  | Integración con pasarela de pagos       | Como developer, quiero integrar Stripe para procesar pagos seguros de suscripciones y servicios.             | 5            |
+|37| TS02  | Implementar autenticación JWT           | Como developer, quiero usar JWT para gestionar sesiones seguras y autorización de roles (cliente/trabajador).       | 5            |
+|38| TS03  | Encriptación de datos sensibles         | Como developer, quiero encriptar contraseñas y datos financieros usando bcrypt y AES-256, para cumplir con estándares de seguridad. | 5            |
+|39| TS04  | Validación de formularios multi-nivel    | Como developer, quiero validar campos en frontend (JavaScript) y backend (C#), para prevenir inyecciones SQL. | 3            |
+|40| TS05  | Diseño responsive para dispositivos móviles| Como developer, quiero garantizar que el 95% del sitio sea responsive usando CSS Grid y Flexbox, para móviles y tablets. | 5            |
+|41| TS06  | Endpoint para registro de trabajadores  | Como developer, quiero crear POST /api/workers para registrar perfiles técnicos con validación de habilidades.  | 3            |
+|42| TS07  | Endpoint para búsqueda/filtro      | Como developer, quiero desarrollar GET /api/search-worker con filtros dinámicos (ubicación, precio, rating), para clientes. | 5            |
+|43| TS08  | Endpoint para comparación de perfiles   | Como developer, quiero implementar POST /api/compare para analizar hasta 3 perfiles técnicos y devolver métricas.   | 3            |
+|44| TS09  | Endpoint para gestión de propuestas      | Como developer, quiero crear los endpoints POST /propuestas y PUT /proposal/{id}, para que los trabajadores envíen propuestas y los clientes las gestionen. | 5            |
 
 # Capítulo IV: Product Design
 
