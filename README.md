@@ -1979,7 +1979,7 @@ Hemos empleado el uso de un Software as Service llamado Netlify para el desplieg
 
 Además, mediante Github Actions logramos implementar CI/CD en Netlify, el cual escucha los cambios en la rama main y hace un deploy a producción.
 
-![Netifly deploy](netifly-deploy.png)
+![Netifly deploy](./img/netifly-deploy.png)
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
@@ -1987,23 +1987,143 @@ Además, mediante Github Actions logramos implementar CI/CD en Netlify, el cual 
 
 #### 5.2.1.1. Sprint Planning 1.
 
+En el marco de Scrum, un Sprint es un periodo de tiempo fijo y breve en el que un equipo se enfoca en completar el trabajo necesario para alcanzar el objetivo del proyecto, conocido como Product Goal. En el caso del proceso de desarrollo de la plataforma Champa.pe, se optó por optimizar tiempos en 5 sprints de 15 días calendario. El primer Sprint comenzará el 08/04/2025, y su objetivo es crear una landing page que tenga una alta conversión de leads, asegurando que los visitantes del sitio se vuelvan potenciales usuarios de la plataforma.
+
+##### Sprint Planning Background
+**Date**: 2025-04-08  
+**Time**: 09:00 PM  
+**Location**: Reunión virtual mediante la aplicación Whatsapp  
+**Prepare By**: Alejandro Oroncoy  
+
+**Attendees (to planning meeting)**: Alejandro Oroncoy, JobCoonnect  
+
+###### Sprint n - 1 Review Summary
+Este es el primer sprint del proyecto, por lo tanto, no hay resultados de un sprint anterior para revisar.  
+
+
+###### Sprint n - 1 Retrospective Summary
+Al tratarse del primer sprint, no se cuenta con una retrospectiva previa. La retroalimentación y oportunidades de mejora se evaluarán al finalizar este sprint.  
+
+## Sprint Goal & User Stories
+
+###### Sprint 1 Goal
+Nuestro enfoque se centra en entregar una landing page funcional que tenga una alta conversión de leads para Champa.pe.  
+Creemos que logrará una clara propuesta de valor y generará interés y confianza en los usuarios potenciales.  
+Esto se confirmará cuando los visitantes puedan acceder al sitio e interactuar con todos los elementos clave de la página de aterrizaje (visión general de servicios, beneficios, precios, testimoniales, CTAs y soporte) tanto en dispositivos de escritorio como móviles.
+
+**Sprint 1 Velocity**: 13  
+**Sum of Story Points**: 13
+
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+
+Para este Sprint, se han identificado los aspectos clave en el desarrollo de la landing page de Champa.pe. Con el objetivo de optimizar la organización y la comunicación dentro del equipo, se ha creado la matriz de Responsabilidad y Colaboración (RCC), en la que se define quién asumirá el rol de Responsable (R) y quiénes participarán como Colaboradores (C) en cada uno de estos aspectos fundamentales. Esta estructura facilita una ejecución más clara y eficiente de las tareas asignadas.
 
 #### 5.2.1.3. Sprint Backlog 1.
 
+En el primer sprint backlog, el equipo tenía como objetivo iniciar y finalizar el desarrollo de la landing page. Para organizar y gestionar las tareas, se distribuyeron las historias de usuario entre los miembros del equipo según sus habilidades específicas. Esta asignación permitió dividir las tareas en actividades manejables, enfocándose en construir una landing page completa que fuera tanto atractiva como funcional. El objetivo principal del sprint fue lograr una landing page efectiva que cumpliera con los requerimientos establecidos.
+
+| Orden | User Story ID | Título                          | Descripción                                                                                                                | Story Points |
+| ----- | ------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 1     | US29          | Visualización general de los servicios | Como visitante, quiero ver una descripción general de los servicios ofrecidos en la landing page, para entender rápidamente qué se ofrece. | 3            |
+| 2     | US30          | Visualización de beneficios      | Como visitante, quiero ver los beneficios de registrarme en la plataforma, para poder decidir unirme a ella.                | 2            |
+| 3     | US31          | Categorías de servicios          | Como visitante, quiero explorar las categorías de servicios disponibles (ej: plomería, electricidad), para conocer el alcance de la plataforma. | 3            |
+| 4     | US32          | Sección de beneficios            | Como visitante, quiero conocer los beneficios de registrarme (seguridad, ahorro de tiempo, etc.), para decidir unirme a la plataforma. | 2            |
+| 5     | US33          | Sección "Cómo funciona"          | Como visitante, quiero entender los pasos para usar la plataforma, tanto como cliente como trabajador, para saber cómo empezar. | 2            |
+| 6     | US34          | Cambiar idioma del landing       | Como visitante del segmento objetivo "Trabajador/Cliente", quiero cambiar el idioma del landing a español o inglés, para entender mejor los beneficios de la plataforma. | 3            |
+| 7     | US35          | Contenido traducido              | Como visitante del segmento objetivo "Trabajador/Cliente", quiero ver todo el contenido del landing en mi idioma preferido, para evaluar claramente el valor de la plataforma. | 3            |
+
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
+| Repository               | Branch  | Commit Id | Commit Message                                    | Commit Message Body                          | Committed on (Date) |
+|--------------------------|---------|-----------|--------------------------------------------------|---------------------------------------------|---------------------|
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)     | develop | a617f27   | [fix: fix landing page](https://github.com/JobConnect-AW/landing-page/commit/a617f27) |                                             | 2025-04-24          |
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 305efe9   | [feat: finish landing](https://github.com/JobConnect-AW/landing-page/commit/305efe9) |                                             | 2025-04-24          |
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | a2fc49a   | [feat: add footer, index.js, i18n.js](https://github.com/JobConnect-AW/landing-page/commit/a2fc49a) |                                             | 2025-04-24          |
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 8edcafa   | [feat: add src/styles/modules header and variables](https://github.com/JobConnect-AW/landing-page/commit/8edcafa) |                                             | 2025-04-24          |
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | e570425   | [chore: Update .gitignore](https://github.com/JobConnect-AW/landing-page/commit/e570425) |                                             | 2025-04-24          |
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 7862e72   | [feat: Create html and first favicon](https://github.com/JobConnect-AW/landing-page/commit/7862e72) |                                             | 2025-04-24          |
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
+En el Sprint 1, se logró un avance parcial en el desarrollo y despliegue de la landing page. Esta página presenta diversas secciones donde los usuarios pueden acceder a información clave sobre el producto y la startup. A continuación, se presentan algunas evidencias de este progreso.
+
+Hero: La sección principal invita al usuario a ver más información sobre el servicio y probar el producto
+![Hero](./img/Hero.png)
+
+Beneficios: Esta sección presenta las principales ventajas que ofrece la plataforma tanto para trabajadores técnicos como para clientes que buscan servicios, destacando la facilidad de uso, seguridad y eficiencia
+
+![Beneficios](./img/Beneficios.png)
+
+Categorías de servicios: Esta sección muestra los tipos de servicios técnicos que se pueden encontrar en la plataforma, ayudando al usuario a identificar qué profesionales puede contratar
+
+![Categorías de servicios](./img/Categorias.png)
+
+Cómo funciona: Se explica el proceso paso a paso para utilizar la plataforma, tanto para trabajadores técnicos como para clientes
+
+![Cómo funciona](./img/ComoFunciona.png)
+
+Testimonios: Esta sección muestra experiencias de usuarios reales que han utilizado la plataforma, generando confianza en nuevos visitantes
+
+![Testimonios](./img/Testimonios.png)
+
+Estadísticas: Esta sección muestra con datos cuantitativos el impacto positivo de la plataforma en términos de usuarios registrados, servicios completados y satisfacción del cliente
+
+![Estadísticas](./img/Estadisticas.png)
+
+Contacto: Formulario que permite a los usuarios enviar consultas o solicitudes directamente desde la landing page
+
+![Contacto](./img/Contacto.png)
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para este sprint no fue contemplada la evidencia de documentación de los servicios API.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
+Para la entrega del Sprint número 1, se desplegó la landing page completa en Netlify. Se configuró para que la rama principal utilizada fuera "main", ubicada en la raíz, siguiendo una estructura organizada de carpetas y archivos.
+
+![Netifly deploy](./img/netifly-deploy.png)
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+5.2.1.8. Team Collaboration Insights during Sprint.
+
+| Alumno                               | Actividad                                                 |
+|--------------------------------------|-----------------------------------------------------------|
+| Kevin Chi (Krillsom)                | Implementación del Registro de la Landing Page            |
+| Jeremy Paucar (asmip10)             | Implementación del Inicio de Sesión de la Landing Page    |
+| Miguel Hallasi (mhallasi)           | Implementación del Contacto y Soporte y About Us de la Landing Page |
+| Alejandro Oroncoy (alejooroncoy)    | Implementación de Testimonios de la Landing Page          |
+| Eduardo Cossar (coleeeee-dev)      | Implementación de Planes y Precios de la Landing Page     |
+| Maria Fernanda Mostajo (Mafer-m30)  | Implementación de otras secciones de la Landing Page      |
+
 
 # Conclusiones
 
-## 6.1 Conclusiones y recomendaciones
+**6.1 Conclusiones y Recomendaciones**
+
+**Conclusiones**  
+El proyecto Champa.pe reveló una necesidad real y no satisfecha en el mercado de la contratación de servicios, particularmente en el sector de la tecnología, relacionado con la gestión eficiente de perfiles de trabajadores.
+
+La colaboración interdisciplinaria dentro del equipo de desarrollo fue esencial para abordar el proyecto de manera integral, combinando habilidades técnicas, de diseño y análisis de usuarios.
+
+El uso de metodologías ágiles (Scrum), la documentación detallada y una arquitectura basada en dominios garantizaron que la solución fuera escalable y mantenible.
+
+El avance en el desarrollo de Champa.pe ha reforzado la comprensión del ciclo completo de diseño y desarrollo de plataformas digitales, desde la investigación de usuarios hasta la implementación y despliegue.
+
+Se ha logrado un progreso significativo en la creación de una base sólida, tanto conceptual como técnica, que permitirá un desarrollo más ágil en las siguientes fases del proyecto.
+
+**Recomendaciones**  
+- Ampliar la validación de las necesidades del usuario utilizando métodos adicionales, como encuestas o pruebas de concepto, para fortalecer la base de diseño centrada en el usuario.
+
+- Asegurar una documentación más detallada de las decisiones de diseño y arquitectura, para facilitar la comprensión del proyecto por parte de los evaluadores y compañeros de clase.
+
+- Evaluar críticamente los avances realizados, comparándolos con los entregables definidos en el sílabo del curso, garantizando que cada parte del proyecto cumpla con los criterios de evaluación establecidos.
+
 
 # Bibliografía
 
