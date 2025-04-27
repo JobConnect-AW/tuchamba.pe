@@ -1914,7 +1914,8 @@ Informalidad: 3 de cada 4 trabajadores son informales en el Perú. (2020, noviem
 
 Inga, R. (2023, marzo 27). Empleo informal en el Perú continúa creciendo. La Cámara; Cámara de Comercio de Lima. https://lacamara.pe/empleo-informal-en-el-peru-continua-creciendo/
 
-
- 
  # Anexos
 
+Anexo A:
+URL del Prototypes Navigation / Product Navigation:
+https://www.figma.com/design/py3rabYJzPcLJN8k0b92su/Aplicaciones-Web?node-id=0-1&t=tiBJsyU4HbJmPlQd-1
