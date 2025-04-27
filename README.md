@@ -1238,6 +1238,67 @@ En esta sección, presentaremos las decisiones y las razones que guían la maner
 
 ### 4.2.2. SEO Tags and Meta Tags
 
+#### Meta Description
+La descripción meta es uno de los elementos más importantes para los motores de búsqueda. Asegúrate de que sea precisa y atractiva.
+
+```html
+<meta name="description" content="Una breve descripción de la página o producto, que atrae a los usuarios a hacer clic en el enlace.">
+```
+
+#### Meta Keywords
+Especifica las palabras clave relevantes para la página, ayudando a los motores de búsqueda a entender mejor el contenido.
+
+```html
+<meta name="keywords" content="palabras clave, separadas, por, comas">
+```
+
+#### Open Graph Tags (og)
+Open Graph es crucial para mejorar cómo se ve el contenido al ser compartido en redes sociales como Facebook, Twitter y LinkedIn.
+
+```html
+<!-- Open Graph -->
+<meta property="og:title" content="Título atractivo de la página">
+<meta property="og:description" content="Descripción que aparecerá al compartir en redes sociales.">
+<meta property="og:image" content="URL de la imagen que se mostrará en la vista previa.">
+<meta property="og:url" content="URL de la página">
+<meta property="og:type" content="website">
+```
+
+#### Twitter Cards
+Si también deseas optimizar la vista previa en Twitter, puedes agregar las Twitter Cards.
+
+```html
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Título para Twitter">
+<meta name="twitter:description" content="Descripción para Twitter">
+<meta name="twitter:image" content="URL de la imagen de Twitter">
+```
+
+#### Meta Robots
+Controla cómo los motores de búsqueda indexan tu página.
+
+```html
+<meta name="robots" content="index, follow">
+```
+
+---
+
+**Consejos:**
+
+- **Title Tag**: Asegúrate de incluir un título de página relevante y llamativo en tu etiqueta `<title>`, ya que es uno de los factores más importantes para el SEO.
+  
+```html
+<title>Tu Título Aquí</title>
+```
+
+- **Canonical Tag**: Si tienes contenido duplicado, utiliza la etiqueta `<link rel="canonical">` para evitar problemas de SEO con contenido duplicado.
+
+```html
+<link rel="canonical" href="URL de la página principal">
+```
+
+
 ### 4.2.4. Searching Systems
 
 Se implementará un sistema de búsqueda dentro de la aplicación para facilitar la navegación de los usuarios.
