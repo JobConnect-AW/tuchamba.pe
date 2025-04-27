@@ -997,7 +997,7 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 |41| TS06  | Endpoint para registro de trabajadores  | Como developer, quiero crear POST /api/workers para registrar perfiles técnicos con validación de habilidades.  | 3            |
 |42| TS07  | Endpoint para búsqueda/filtro      | Como developer, quiero desarrollar GET /api/search-worker con filtros dinámicos (ubicación, precio, rating), para clientes. | 5            |
 |43| TS08  | Endpoint para comparación de perfiles   | Como developer, quiero implementar POST /api/compare para analizar hasta 3 perfiles técnicos y devolver métricas.   | 3            |
-|44| TS09  | Endpoint para gestión de propuestas      | Como developer, quiero crear los endpoints POST /propuestas y PUT /proposal/{id}, para que los trabajadores envíen propuestas y los clientes las gestionen. | 5            |
+|44| TS09  | Endpoint para gestión de propuestas      | Como developer, quiero crear los endpoints POST /proposal y PUT /proposal/{id}, para que los trabajadores envíen propuestas y los clientes las gestionen. | 5            |
 
 # Capítulo IV: Product Design
 
