@@ -2097,8 +2097,8 @@ En el primer sprint backlog, el equipo tenía como objetivo iniciar y finalizar 
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
-| Repository               | Branch  | Commit Id | Commit Message                                    | Commit Message Body                          | Committed on (Date) |
-|--------------------------|---------|-----------|--------------------------------------------------|---------------------------------------------|---------------------|
+| Repository               | Branch  | Commit Id | Commit Message                                    | Committed on (Date) |
+|--------------------------|---------|-----------|--------------------------------------------------|---------------------|
 | Frontend-Web-Applications   | develop           | d965077   | feat: add View PagosPlan                                                      | 15/05/2025         |
 | Frontend-Web-Applications   | develop           | 54c8a21   | refactor: Refactor css of auth                                                | 15/05/2025         |
 | Frontend-Web-Applications   | develop           | 2a7b3c4   | fix: Update offers                                                            | 15/05/2025         |
