@@ -2549,6 +2549,11 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
   <figcaption>Pantalla de Mis Ofertas</figcaption>
 </figure>
 
+<figure>
+  <img src="img/search-offers.png" alt="Searh Offers Screen">
+  <figcaption>Pantalla de Buscar Ofertas</figcaption>
+</figure>
+
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicios en el aplicación, abarcando desde la configuración de rutas hasta la lógica de negocio y la presentación de datos al usuario:
 
