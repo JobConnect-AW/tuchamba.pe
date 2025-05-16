@@ -2097,43 +2097,14 @@ En el primer sprint backlog, el equipo tenía como objetivo iniciar y finalizar 
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
-| Repository               | Branch  | Commit Id | Commit Message                                    | Committed on (Date) |
-|--------------------------|---------|-----------|--------------------------------------------------|---------------------|
-| Frontend-Web-Applications   | develop           | d965077   | feat: add View PagosPlan                                                      | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 54c8a21   | refactor: Refactor css of auth                                                | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 2a7b3c4   | fix: Update offers                                                            | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 3b8d5e6   | merge: resolve merge                                                          | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 4c9f7g8   | feature: first version of login                                               | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 5d0h1i2   | fix: update cards TechniciansService                                          | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 6e2j3k4   | chore: add technicians image                                                  | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 7f4l5m6   | fix: update search filter                                                     | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 8g6n7o8   | fix: Fixing the Search Technicians Header                                     | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 9h8p9q0   | refactor(worker): reorganize worker components and views into shared and worker directories | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 1i0r1s2   | fix: Update sidebar                                                           | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 2j2t3u4   | fix: Update sidebar                                                           | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 3k4v5w6   | fix: solve sidebar                                                            | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 4l6x7y8   | fix: Update offer new                                                         | 15/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| fix: Update offer page                                                        | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| feat: implementation route                                                    | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| fix: Update develop                                                           | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| build(develop): Update tailwindcss                                            | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| fix: Update develop                                                           | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/userContext' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/offers' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/myprofile-configuration-worker' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/json-server' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/dashboard' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/compare-profiles' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/cliente/comparar-perfiles' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| refactor(offers): move SearchOffers component from views to pages directory   | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| refactor(dashboard): move dashboard views to page                             | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| feat:compare-profile                                                          | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| feat: add tecnical cards                                                      | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 14/05/2025| chore: added json-server                                                      | 14/05/2025         |
-| Frontend-Web-Applications   | develop           | 13/05/2025| feat:add myprofile-myplans-configuration                                      | 13/05/2025         |
-| Frontend-Web-Applications   | develop           | 13/05/2025| feat: fix filtro de busqueda                                                  | 13/05/2025         |
-| Frontend-Web-Applications   | develop           | 13/05/2025| feat: fix searchTec                                                           | 13/05/2025         |
-| Frontend-Web-Applications   | develop           | 13/05/2025| feat: add json-server for mock API and configure routes                       | 13/05/2025         |
+| Repository               | Branch  | Commit Id | Commit Message                                    | Commit Message Body                          | Committed on (Date) |
+|--------------------------|---------|-----------|--------------------------------------------------|---------------------------------------------|---------------------|
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)     | develop | a617f27   | [fix: fix landing page](https://github.com/JobConnect-AW/landing-page/commit/a617f27) |                                             | 2025-04-24          |
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 305efe9   | [feat: finish landing](https://github.com/JobConnect-AW/landing-page/commit/305efe9) |                                             | 2025-04-24          |
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | a2fc49a   | [feat: add footer, index.js, i18n.js](https://github.com/JobConnect-AW/landing-page/commit/a2fc49a) |                                             | 2025-04-24          |
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 8edcafa   | [feat: add src/styles/modules header and variables](https://github.com/JobConnect-AW/landing-page/commit/8edcafa) |                                             | 2025-04-24          |
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | e570425   | [chore: Update .gitignore](https://github.com/JobConnect-AW/landing-page/commit/e570425) |                                             | 2025-04-24          |
+| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 7862e72   | [feat: Create html and first favicon](https://github.com/JobConnect-AW/landing-page/commit/7862e72) |                                             | 2025-04-24          |
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
