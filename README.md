@@ -2582,7 +2582,11 @@ Permite manejar errores con catchError y hacer reintentos con retry.
 
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
-Para realizar el deployment de la aplicación web, se utilizó la plataforma de Vercel.
+Para realizar el deployment de la aplicación web, se utilizó la plataforma de Netlify.
+
+<img src="img/netlify.png" alt="Netlify">
+
+Link de la aplicación desplegada: https://tuchamba-pe.netlify.app/
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
