@@ -2084,17 +2084,17 @@ Al tratarse del primer sprint, no se cuenta con una retrospectiva previa. La ret
 ## Sprint Goal & User Stories
 
 ###### Sprint 1 Goal
-Nuestro enfoque se centra en entregar una landing page funcional que tenga una alta conversión de leads para Champa.pe.  
+Nuestro enfoque se centra en entregar una landing page funcional que tenga una alta conversión de leads para Chamba.pe.  
 Creemos que logrará una clara propuesta de valor y generará interés y confianza en los usuarios potenciales.  
 Esto se confirmará cuando los visitantes puedan acceder al sitio e interactuar con todos los elementos clave de la página de aterrizaje (visión general de servicios, beneficios, precios, testimoniales, CTAs y soporte) tanto en dispositivos de escritorio como móviles.
 
-**Sprint 1 Velocity**: 13  
-**Sum of Story Points**: 13
+**Sprint 1 Velocity**: 5  
+**Sum of Story Points**: 18
 
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
-Para este Sprint, se han identificado los aspectos clave en el desarrollo de la landing page de Champa.pe. Con el objetivo de optimizar la organización y la comunicación dentro del equipo, se ha creado la matriz de Responsabilidad y Colaboración (RCC), en la que se define quién asumirá el rol de Responsable (R) y quiénes participarán como Colaboradores (C) en cada uno de estos aspectos fundamentales. Esta estructura facilita una ejecución más clara y eficiente de las tareas asignadas.
+Para este Sprint, se han identificado los aspectos clave en el desarrollo de la landing page de Chamba.pe. Con el objetivo de optimizar la organización y la comunicación dentro del equipo, se ha creado la matriz de Responsabilidad y Colaboración (RCC), en la que se define quién asumirá el rol de Responsable (R) y quiénes participarán como Colaboradores (C) en cada uno de estos aspectos fundamentales. Esta estructura facilita una ejecución más clara y eficiente de las tareas asignadas.
 
 #### 5.2.1.3. Sprint Backlog 1.
 
@@ -2229,11 +2229,11 @@ Dentro del marco de trabajo Scrum, cada Sprint constituye un periodo de tiempo f
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
-      <td colspan="1"></td>
+      <td colspan="1">5</td>
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sum of Story Points</b></td>
-      <td colspan="1"></td>
+      <td colspan="1">18</td>
    </tr>
 
    <tr>
@@ -2284,7 +2284,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Diseño de interfaz de login</td>
     <td>Diseñar la interfaz de inicio de sesión con campos de usuario y contraseña.</td>
-    <td>2</td>
+    <td>4</td>
     <td>Kevin Chi</td>
     <td>Done</td>
   </tr>
@@ -2292,7 +2292,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T2</td>
     <td>Implementación de autenticación</td>
     <td>Desarrollar la lógica de autenticación y manejo de sesiones.</td>
-    <td>3</td>
+    <td>5</td>
     <td>Alejandro Oroncoy</td>
     <td>Done</td>
   </tr>
@@ -2302,7 +2302,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Diseño del formulario de registro</td>
     <td>Crear la interfaz del formulario de registro con validaciones.</td>
-    <td>2</td>
+    <td>4</td>
     <td>Maria Fernanda Mostajo</td>
     <td>Done</td>
   </tr>
@@ -2310,7 +2310,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T2</td>
     <td>Implementación del registro</td>
     <td>Desarrollar la lógica de registro y almacenamiento de usuarios.</td>
-    <td>3</td>
+    <td>5</td>
     <td>Miguel Hallasi</td>
     <td>Done</td>
   </tr>
@@ -2320,7 +2320,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Diseño de recuperación</td>
     <td>Diseñar la interfaz para recuperación de contraseña.</td>
-    <td>1</td>
+    <td>4</td>
     <td>Eduardo Cossar</td>
     <td>Done</td>
   </tr>
@@ -2328,7 +2328,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T2</td>
     <td>Implementación de recuperación</td>
     <td>Desarrollar el sistema de recuperación de contraseña.</td>
-    <td>2</td>
+    <td>5</td>
     <td>Jeremy Paucar</td>
     <td>In-Process</td>
   </tr>
@@ -2338,7 +2338,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Implementación de cambio de vista</td>
     <td>Permitir al usuario alternar entre vista de cliente y trabajador.</td>
-    <td>3</td>
+    <td>5</td>
     <td>Alejandro Oroncoy</td>
     <td>Done</td>
   </tr>
@@ -2348,7 +2348,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Diseño de navegación cliente</td>
     <td>Diseñar la navegación para que el cliente explore y contrate trabajadores.</td>
-    <td>3</td>
+    <td>6</td>
     <td>Miguel Hallasi</td>
     <td>Done</td>
   </tr>
@@ -2358,7 +2358,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Diseño de navegación trabajador</td>
     <td>Diseñar la navegación para que el trabajador gestione sus servicios y clientes.</td>
-    <td>3</td>
+    <td>6</td>
     <td>Eduardo Cossar</td>
     <td>Done</td>
   </tr>
@@ -2368,7 +2368,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Personalización de perfil</td>
     <td>Permitir al trabajador personalizar su perfil con habilidades y experiencia.</td>
-    <td>5</td>
+    <td>6</td>
     <td>Kevin Chi</td>
     <td>Done</td>
   </tr>
@@ -2378,7 +2378,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Personalización de perfil cliente</td>
     <td>Permitir al cliente personalizar su perfil para mejores recomendaciones.</td>
-    <td>3</td>
+    <td>5</td>
     <td>Maria Fernanda Mostajo</td>
     <td>Done</td>
   </tr>
@@ -2388,7 +2388,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Gestión de configuración</td>
     <td>Permitir al usuario gestionar notificaciones, idioma, etc.</td>
-    <td>2</td>
+    <td>6</td>
     <td>Jeremy Paucar</td>
     <td>In-progress</td>
   </tr>
@@ -2408,7 +2408,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Implementación de reseñas</td>
     <td>Permitir dejar reseñas y calificaciones a los trabajadores.</td>
-    <td>5</td>
+    <td>6</td>
     <td>Miguel Hallasi</td>
     <td>To-do</td>
   </tr>
@@ -2448,7 +2448,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Mostrar reseñas en comparación</td>
     <td>Mostrar reseñas al comparar perfiles.</td>
-    <td>3</td>
+    <td>5</td>
     <td>Jeremy Paucar</td>
     <td>Done</td>
   </tr>
@@ -2458,7 +2458,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Actualizar disponibilidad</td>
     <td>Permitir al trabajador actualizar sus horarios disponibles.</td>
-    <td>3</td>
+    <td>6</td>
     <td>Alejandro Oroncoy</td>
     <td>Done</td>
   </tr>
@@ -2478,14 +2478,14 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
     <td>T1</td>
     <td>Actualizar habilidades</td>
     <td>Permitir al trabajador mantener actualizada su lista de habilidades.</td>
-    <td>3</td>
+    <td>5</td>
     <td>Eduardo Cossar</td>
     <td>In-progress</td>
   </tr>
   <tr>
 </table>
 
-Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
+Enlace para acceder al Trello: [Trello Sprint Backlog 2](https://trello.com/invite/b/6837f646cc7281744d1af887/ATTI6f700db6b9a505488439e717e6933367B9225129/jobconnect-sprint-2)
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
 
