@@ -2064,7 +2064,7 @@ Además, mediante Github Actions logramos implementar CI/CD en Netlify, el cual 
 
 #### 5.2.1.1. Sprint Planning 1.
 
-En el marco de Scrum, un Sprint es un periodo de tiempo fijo y breve en el que un equipo se enfoca en completar el trabajo necesario para alcanzar el objetivo del proyecto, conocido como Product Goal. En el caso del proceso de desarrollo de la plataforma Champa.pe, se optó por optimizar tiempos en 5 sprints de 15 días calendario. El primer Sprint comenzará el 08/04/2025, y su objetivo es crear una landing page que tenga una alta conversión de leads, asegurando que los visitantes del sitio se vuelvan potenciales usuarios de la plataforma.
+En el marco de Scrum, un Sprint es un periodo de tiempo fijo y breve en el que un equipo se enfoca en completar el trabajo necesario para alcanzar el objetivo del proyecto, conocido como Product Goal. En el caso del proceso de desarrollo de la plataforma Chamba.pe, se optó por optimizar tiempos en 5 sprints de 15 días calendario. El primer Sprint comenzará el 08/04/2025, y su objetivo es crear una landing page que tenga una alta conversión de leads, asegurando que los visitantes del sitio se vuelvan potenciales usuarios de la plataforma.
 
 ##### Sprint Planning Background
 **Date**: 2025-04-08  
@@ -2115,12 +2115,12 @@ En el primer sprint backlog, el equipo tenía como objetivo iniciar y finalizar 
 
 | Repository               | Branch  | Commit Id | Commit Message                                    | Commit Message Body                          | Committed on (Date) |
 |--------------------------|---------|-----------|--------------------------------------------------|---------------------------------------------|---------------------|
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)     | develop | a617f27   | [fix: fix landing page](https://github.com/JobConnect-AW/landing-page/commit/a617f27) |                                             | 2025-04-24          |
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 305efe9   | [feat: finish landing](https://github.com/JobConnect-AW/landing-page/commit/305efe9) |                                             | 2025-04-24          |
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | a2fc49a   | [feat: add footer, index.js, i18n.js](https://github.com/JobConnect-AW/landing-page/commit/a2fc49a) |                                             | 2025-04-24          |
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 8edcafa   | [feat: add src/styles/modules header and variables](https://github.com/JobConnect-AW/landing-page/commit/8edcafa) |                                             | 2025-04-24          |
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | e570425   | [chore: Update .gitignore](https://github.com/JobConnect-AW/landing-page/commit/e570425) |                                             | 2025-04-24          |
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 7862e72   | [feat: Create html and first favicon](https://github.com/JobConnect-AW/landing-page/commit/7862e72) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)     | develop | a617f27   | [fix: fix landing page](https://github.com/JobConnect-AW/landing-page/commit/a617f27) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 305efe9   | [feat: finish landing](https://github.com/JobConnect-AW/landing-page/commit/305efe9) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | a2fc49a   | [feat: add footer, index.js, i18n.js](https://github.com/JobConnect-AW/landing-page/commit/a2fc49a) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 8edcafa   | [feat: add src/styles/modules header and variables](https://github.com/JobConnect-AW/landing-page/commit/8edcafa) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | e570425   | [chore: Update .gitignore](https://github.com/JobConnect-AW/landing-page/commit/e570425) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 7862e72   | [feat: Create html and first favicon](https://github.com/JobConnect-AW/landing-page/commit/7862e72) |                                             | 2025-04-24          |
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
@@ -2166,8 +2166,6 @@ Para la entrega del Sprint número 1, se desplegó la landing page completa en N
 ![Netifly deploy](./img/netifly-deploy.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
-
-5.2.1.8. Team Collaboration Insights during Sprint.
 
 | Alumno                               | Actividad                                                 |
 |--------------------------------------|-----------------------------------------------------------|
@@ -2612,18 +2610,20 @@ Durante el Sprint 2, se realizó la segmentación de tareas por features y se as
 
 <img src="img/github-commits-over-time.png" alt="GitHub Commit Over Time">
 
+
+
 # Conclusiones
 
 **6.1 Conclusiones y Recomendaciones**
 
 **Conclusiones**  
-El proyecto Champa.pe reveló una necesidad real y no satisfecha en el mercado de la contratación de servicios, particularmente en el sector de la tecnología, relacionado con la gestión eficiente de perfiles de trabajadores.
+El proyecto Chamba.pe reveló una necesidad real y no satisfecha en el mercado de la contratación de servicios, particularmente en el sector de la tecnología, relacionado con la gestión eficiente de perfiles de trabajadores.
 
 La colaboración interdisciplinaria dentro del equipo de desarrollo fue esencial para abordar el proyecto de manera integral, combinando habilidades técnicas, de diseño y análisis de usuarios.
 
 El uso de metodologías ágiles (Scrum), la documentación detallada y una arquitectura basada en dominios garantizaron que la solución fuera escalable y mantenible.
 
-El avance en el desarrollo de Champa.pe ha reforzado la comprensión del ciclo completo de diseño y desarrollo de plataformas digitales, desde la investigación de usuarios hasta la implementación y despliegue.
+El avance en el desarrollo de Chamba.pe ha reforzado la comprensión del ciclo completo de diseño y desarrollo de plataformas digitales, desde la investigación de usuarios hasta la implementación y despliegue.
 
 Se ha logrado un progreso significativo en la creación de una base sólida, tanto conceptual como técnica, que permitirá un desarrollo más ágil en las siguientes fases del proyecto.
 
