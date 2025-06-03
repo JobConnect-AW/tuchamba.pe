@@ -32,6 +32,8 @@
 | Version | Fecha      | Autor                                          | Descripción de modificación                                                |
 | ------- | ---------- | ---------------------------------------------- | -------------------------------------------------------------------------- |
 | 1ra     | 25/04/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TB1: Se realizo los capitulos 1, 2, 3, 4 y el primer sprint del capitulo 5 |
+| 2da     | 15/05/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TP1: Se realizo el segundo sprint del capitulo 5 y las vistas de la aplicacion a partir de sus bounded context con primevue |
+| 3ra     | 12/06/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TB2: Se realizo el segundo sprint del capitulo 5 y las vistas de la aplicacion a partir de sus bounded context con primevue |
 
 </div>
 
@@ -52,6 +54,20 @@ para cada integrante del equipo:
 | Alejandro Oroncoy      | 2.2 Entrevistas, Capitulo V: Product Implementation, Validation & Deployment                                                                           |
 | Eduardo Cossar         | Capitulo I: Introducción, 2.1 Competidores, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design, 4.7.2 Class Dictionary                      |
 | Maria Fernanda Mostajo | 4.1 Style Guidelines, 4.2 Information Architecture, 4.3 Landing Page UI Desing, 4.4 Web Applications UX/UI Design                                      |
+
+**TP1**
+
+Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la implementación de secciones de la siguiente forma
+para cada integrante del equipo:
+
+| Integrantes            | Tareas Asignadas                                                                                                                                       |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Kevin Chi              |    Realizo las vistas de iniciar sesion, registrarse y recuperar contraseña                                                                          |
+| Jeremy Paucar          |  Realizo las vistas de buscar tecnico para el cliente y el apartado del pago de los planes para el tecnico|
+| Miguel Hallasi         |  Realizo el inicio para el cliente y el trabajador, tambien hizo la vista buscar oferta                                                                                                      |
+| Alejandro Oroncoy      |   Realizo las vistas de todo el apartado de ofertas para el cliente y para el trabajador                                                                         |
+| Eduardo Cossar         |   Realizo la vista de comparar perfiles de tecnicos y las vistas de la configuracion y el perfil para el trabajador                    |
+| Maria Fernanda Mostajo |   Realizo la vista de configuracion y perfil para el cliente                                    |
 
 **Github Collaboration Insights**
 
@@ -164,8 +180,9 @@ Se explican las ramas más prominentes:
 
 | Criterio específico                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones                                                                                                                                                                                                                                                                                                                                                                            |
 | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.   | **TB1**<br><br>**Alejandro Oroncoy:** Durante el desarrollo del TB1, participé activamente en las reuniones grupales, donde compartí mis ideas y opiniones de forma oral. Además, colaboré en la redacción del documento, asegurándome de que todas las decisiones acordadas fueran plasmadas de manera clara y precisa.<br><br>**Kevin Chi:** En el TB1, trabajé junto al equipo expresando mis propuestas durante las reuniones y escuchando las opiniones de los demás. También contribuí a la elaboración escrita del informe, donde dejamos constancia de las decisiones tomadas de manera colaborativa.<br><br>**Miguel Hallasi:** Mi aporte en el TB1 se basó en mantener una comunicación fluida con el equipo, participando de manera activa en cada reunión. Posteriormente, ayudé en la redacción del documento, organizando las ideas de forma ordenada para una mejor comprensión de los acuerdos alcanzados.<br><br>**Eduardo Cossar:** Para el TB1, intervine en las reuniones grupales proponiendo ideas y discutiendo alternativas con mis compañeros. Asimismo, participé en la redacción del documento final, reflejando correctamente el consenso logrado entre todos.<br><br>**María Fernanda Mostajo:** Durante la preparación del TB1, contribuí expresando mis puntos de vista y escuchando las sugerencias de los demás en las reuniones orales. También colaboré en la comunicación escrita, detallando de forma clara las decisiones que se tomaron en equipo.<br><br>**Jeremy Pauccar:** En el desarrollo del TB1, trabajé activamente en las reuniones, aportando ideas de forma oral y respetando las opiniones del grupo. Además, participé en la elaboración del documento escrito, asegurándome de que cada acuerdo estuviera debidamente registrado. | **TB1**<br>Para la TB1, el equipo trabajó colaborativamente y se logró una participación activa de cada uno de los integrantes. Se realizaron reuniones grupales en la que cada miembro compartió sus ideas de manera oral o escrita y, a partir de ello, se logró una toma de decisiones en conjunto la cual benefició al equipo en la toma de decisiones y en la ejecución de tareas. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **TB1**<br><br>**Alejandro Oroncoy:** En el TB1, aporté en la redacción del documento, plasmando de manera clara las ideas que fueron acordadas en las reuniones.<br><br>**Kevin Chi:** Durante el TB1, contribuí a la elaboración escrita del informe, explicando de forma precisa los acuerdos logrados en equipo.<br><br>**Miguel Hallasi:** Mi participación en el TB1 incluyó el desarrollo de habilidades de comunicación escrita, dejando registradas las ideas consensuadas durante las reuniones.<br><br>**Eduardo Cossar:** En el desarrollo del TB1, colaboré en redactar el documento final, explicando adecuadamente las ideas discutidas en las sesiones de grupo.<br><br>**María Fernanda Mostajo:** Para el TB1, me enfoqué en la redacción de las ideas trabajadas en equipo, asegurando que estuvieran correctamente explicadas en el documento.<br><br>**Jeremy Pauccar:** En el TB1, participé en la redacción del documento, comunicando de manera efectiva los acuerdos logrados en nuestras reuniones de trabajo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **TB1**<br>Para el TB1, el equipo comunicó las ideas tomadas en el documento de manera conjunta y equitativa, siendo todos parte y responsables del desarrollo del informe.                                                                                                                                                                                                             |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.   | **TB1**<br><br>**Alejandro Oroncoy:** Durante el desarrollo del TB1, participé activamente en las reuniones grupales, donde compartí mis ideas y opiniones de forma oral. Además, colaboré en la redacción del documento, asegurándome de que todas las decisiones acordadas fueran plasmadas de manera clara y precisa.<br><br>**Kevin Chi:** En el TB1, trabajé junto al equipo expresando mis propuestas durante las reuniones y escuchando las opiniones de los demás. También contribuí a la elaboración escrita del informe, donde dejamos constancia de las decisiones tomadas de manera colaborativa.<br><br>**Miguel Hallasi:** Mi aporte en el TB1 se basó en mantener una comunicación fluida con el equipo, participando de manera activa en cada reunión. Posteriormente, ayudé en la redacción del documento, organizando las ideas de forma ordenada para una mejor comprensión de los acuerdos alcanzados.<br><br>**Eduardo Cossar:** Para el TB1, intervine en las reuniones grupales proponiendo ideas y discutiendo alternativas con mis compañeros. Asimismo, participé en la redacción del documento final, reflejando correctamente el consenso logrado entre todos.<br><br>**María Fernanda Mostajo:** Durante la preparación del TB1, contribuí expresando mis puntos de vista y escuchando las sugerencias de los demás en las reuniones orales. También colaboré en la comunicación escrita, detallando de forma clara las decisiones que se tomaron en equipo.<br><br>**Jeremy Pauccar:** En el desarrollo del TB1, trabajé activamente en las reuniones, aportando ideas de forma oral y respetando las opiniones del grupo. Además, participé en la elaboración del documento escrito, asegurándome de que cada acuerdo estuviera debidamente registrado. <br><br>**TP1**<br><br>**Kevin Chi** presentó en la reunión de equipo las vistas de “Iniciar sesión”, “Registrarse” y “Recuperar contraseña”, explicando el flujo de navegación y los mensajes de validación.<br> **Jeremy Paucar** expuso la lógica y el diseño de la vista de “Buscar técnico” para el cliente y detalló el proceso de pago de los planes para el técnico.<br> **Miguel Hallasi** describió ante el grupo el diseño de las pantallas de inicio para cliente y trabajador, así como la funcionalidad de “Buscar oferta”.<br> **Alejandro Oroncoy** explicó el comportamiento y la estructura de todas las vistas de ofertas, tanto para el cliente como para el trabajador.<br> **Eduardo Cossar** mostró las pantallas de “Comparar perfiles de técnicos” y las vistas de configuración y perfil del trabajador, respondiendo preguntas sobre casos de uso.<br> **María Fernanda Mostajo** presentó las vistas de configuración y perfil del cliente, aclarando estilos CSS y componentes reusables. |**TB1**<br>Para la TB1, el equipo trabajó colaborativamente y se logró una participación activa de cada uno de los integrantes. Se realizaron reuniones grupales en la que cada miembro compartió sus ideas de manera oral o escrita y, a partir de ello, se logró una toma de decisiones en conjunto la cual benefició al equipo en la toma de decisiones y en la ejecución de tareas.  <br>**TP1**<br> Durante TP1, el equipo demostró una comunicación oral clara y estructurada al exponer cada uno sus implementaciones, facilitando el feedback inmediato y la coordinación efectiva para alinear el diseño y la funcionalidad del producto.|
+|   |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **TB1**<br><br>**Alejandro Oroncoy:** En el TB1, aporté en la redacción del documento, plasmando de manera clara las ideas que fueron acordadas en las reuniones.<br><br>**Kevin Chi:** Durante el TB1, contribuí a la elaboración escrita del informe, explicando de forma precisa los acuerdos logrados en equipo.<br><br>**Miguel Hallasi:** Mi participación en el TB1 incluyó el desarrollo de habilidades de comunicación escrita, dejando registradas las ideas consensuadas durante las reuniones.<br><br>**Eduardo Cossar:** En el desarrollo del TB1, colaboré en redactar el documento final, explicando adecuadamente las ideas discutidas en las sesiones de grupo.<br><br>**María Fernanda Mostajo:** Para el TB1, me enfoqué en la redacción de las ideas trabajadas en equipo, asegurando que estuvieran correctamente explicadas en el documento.<br><br>**Jeremy Pauccar:** En el TB1, participé en la redacción del documento, comunicando de manera efectiva los acuerdos logrados en nuestras reuniones de trabajo.    <br><br>**TP1**<br><br>   **Kevin Chi** redactó la documentación técnica de las vistas de inicio de sesión, registro y recuperación de contraseña, incluyendo diagramas de flujo y validaciones.<br> **Jeremy Paucar** elaboró el manual de usuario para la búsqueda de técnicos y el proceso de pago, con capturas de pantalla anotadas.<br> **Miguel Hallasi** documentó los casos de uso y los requisitos funcionales de las pantallas de inicio cliente/trabajador y la búsqueda de ofertas.<br> **Alejandro Oroncoy** preparó un Informe de Diseño de Interfaz para las vistas de ofertas, detallando la interacción y los componentes reutilizados.<br> **Eduardo Cossar** escribió especificaciones para la funcionalidad de “Comparar perfiles” y las pantallas de configuración y perfil de trabajador, con guías de estilo.<br> **María Fernanda Mostajo** entregó un documento con las descripciones de las vistas de configuración y perfil del cliente, describiendo props y estados de los componentes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | **TB1**<br>Para el TB1, el equipo comunicó las ideas tomadas en el documento de manera conjunta y equitativa, siendo todos parte y responsables del desarrollo del informe.  <br>**TB1**<br>   La comunicación escrita en TP1 fue efectiva: cada integrante produjo documentación clara y detallada de sus secciones, lo que aseguró la comprensión compartida de los requisitos y facilitó la continuidad del desarrollo por parte de todo el equipo.     
 
 # Capítulo I: Introducción
 
@@ -1990,7 +2007,7 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 
 ### 5.1.2. Source Code Management.
 
-Hemos empleado Git Flow (<<cita>), para el desarrollo y mantenimiento de nuestro proyecto. Para ello, hemos creado 5 ramas principales, las cuale son Main, Hotfix, Release, Develop y feature. En este sentido, al inicializar el primer commit es en el main, desde el cual parte la rama develop, cada sección de nuestra landing page es una feature tiene su propia rama con la nomenclatura feature/<nombre_de_feature>, en donde se desarrolla cada sección por separado, como por ejemplo el Header, el footer o las secciones de nuestra landing. Luego, terminado el desarrollo de cada feature se hace un merge a la rama develop, donde se hace la unión de las secciones de la web, ya con la rama con un avance significativo (suele ser al termino de un sprint), se crea un nuevo release con nomenclatura semver (semantic versioning 2.0.0), donde
+Hemos empleado Git Flow (<<cita>>), para el desarrollo y mantenimiento de nuestro proyecto. Para ello, hemos creado 5 ramas principales, las cuale son Main, Hotfix, Release, Develop y feature. En este sentido, al inicializar el primer commit es en el main, desde el cual parte la rama develop, cada sección de nuestra landing page es una feature tiene su propia rama con la nomenclatura feature/<nombre_de_feature>, en donde se desarrolla cada sección por separado, como por ejemplo el Header, el footer o las secciones de nuestra landing. Luego, terminado el desarrollo de cada feature se hace un merge a la rama develop, donde se hace la unión de las secciones de la web, ya con la rama con un avance significativo (suele ser al termino de un sprint), se crea un nuevo release con nomenclatura semver (semantic versioning 2.0.0), donde
 FORMA
 122
 se hace el testeo y documentación del código dentro del README.md. Además, utilizamos la rama HotFix para la solución de problemas en la rama main. Para esto, creamos una rama
@@ -1998,8 +2015,8 @@ hotfix/<nombre_de_hotfix>. Para finalizar, se sube a la rama main para la salida
 
 Repositorios de GitHub:
 
-Enlace para acceder a la organización de GitHub: https://github.com/UPC-PaxTech
-Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
+Enlace para acceder a la organización de GitHub: [JobConnect-Org](https://github.com/JobConnect-AW/)
+Enlace para acceder a repositorio de la Landing Page: [JobConnect-landing](https://github.com/JobConnect-AW/landing-page)
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
@@ -2048,7 +2065,7 @@ Además, mediante Github Actions logramos implementar CI/CD en Netlify, el cual 
 
 #### 5.2.1.1. Sprint Planning 1.
 
-En el marco de Scrum, un Sprint es un periodo de tiempo fijo y breve en el que un equipo se enfoca en completar el trabajo necesario para alcanzar el objetivo del proyecto, conocido como Product Goal. En el caso del proceso de desarrollo de la plataforma Champa.pe, se optó por optimizar tiempos en 5 sprints de 15 días calendario. El primer Sprint comenzará el 08/04/2025, y su objetivo es crear una landing page que tenga una alta conversión de leads, asegurando que los visitantes del sitio se vuelvan potenciales usuarios de la plataforma.
+En el marco de Scrum, un Sprint es un periodo de tiempo fijo y breve en el que un equipo se enfoca en completar el trabajo necesario para alcanzar el objetivo del proyecto, conocido como Product Goal. En el caso del proceso de desarrollo de la plataforma Chamba.pe, se optó por optimizar tiempos en 5 sprints de 15 días calendario. El primer Sprint comenzará el 08/04/2025, y su objetivo es crear una landing page que tenga una alta conversión de leads, asegurando que los visitantes del sitio se vuelvan potenciales usuarios de la plataforma.
 
 ##### Sprint Planning Background
 **Date**: 2025-04-08  
@@ -2068,17 +2085,17 @@ Al tratarse del primer sprint, no se cuenta con una retrospectiva previa. La ret
 ## Sprint Goal & User Stories
 
 ###### Sprint 1 Goal
-Nuestro enfoque se centra en entregar una landing page funcional que tenga una alta conversión de leads para Champa.pe.  
+Nuestro enfoque se centra en entregar una landing page funcional que tenga una alta conversión de leads para Chamba.pe.  
 Creemos que logrará una clara propuesta de valor y generará interés y confianza en los usuarios potenciales.  
 Esto se confirmará cuando los visitantes puedan acceder al sitio e interactuar con todos los elementos clave de la página de aterrizaje (visión general de servicios, beneficios, precios, testimoniales, CTAs y soporte) tanto en dispositivos de escritorio como móviles.
 
-**Sprint 1 Velocity**: 13  
-**Sum of Story Points**: 13
+**Sprint 1 Velocity**: 5  
+**Sum of Story Points**: 18
 
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
-Para este Sprint, se han identificado los aspectos clave en el desarrollo de la landing page de Champa.pe. Con el objetivo de optimizar la organización y la comunicación dentro del equipo, se ha creado la matriz de Responsabilidad y Colaboración (RCC), en la que se define quién asumirá el rol de Responsable (R) y quiénes participarán como Colaboradores (C) en cada uno de estos aspectos fundamentales. Esta estructura facilita una ejecución más clara y eficiente de las tareas asignadas.
+Para este Sprint, se han identificado los aspectos clave en el desarrollo de la landing page de Chamba.pe. Con el objetivo de optimizar la organización y la comunicación dentro del equipo, se ha creado la matriz de Responsabilidad y Colaboración (RCC), en la que se define quién asumirá el rol de Responsable (R) y quiénes participarán como Colaboradores (C) en cada uno de estos aspectos fundamentales. Esta estructura facilita una ejecución más clara y eficiente de las tareas asignadas.
 
 #### 5.2.1.3. Sprint Backlog 1.
 
@@ -2099,12 +2116,12 @@ En el primer sprint backlog, el equipo tenía como objetivo iniciar y finalizar 
 
 | Repository               | Branch  | Commit Id | Commit Message                                    | Commit Message Body                          | Committed on (Date) |
 |--------------------------|---------|-----------|--------------------------------------------------|---------------------------------------------|---------------------|
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)     | develop | a617f27   | [fix: fix landing page](https://github.com/JobConnect-AW/landing-page/commit/a617f27) |                                             | 2025-04-24          |
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 305efe9   | [feat: finish landing](https://github.com/JobConnect-AW/landing-page/commit/305efe9) |                                             | 2025-04-24          |
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | a2fc49a   | [feat: add footer, index.js, i18n.js](https://github.com/JobConnect-AW/landing-page/commit/a2fc49a) |                                             | 2025-04-24          |
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 8edcafa   | [feat: add src/styles/modules header and variables](https://github.com/JobConnect-AW/landing-page/commit/8edcafa) |                                             | 2025-04-24          |
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | e570425   | [chore: Update .gitignore](https://github.com/JobConnect-AW/landing-page/commit/e570425) |                                             | 2025-04-24          |
-| [Champa-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 7862e72   | [feat: Create html and first favicon](https://github.com/JobConnect-AW/landing-page/commit/7862e72) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)     | develop | a617f27   | [fix: fix landing page](https://github.com/JobConnect-AW/landing-page/commit/a617f27) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 305efe9   | [feat: finish landing](https://github.com/JobConnect-AW/landing-page/commit/305efe9) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | a2fc49a   | [feat: add footer, index.js, i18n.js](https://github.com/JobConnect-AW/landing-page/commit/a2fc49a) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 8edcafa   | [feat: add src/styles/modules header and variables](https://github.com/JobConnect-AW/landing-page/commit/8edcafa) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | e570425   | [chore: Update .gitignore](https://github.com/JobConnect-AW/landing-page/commit/e570425) |                                             | 2025-04-24          |
+| [Chamba-Landing-Page](https://github.com/JobConnect-AW/landing-page)      | develop | 7862e72   | [feat: Create html and first favicon](https://github.com/JobConnect-AW/landing-page/commit/7862e72) |                                             | 2025-04-24          |
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
@@ -2151,8 +2168,6 @@ Para la entrega del Sprint número 1, se desplegó la landing page completa en N
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-5.2.1.8. Team Collaboration Insights during Sprint.
-
 | Alumno                               | Actividad                                                 |
 |--------------------------------------|-----------------------------------------------------------|
 | Kevin Chi (Krillsom)                | Implementación del Registro de la Landing Page            |
@@ -2162,19 +2177,663 @@ Para la entrega del Sprint número 1, se desplegó la landing page completa en N
 | Eduardo Cossar (coleeeee-dev)      | Implementación de Planes y Precios de la Landing Page     |
 | Maria Fernanda Mostajo (Mafer-m30)  | Implementación de otras secciones de la Landing Page      |
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1.Sprint Planning 2.
+
+Dentro del marco de trabajo Scrum, cada Sprint constituye un periodo de tiempo fijo y breve en el que el equipo de desarrollo trabaja de manera enfocada para alcanzar un objetivo específico que contribuya al cumplimiento del Product Goal (Schwaber, K. & Sutherland, J., 2020). En el contexto del desarrollo de la plataforma TuChamba, el Sprint #2 dio inicio el 5/05/2025, y su meta consiste en implementar la aplicación web del lado frontend utilizando Vue.js y PrimeVue. Durante este Sprint, se desarrollaron las funcionalidades esenciales para ambos segmentos objetivo - trabajadores técnicos independientes y usuarios que requieren servicios técnicos: los clientes pueden explorar perfiles de diferentes trabajadores técnicos y solicitar sus servicios de manera intuitiva, mientras que los trabajadores técnicos tienen acceso a herramientas de gestión que les permiten configurar sus tarifas, administrar sus servicios ofrecidos y visualizar las solicitudes de trabajo asignadas.
+
+<table>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint #</b></td>
+      <td colspan="1" align="center">Sprint 2</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Date</b></td>
+      <td colspan="1">2025-05-05</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Time</b></td>
+      <td colspan="1">09:00 PM</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Location</b></td>
+      <td colspan="1">Reunión virtual mediante la aplicación Discord</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Prepare By</b></td>
+      <td colspan="1">Kevin Chi</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Attendees (to planning meeting)</b></td>
+      <td colspan="1">Jeremy Paucar, Miguel Hallasi, Alejandro Oroncoy, Eduardo Cossar, Maria Fernanda Mostajo</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 2 Review Summary</b></td>
+      <td colspan="1">Durante este sprint se implementó el frontend de la aplicación web utilizando Vue.js y PrimeVue, incorporando las funcionalidades principales para los roles de cliente y técnico.</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 2 Retrospective Summary</b></td>
+      <td colspan="1">Se identificó la necesidad de mejorar la planificación de tareas y la integración temprana de pruebas para evitar retrabajos. También se destacó una mayor fluidez en la comunicación del equipo respecto al sprint anterior, lo que permitió avanzar con mayor claridad en los entregables.</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 2 Goal</b></td>
+      <td colspan="1"><b>Our focus in on</b> developing the full web application frontend using Vue.js and PrimeVue, addressing both customer and worker user roles.<br><b>We believe it delivers</b>a functional and responsive interface that supports key actions such as booking services for customers and managing appointments and pricing for workers.<br><b>This will be confirmed when</b> customers can successfully explore available workers and make reservations, and workers are able to configure their services, view appointments, and interact with their dashboards smoothly.</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
+      <td colspan="1">5</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sum of Story Points</b></td>
+      <td colspan="1">18</td>
+   </tr>
+
+   <tr>
+</tr>
+</table>
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+Para este Sprint, se han identificado los principales aspectos del frontend web application de TuChamba.pe. Con el fin de mejorar la organización y la comunicación del equipo, se ha elaborado la matriz Leadership and Collaboration Matrix (LACX), donde se define quién asume el rol de Líder (L) y quiénes participan como Colaboradores (C) en cada uno de estos aspectos clave. Esta distribución facilita una ejecución más clara y eficiente de las tareas asignadas.
+
+| **Team Member**                     | **GitHub Username** | **auth** | **offers** | **compare-profiles** | **public** | **shared** | **dashboard** | **profiles** | **search profiles** | **services** | **subscription** |
+|-------------------------------------|---------------------|----------|------------|----------------------|------------|------------|---------------|--------------|---------------------|--------------|------------------|
+| Chi Cruzatt, Kevin Jorge            | Krillsom            | L        | C          | C                    | C          | C          | C             | C            | C                   | C            | C                |
+| Paucar Meneses, Jeremy Alion        | asmip10             | C        | C          | L                    | C          | C          | C             | L            | C                   | C            | L                |
+| Hallasi Saravia, Miguel Angel       | mhallasi            | C        | C          | C                    | C          | C          | L             | C            | C                   | C            | C                |
+| Oroncoy Almeyda, Alejandro Daniel   | alejooroncoy        | C        | L          | C                    | C          | C          | C             | C            | C                   | C            | C                |
+| Cossar Sanchez, Eduardo Jose        | coleeeee-dev        | C        | C          | C                    | L          | C          | C             | C            | L                   | C            | C                |
+| Mostajo Orosco, Maria Fernanda      | Mafer-m30           | C        | C          | C                    | C          | L          | C             | C            | C                   | L            | C                |
+
+
+#### 5.2.2.3.Sprint Backlog 2.
+
+En el segundo sprint backlog, el equipo tuvo la intención de comenzar y completar el desarrollo del frontend de la aplicación web, tanto para el rol de cliente (customer) como de trabajador/técnico (worker). La herramienta utilizada para organizar y gestionar las tareas del equipo continuó siendo Trello, permitiendo dividir las user stories en tareas manejables y asignarlas a los miembros según sus habilidades específicas. El objetivo principal del sprint fue implementar las funcionalidades clave de ambos roles, asegurando una interfaz intuitiva, responsiva y funcional utilizando Vue.js y PrimeVue.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td colspan="2" align="center"><b>Sprint #</b></td>
+    <td colspan="6" align="center"><b>Sprint 2</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6" align="center"><b>Work-Item/Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Task Id</b></td>
+    <td><b>Task Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2">US01</td>
+    <td rowspan="2">Inicio de sesión</td>
+    <td>T1</td>
+    <td>Diseño de interfaz de login</td>
+    <td>Diseñar la interfaz de inicio de sesión con campos de usuario y contraseña.</td>
+    <td>4</td>
+    <td>Kevin Chi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T2</td>
+    <td>Implementación de autenticación</td>
+    <td>Desarrollar la lógica de autenticación y manejo de sesiones.</td>
+    <td>5</td>
+    <td>Alejandro Oroncoy</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US02</td>
+    <td rowspan="2">Creación de cuenta</td>
+    <td>T1</td>
+    <td>Diseño del formulario de registro</td>
+    <td>Crear la interfaz del formulario de registro con validaciones.</td>
+    <td>4</td>
+    <td>Maria Fernanda Mostajo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T2</td>
+    <td>Implementación del registro</td>
+    <td>Desarrollar la lógica de registro y almacenamiento de usuarios.</td>
+    <td>5</td>
+    <td>Miguel Hallasi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US03</td>
+    <td rowspan="2">Recuperar contraseña</td>
+    <td>T1</td>
+    <td>Diseño de recuperación</td>
+    <td>Diseñar la interfaz para recuperación de contraseña.</td>
+    <td>4</td>
+    <td>Eduardo Cossar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T2</td>
+    <td>Implementación de recuperación</td>
+    <td>Desarrollar el sistema de recuperación de contraseña.</td>
+    <td>5</td>
+    <td>Jeremy Paucar</td>
+    <td>In-Process</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Cambio de vista cliente/trabajador</td>
+    <td>T1</td>
+    <td>Implementación de cambio de vista</td>
+    <td>Permitir al usuario alternar entre vista de cliente y trabajador.</td>
+    <td>5</td>
+    <td>Alejandro Oroncoy</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Navegación en la interfaz: Cliente</td>
+    <td>T1</td>
+    <td>Diseño de navegación cliente</td>
+    <td>Diseñar la navegación para que el cliente explore y contrate trabajadores.</td>
+    <td>6</td>
+    <td>Miguel Hallasi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Navegación interfaz trabajador</td>
+    <td>T1</td>
+    <td>Diseño de navegación trabajador</td>
+    <td>Diseñar la navegación para que el trabajador gestione sus servicios y clientes.</td>
+    <td>6</td>
+    <td>Eduardo Cossar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Personalización de perfil técnico</td>
+    <td>T1</td>
+    <td>Personalización de perfil</td>
+    <td>Permitir al trabajador personalizar su perfil con habilidades y experiencia.</td>
+    <td>6</td>
+    <td>Kevin Chi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Personalización de perfil cliente</td>
+    <td>T1</td>
+    <td>Personalización de perfil cliente</td>
+    <td>Permitir al cliente personalizar su perfil para mejores recomendaciones.</td>
+    <td>5</td>
+    <td>Maria Fernanda Mostajo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Configuración</td>
+    <td>T1</td>
+    <td>Gestión de configuración</td>
+    <td>Permitir al usuario gestionar notificaciones, idioma, etc.</td>
+    <td>6</td>
+    <td>Jeremy Paucar</td>
+    <td>In-progress</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Verificación del perfil del trabajador</td>
+    <td>T1</td>
+    <td>Verificación de perfil</td>
+    <td>Mostrar al cliente si un trabajador está verificado.</td>
+    <td>5</td>
+    <td>Alejandro Oroncoy</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US11</td>
+    <td>Sistema de reseñas y calificación</td>
+    <td>T1</td>
+    <td>Implementación de reseñas</td>
+    <td>Permitir dejar reseñas y calificaciones a los trabajadores.</td>
+    <td>6</td>
+    <td>Miguel Hallasi</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US14</td>
+    <td>Búsqueda por filtro</td>
+    <td>T1</td>
+    <td>Implementación de filtros</td>
+    <td>Permitir filtrar trabajadores por ubicación, experiencia, etc.</td>
+    <td>5</td>
+    <td>Eduardo Cossar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US15</td>
+    <td>Recomendación de perfil</td>
+    <td>T1</td>
+    <td>Sistema de recomendaciones</td>
+    <td>Recomendar trabajadores a los clientes.</td>
+    <td>8</td>
+    <td>Kevin Chi</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Comparación de perfiles</td>
+    <td>T1</td>
+    <td>Comparar perfiles</td>
+    <td>Permitir comparar varios perfiles de trabajadores.</td>
+    <td>5</td>
+    <td>Maria Fernanda Mostajo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Visualización de reseñas en comparación</td>
+    <td>T1</td>
+    <td>Mostrar reseñas en comparación</td>
+    <td>Mostrar reseñas al comparar perfiles.</td>
+    <td>5</td>
+    <td>Jeremy Paucar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US18</td>
+    <td>Gestión de disponibilidad</td>
+    <td>T1</td>
+    <td>Actualizar disponibilidad</td>
+    <td>Permitir al trabajador actualizar sus horarios disponibles.</td>
+    <td>6</td>
+    <td>Alejandro Oroncoy</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US24</td>
+    <td>Crear y enviar propuestas</td>
+    <td>T1</td>
+    <td>Envío de propuestas</td>
+    <td>Permitir al trabajador enviar propuestas personalizadas a los clientes.</td>
+    <td>8</td>
+    <td>Miguel Hallasi</td>
+    <td>In-progress</td>
+  </tr>
+  <tr>
+    <td>US26</td>
+    <td>Gestión de habilidades técnicas</td>
+    <td>T1</td>
+    <td>Actualizar habilidades</td>
+    <td>Permitir al trabajador mantener actualizada su lista de habilidades.</td>
+    <td>5</td>
+    <td>Eduardo Cossar</td>
+    <td>In-progress</td>
+  </tr>
+  <tr>
+</table>
+
+Enlace para acceder al Trello: [Trello Sprint Backlog 2](https://trello.com/invite/b/6837f646cc7281744d1af887/ATTI6f700db6b9a505488439e717e6933367B9225129/jobconnect-sprint-2)
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+| Repository                  | Branch            | Commit Id | Commit Message                                                                 | Commited on (Date) |
+|-----------------------------|-------------------|-----------|-------------------------------------------------------------------------------|--------------------|
+| Frontend-Web-Applications   | develop           | d965077   | feat: add View PagosPlan                                                      | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 54c8a21   | refactor: Refactor css of auth                                                | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 2a7b3c4   | fix: Update offers                                                            | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 3b8d5e6   | merge: resolve merge                                                          | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 4c9f7g8   | feature: first version of login                                               | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 5d0h1i2   | fix: update cards TechniciansService                                          | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 6e2j3k4   | chore: add technicians image                                                  | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 7f4l5m6   | fix: update search filter                                                     | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 8g6n7o8   | fix: Fixing the Search Technicians Header                                     | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 9h8p9q0   | refactor(worker): reorganize worker components and views into shared and worker directories | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 1i0r1s2   | fix: Update sidebar                                                           | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 2j2t3u4   | fix: Update sidebar                                                           | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 3k4v5w6   | fix: solve sidebar                                                            | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 4l6x7y8   | fix: Update offer new                                                         | 15/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| fix: Update offer page                                                        | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| feat: implementation route                                                    | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| fix: Update develop                                                           | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| build(develop): Update tailwindcss                                            | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| fix: Update develop                                                           | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/userContext' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/offers' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/myprofile-configuration-worker' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/json-server' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/dashboard' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/compare-profiles' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| Merge branch 'feature/cliente/comparar-perfiles' of https://github.com/JobConnect-AW/tuchamba.pe-frontend into develop | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| refactor(offers): move SearchOffers component from views to pages directory   | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| refactor(dashboard): move dashboard views to page                             | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| feat:compare-profile                                                          | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| feat: add tecnical cards                                                      | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 14/05/2025| chore: added json-server                                                      | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | 13/05/2025| feat:add myprofile-myplans-configuration                                      | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 13/05/2025| feat: fix filtro de busqueda                                                  | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 13/05/2025| feat: fix searchTec                                                           | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 13/05/2025| feat: add json-server for mock API and configure routes                       | 13/05/2025         |
+
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+
+<figure>
+  <img src="img/login.png" alt="Login Screen">
+  <figcaption>Pantalla de Inicio de Sesión</figcaption>
+</figure>
+
+<figure>
+  <img src="img/sign-up.png" alt="Sign-up Screen">
+  <figcaption>Pantalla de Registro de Usuario</figcaption>
+</figure>
+
+<figure>
+  <img src="img/password-recovery.png" alt="Pass Recovery Screen">
+  <figcaption>Pantalla de Recuperación de Contraseña</figcaption>
+</figure>
+
+<figure>
+  <img src="img/dashboard-customer.png" alt="Dashboard Customer">
+  <figcaption>Pantalla de Dashboard Cliente (Customer)</figcaption>
+</figure>
+
+<figure>
+  <img src="img/dashboard-worker.png" alt="Dashboard Worker">
+  <figcaption>Pantalla de Dashboard Trabajador (Worker)</figcaption>
+</figure>
+
+<figure>
+  <img src="img/config.png" alt="Config">
+  <figcaption>Pantalla de Configuración Perfil</figcaption>
+</figure>
+
+<figure>
+  <img src="img/offers.png" alt="Offers Screen">
+  <figcaption>Pantalla de Mis Ofertas</figcaption>
+</figure>
+
+<figure>
+  <img src="img/search-offers.png" alt="Searh Offers Screen">
+  <figcaption>Pantalla de Buscar Ofertas</figcaption>
+</figure>
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicios en el aplicación, abarcando desde la configuración de rutas hasta la lógica de negocio y la presentación de datos al usuario:
+
+1. Archivo de Rutas (Vue.js Routing)
+   Archivo: router/index.js
+   Función: Define la estructura de navegación de toda la aplicación, tanto para el cliente como para el trabajador.
+  
+Importancia:
+-Permite acceder a las páginas donde se usan servicios como worker, customer, offers, etc.
+-Es el punto de entrada para mostrar componentes que a su vez usan servicios para obtener, actualizar o eliminar datos.
+<img src="img/routes.png" alt="Routes">
+
+2. httpService (Implementation Service Class)
+   Archivo: http.service.ts
+   Función: Es una clase utilitaria que centraliza operaciones comunes de los servicios (GET, PUT, PATCH). Es reutilizada por servicios específicos como OfferService, WorkerService, etc.
+
+Importancia:
+
+Estandariza el consumo de APIs REST.
+
+Evita duplicar código al implementar métodos reutilizables para manejar recursos.
+
+Permite manejar errores con catchError y hacer reintentos con retry.
+
+<img src="img/base-service.png" alt="base-service">
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Para realizar el deployment de la aplicación web, se utilizó la plataforma de Netlify.
+
+<img src="img/netlify.png" alt="Netlify">
+
+Link de la aplicación desplegada: https://tuchamba-pe.netlify.app/
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2, se realizó la segmentación de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribucion de las tareas y un avance mas fluido en el desarrollo.
+
+<img src="img/network-graph.png" alt="Network Graph">
+
+<img src="img/github-commits-over-time.png" alt="GitHub Commit Over Time">
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1.Sprint Planning 3
+
+Dentro del marco de trabajo Scrum, cada Sprint constituye un periodo de tiempo fijo y breve en el que el equipo de desarrollo trabaja de manera enfocada para alcanzar un objetivo específico que contribuya al cumplimiento del Product Goal (Schwaber, K. & Sutherland, J., 2020). En el contexto del desarrollo de la plataforma TuChamba, el Sprint #3 dio inicio el 29/05/2025, y su meta consiste en completar la aplicación web del lado frontend y comenzar con el backend . Durante este Sprint, se desarrollaron las funcionalidades esenciales para ambos segmentos objetivo - trabajadores técnicos independientes y usuarios que requieren servicios técnicos: los clientes pueden explorar perfiles de diferentes trabajadores técnicos y solicitar sus servicios de manera intuitiva, mientras que los trabajadores técnicos tienen acceso a herramientas de gestión que les permiten configurar sus tarifas, administrar sus servicios ofrecidos y visualizar las solicitudes de trabajo asignadas.
+
+<table>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint #</b></td>
+      <td colspan="1" align="center">Sprint 3</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Date</b></td>
+      <td colspan="1">2025-05-05</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Time</b></td>
+      <td colspan="1">09:00 PM</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Location</b></td>
+      <td colspan="1">Reunión virtual mediante la aplicación Discord</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Prepare By</b></td>
+      <td colspan="1">Kevin Chi</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Attendees (to planning meeting)</b></td>
+      <td colspan="1">Jeremy Paucar, Miguel Hallasi, Alejandro Oroncoy, Eduardo Cossar, Maria Fernanda Mostajo</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 3 Review Summary</b></td>
+      <td colspan="1">Durante este sprint se implementó el frontend de la aplicación web utilizando Vue.js y PrimeVue, incorporando las funcionalidades principales para los roles de cliente y técnico.</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 3 Retrospective Summary</b></td>
+      <td colspan="1">Se identificó la necesidad de mejorar la planificación de tareas y la integración temprana de pruebas para evitar retrabajos. También se destacó una mayor fluidez en la comunicación del equipo respecto al sprint anterior, lo que permitió avanzar con mayor claridad en los entregables.</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 3 Goal</b></td>
+      <td colspan="1"><b>Our focus in on</b> developing the full web application frontend using Vue.js and PrimeVue, addressing both customer and worker user roles.<br><b>We believe it delivers</b>a functional and responsive interface that supports key actions such as booking services for customers and managing appointments and pricing for workers.<br><b>This will be confirmed when</b> customers can successfully explore available workers and make reservations, and workers are able to configure their services, view appointments, and interact with their dashboards smoothly.</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 3 Velocity</b></td>
+      <td colspan="1">5</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sum of Story Points</b></td>
+      <td colspan="1">18</td>
+   </tr>
+
+   <tr>
+</tr>
+</table>
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+Para este Sprint, se han identificado los principales aspectos del frontend web application de TuChamba.pe. Con el fin de mejorar la organización y la comunicación del equipo, se ha elaborado la matriz Leadership and Collaboration Matrix (LACX), donde se define quién asume el rol de Líder (L) y quiénes participan como Colaboradores (C) en cada uno de estos aspectos clave. Esta distribución facilita una ejecución más clara y eficiente de las tareas asignadas.
+
+| **Team Member**                     | **GitHub Username** | **auth** | **offers** | **compare-profiles** | **public** | **shared** | **dashboard** | **profiles** | **search profiles** | **services** | **subscription** |
+|-------------------------------------|---------------------|----------|------------|----------------------|------------|------------|---------------|--------------|---------------------|--------------|------------------|
+| Chi Cruzatt, Kevin Jorge            | Krillsom            | L        | C          | C                    | C          | C          | C             | C            | C                   | C            | C                |
+| Paucar Meneses, Jeremy Alion        | asmip10             | C        | C          | L                    | C          | C          | C             | L            | C                   | C            | L                |
+| Hallasi Saravia, Miguel Angel       | mhallasi            | C        | C          | C                    | C          | C          | L             | C            | C                   | C            | C                |
+| Oroncoy Almeyda, Alejandro Daniel   | alejooroncoy        | C        | L          | C                    | C          | C          | C             | C            | C                   | C            | C                |
+| Cossar Sanchez, Eduardo Jose        | coleeeee-dev        | C        | C          | C                    | L          | C          | C             | C            | L                   | C            | C                |
+| Mostajo Orosco, Maria Fernanda      | Mafer-m30           | C        | C          | C                    | C          | L          | C             | C            | C                   | L            | C                |
+
+
+#### 5.2.3.3.Sprint Backlog 3.
+
+En el tercer sprint backlog, el equipo tuvo la intención de completar el desarrollo del frontend de la aplicación web, tanto para el rol de cliente (customer) como de trabajador/técnico (worker). Por otro lado, se inicio con el proceso de desarrollo del backend. La herramienta utilizada para organizar y gestionar las tareas del equipo continuó siendo Trello, permitiendo dividir las user stories en tareas manejables y asignarlas a los miembros según sus habilidades específicas. El objetivo principal del sprint fue implementar las funcionalidades clave de ambos roles, asegurando una interfaz intuitiva, responsiva y funcional utilizando Vue.js y PrimeVue.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td colspan="2" align="center"><b>Sprint #</b></td>
+    <td colspan="6" align="center"><b>Sprint 3</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6" align="center"><b>Work-Item/Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Task Id</b></td>
+    <td><b>Task Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2">US01</td>
+    <td rowspan="2">Inicio de sesión</td>
+    <td>T1</td>
+    <td>Diseño de interfaz de login</td>
+    <td>Diseñar la interfaz de inicio de sesión con campos de usuario y contraseña.</td>
+    <td>4</td>
+    <td>Kevin Chi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+   
+  </tr>
+  
+  <tr>
+    <td rowspan="2">US03</td>
+    <td rowspan="2">Recuperar contraseña</td>
+    <td>T1</td>
+    <td>Diseño de recuperación</td>
+    <td>Diseñar la interfaz para recuperación de contraseña.</td>
+    <td>4</td>
+    <td>Eduardo Cossar</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T2</td>
+    <td>Implementación de recuperación</td>
+    <td>Desarrollar el sistema de recuperación de contraseña.</td>
+    <td>5</td>
+    <td>Alejandro Oroncoy</td>
+    <td>In-Process</td>
+  </tr>
+ 
+  <tr>
+    <td>US09</td>
+    <td>Configuración</td>
+    <td>T1</td>
+    <td>Gestión de configuración</td>
+    <td>Permitir al usuario gestionar notificaciones, idioma, etc.</td>
+    <td>6</td>
+    <td>Jeremy Paucar</td>
+    <td>In-progress</td>
+  </tr>
+  
+  <tr>
+    <td>US11</td>
+    <td>Sistema de reseñas y calificación</td>
+    <td>T1</td>
+    <td>Implementación de reseñas</td>
+    <td>Permitir dejar reseñas y calificaciones a los trabajadores.</td>
+    <td>6</td>
+    <td>Maria Fernanda  </td>
+    <td>To-do</td>
+  </tr>
+ 
+  <tr>
+    <td>US15</td>
+    <td>Recomendación de perfil</td>
+    <td>T1</td>
+    <td>Sistema de recomendaciones</td>
+    <td>Recomendar trabajadores a los clientes.</td>
+    <td>8</td>
+    <td>Kevin Chi</td>
+    <td>To-do</td>
+  </tr>
+  
+  <tr>
+    <td>US24</td>
+    <td>Crear y enviar propuestas</td>
+    <td>T1</td>
+    <td>Envío de propuestas</td>
+    <td>Permitir al trabajador enviar propuestas personalizadas a los clientes.</td>
+    <td>8</td>
+    <td>Miguel Hallasi</td>
+    <td>In-progress</td>
+  </tr>
+  <tr>
+    <td>US26</td>
+    <td>Gestión de habilidades técnicas</td>
+    <td>T1</td>
+    <td>Actualizar habilidades</td>
+    <td>Permitir al trabajador mantener actualizada su lista de habilidades.</td>
+    <td>5</td>
+    <td>Eduardo Cossar</td>
+    <td>In-progress</td>
+  </tr>
+  <tr>
+</table>
+
+Enlace para acceder al Trello: [Trello Sprint Backlog 3](https://trello.com/invite/b/683a3962930000c3d5ef87f0/ATTI302ef236cfd65c123fb226b68a19bffeF566BB88/jobconnect-sprint-3)
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+
+
+
 
 # Conclusiones
 
 **6.1 Conclusiones y Recomendaciones**
 
 **Conclusiones**  
-El proyecto Champa.pe reveló una necesidad real y no satisfecha en el mercado de la contratación de servicios, particularmente en el sector de la tecnología, relacionado con la gestión eficiente de perfiles de trabajadores.
+El proyecto Chamba.pe reveló una necesidad real y no satisfecha en el mercado de la contratación de servicios, particularmente en el sector de la tecnología, relacionado con la gestión eficiente de perfiles de trabajadores.
 
 La colaboración interdisciplinaria dentro del equipo de desarrollo fue esencial para abordar el proyecto de manera integral, combinando habilidades técnicas, de diseño y análisis de usuarios.
 
 El uso de metodologías ágiles (Scrum), la documentación detallada y una arquitectura basada en dominios garantizaron que la solución fuera escalable y mantenible.
 
-El avance en el desarrollo de Champa.pe ha reforzado la comprensión del ciclo completo de diseño y desarrollo de plataformas digitales, desde la investigación de usuarios hasta la implementación y despliegue.
+El avance en el desarrollo de Chamba.pe ha reforzado la comprensión del ciclo completo de diseño y desarrollo de plataformas digitales, desde la investigación de usuarios hasta la implementación y despliegue.
 
 Se ha logrado un progreso significativo en la creación de una base sólida, tanto conceptual como técnica, que permitirá un desarrollo más ágil en las siguientes fases del proyecto.
 
