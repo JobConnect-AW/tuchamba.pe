@@ -2785,7 +2785,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de completar el desarr
     <td>Permitir al trabajador enviar propuestas personalizadas a los clientes.</td>
     <td>8</td>
     <td>Miguel Hallasi</td>
-    <td>In-progress</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US26</td>
