@@ -3583,3 +3583,7 @@ https://github.com/JobConnect-AW/tuchamba.pe-backend
 Anexo D:
 Link a video about the team:
 https://www.youtube.com/watch?v=5zHzQ5kVb18
+
+Anexo E:
+Link a video del tb2:
+https://www.youtube.com/watch?v=cX9KYJ5al-0
