@@ -2205,3 +2205,11 @@ https://www.figma.com/design/py3rabYJzPcLJN8k0b92su/Aplicaciones-Web?node-id=0-1
 Anexo B:
 URL de las entrevistas:
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312391_upc_edu_pe/ETRsN2Qt-ztDkIH1A5ZO_I4BPW0eZ3x5ieDkQOWZHTL1dA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FthuRz
+
+Anexo C:
+Link al repositorio del backend:
+https://github.com/JobConnect-AW/tuchamba.pe-backend
+
+Anexo D:
+Link a video about the team:
+https://www.youtube.com/watch?v=5zHzQ5kVb18
