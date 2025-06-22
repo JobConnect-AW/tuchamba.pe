@@ -2803,20 +2803,732 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 3](https://trello.com/invi
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
 
+Para esta esta entrega, tenemos el Swagger con los bounded contexts IAM, Proposals y Offers.
 
+Offers
+
+Este código contiene el código quien maneja los comandos de los offers
+
+```cs
+using TuChambaPe.Offers.Domain.Model.Aggregates;
+using TuChambaPe.Offers.Domain.Model.Commands;
+using TuChambaPe.Offers.Domain.Repositories;
+using TuChambaPe.Offers.Domain.Services;
+using TuChambaPe.Shared.Domain.Repositories;
+
+namespace TuChambaPe.Offers.Application.Internal.CommandServices;
+
+/**
+ * <summary>
+ *     The offer command service
+ * </summary>
+ * <remarks>
+ *     This class is used to handle offer commands
+ * </remarks>
+ */
+public class OfferCommandService(
+    IOfferRepository offerRepository,
+    IUnitOfWork unitOfWork)
+    : IOfferCommandService
+{
+    /**
+     * <summary>
+     *     Handle create offer command
+     * </summary>
+     * <param name="command">The create offer command</param>
+     * <returns>The created offer</returns>
+     */
+    public async Task<Offer> Handle(CreateOfferCommand command)
+    {
+        var offer = new Offer(command);
+        try
+        {
+            await offerRepository.AddAsync(offer);
+            await unitOfWork.CompleteAsync();
+            return offer;
+        }
+        catch (Exception e)
+        {
+            throw new Exception($"An error occurred while creating offer: {e.Message}");
+        }
+    }
+
+    /**
+     * <summary>
+     *     Handle update offer command
+     * </summary>
+     * <param name="command">The update offer command</param>
+     */
+    public async Task Handle(UpdateOfferCommand command)
+    {
+        var offer = await offerRepository.FindByUidAsync(command.Id);
+        if (offer == null)
+            throw new Exception($"Offer with Uid {command.Id} not found");
+
+        // Update offer properties
+        // Note: Since properties are private set, we might need to add update methods to the Offer entity
+        // For now, we'll throw an exception indicating this needs to be implemented
+        throw new NotImplementedException("Update functionality needs to be implemented in the Offer entity");
+    }
+
+    /**
+     * <summary>
+     *     Handle delete offer command
+     * </summary>
+     * <param name="command">The delete offer command</param>
+     */
+    public async Task Handle(DeleteOfferCommand command)
+    {
+        var offer = await offerRepository.FindByUidAsync(command.Id);
+        if (offer == null)
+            throw new Exception($"Offer with Uid {command.Id} not found");
+
+        try
+        {
+            offerRepository.Remove(offer);
+            await unitOfWork.CompleteAsync();
+        }
+        catch (Exception e)
+        {
+            throw new Exception($"An error occurred while deleting offer: {e.Message}");
+        }
+    }
+}
+```
+
+Este código contiene el código quien maneja las queries de las ofertas
+
+```cs
+using TuChambaPe.Offers.Domain.Model.Aggregates;
+using TuChambaPe.Offers.Domain.Model.Queries;
+using TuChambaPe.Offers.Domain.Repositories;
+using TuChambaPe.Offers.Domain.Services;
+
+namespace TuChambaPe.Offers.Application.Internal.QueryServices;
+
+/**
+ * <summary>
+ *     The offer query service implementation class
+ * </summary>
+ * <remarks>
+ *     This class is used to handle offer queries
+ * </remarks>
+ */
+public class OfferQueryService(IOfferRepository offerRepository) : IOfferQueryService
+{
+    /**
+     * <summary>
+     *     Handle get offer by id query
+     * </summary>
+     * <param name="query">The query object containing the offer id to search</param>
+     * <returns>The offer</returns>
+     */
+    public async Task<Offer?> Handle(GetOfferById query)
+    {
+        return await offerRepository.FindByUidAsync(query.Id);
+    }
+
+    /**
+     * <summary>
+     *     Handle get all offers query
+     * </summary>
+     * <param name="query">The query object for getting all offers</param>
+     * <returns>The offers</returns>
+     */
+    public async Task<IEnumerable<Offer>> Handle(GetAllOffersQuery query)
+    {
+        return await offerRepository.ListAsync();
+    }
+} 
+```
+
+Esté código muestra las entidades de Offer
+
+```cs
+using TuChambaPe.Offers.Domain.Model.Commands;
+using TuChambaPe.Offers.Domain.Model.ValueObjects;
+
+namespace TuChambaPe.Offers.Domain.Model.Aggregates;
+public partial class Offer
+{
+    public Offer(Guid uid, string title, string description, int categoryId, float amount, string duration, string paymentMethod, string status)
+    {
+        Uid = uid;
+        Title = title;
+        Description = description;
+        CategoryId = categoryId;
+        Amount = amount;
+        Duration = duration;
+        PaymentMethod = paymentMethod;
+        Status = OfferStatus.Validate(status);
+    }
+
+    public Offer(CreateOfferCommand command) : this(
+        command.Uid,
+        command.Title,
+        command.Description,
+        command.CategoryId,
+        command.Amount,
+        command.Duration,
+        command.PaymentMethod,
+        command.Status)
+    {
+    }
+
+    public int Id { get; }
+    public Guid Uid { get; private set; }
+    public string Title { get; private set; }
+    public string Description { get; private set; }
+    public int CategoryId { get; private set; }
+    public float Amount { get; private set; }
+    public string Duration { get; private set; }
+    public string PaymentMethod { get; private set; }
+    public string Status { get; private set; }
+}
+```
+
+IAM
+
+Esté código es del Aggregate Account el cual es importante para las cuentas dentro de la aplicación
+
+```cs
+using System.Text.Json.Serialization;
+
+namespace TuChambaPe.IAM.Domain.Model.Aggregates
+{
+    public class Account(Guid uid, string email, string passwordHash)
+    {
+        public Account() : this(Guid.NewGuid(), string.Empty, string.Empty)
+        {
+        }
+
+        public int Id { get; }
+        public Guid Uid { get; } = uid;
+        public string Email { get; private set; } = email;
+
+
+        [JsonIgnore] public string PasswordHash { get; private set; } = passwordHash;
+
+
+        /**
+         * <summary>
+         *     Update email
+         * </summary>
+         * <param name="email">The new email</param>
+         * <returns>The updated account</returns>
+        */
+        public Account UpdateEmail(string email)
+        {
+            Email = email;
+            return this;
+        }
+
+
+        /**
+         * <summary>
+         *     Update the password hash
+         * </summary>
+         * <param name="passwordHash">The new password hash</param>
+         * <returns>The updated account</returns>
+         */
+        public Account UpdatePasswordHash(string passwordHash)
+        {
+            PasswordHash = passwordHash;
+            return this;
+        }
+    }
+} ```
+
+Aquí el manejador de los comandos de IAM
+
+```cs
+using TuChambaPe.IAM.Application.Internal.OutboundServices;
+using TuChambaPe.IAM.Domain.Model.Aggregates;
+using TuChambaPe.IAM.Domain.Model.Commands;
+using TuChambaPe.IAM.Domain.Repositories;
+using TuChambaPe.IAM.Domain.Services;
+using TuChambaPe.Shared.Domain.Repositories;
+
+namespace TuChambaPe.IAM.Application.Internal.CommandServices;
+
+/**
+ * <summary>
+ *     The account command service
+ * </summary>
+ * <remarks>
+ *     This class is used to handle account commands
+ * </remarks>
+ */
+public class AccountCommandService(
+    IAccountRepository accountRepository,
+    ITokenService tokenService,
+    IHashingService hashingService,
+    IUnitOfWork unitOfWork)
+    : IAccountCommandService
+{
+    /**
+     * <summary>
+     *     Handle sign in command
+     * </summary>
+     * <param name="command">The sign in command</param>
+     * <returns>The authenticated account and the JWT token</returns>
+     */
+    public async Task<(Account account, string token)> Handle(SignInCommand command)
+    {
+        var account = await accountRepository.FindByEmailAsync(command.Email);
+
+        if (account == null || !hashingService.VerifyPassword(command.Password, account.PasswordHash))
+            throw new Exception("Invalid email or password");
+
+        var token = tokenService.GenerateToken(account);
+
+        return (account, token);
+    }
+
+    /**
+     * <summary>
+     *     Handle sign up command
+     * </summary>
+     * <param name="command">The sign up command</param>
+     * <returns>A confirmation message on successful creation.</returns>
+     */
+    public async Task Handle(SignUpCommand command)
+    {
+        if (accountRepository.ExistsByEmail(command.Email))
+            throw new Exception($"Email {command.Email} is already taken");
+
+        var hashedPassword = hashingService.HashPassword(command.Password);
+        var account = new Account(command.Uid, command.Email, hashedPassword);
+        try
+        {
+            await accountRepository.AddAsync(account);
+            await unitOfWork.CompleteAsync();
+        }
+        catch (Exception e)
+        {
+            throw new Exception($"An error occurred while creating account: {e.Message}");
+        }
+    }
+} 
+```
+
+
+Finalmente Program.cs, cuyo contenido tiene el core de la aplicación.
+
+```cs
+using Microsoft.OpenApi.Models;
+
+using Cortex.Mediator.Behaviors;
+using Cortex.Mediator.Commands;
+using Cortex.Mediator.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using TuChambaPe.IAM.Application.Internal.CommandServices;
+using TuChambaPe.IAM.Application.Internal.OutboundServices;
+using TuChambaPe.IAM.Application.Internal.QueryServices;
+using TuChambaPe.IAM.Domain.Repositories;
+using TuChambaPe.IAM.Domain.Services;
+using TuChambaPe.IAM.Infrastructure.Hashing.BCrypt.Services;
+using TuChambaPe.IAM.Infrastructure.Persistence.EFC.Repositories;
+using TuChambaPe.IAM.Infrastructure.Pipeline.Middleware.Extensions;
+using TuChambaPe.IAM.Infrastructure.Tokens.JWT.Configuration;
+using TuChambaPe.IAM.Infrastructure.Tokens.JWT.Services;
+using TuChambaPe.IAM.Interfaces.ACL;
+using TuChambaPe.IAM.Interfaces.ACL.Services;
+using TuChambaPe.Offers.Application.Internal.CommandServices;
+using TuChambaPe.Offers.Application.Internal.QueryServices;
+using TuChambaPe.Offers.Domain.Repositories;
+using TuChambaPe.Offers.Domain.Services;
+using TuChambaPe.Offers.Infrastructure.Persistence.EFC.Repositories;
+using TuChambaPe.Proposals.Application.Internal.CommandServices;
+using TuChambaPe.Proposals.Application.Internal.QueryServices;
+using TuChambaPe.Proposals.Domain.Repositories;
+using TuChambaPe.Proposals.Domain.Services;
+using TuChambaPe.Proposals.Infrastructure.Persistence.EFC.Repositories;
+using TuChambaPe.Shared.Domain.Repositories;
+using TuChambaPe.Shared.Infrastructure.Interfaces.ASP.Configuration;
+using TuChambaPe.Shared.Infrastructure.Persistence.EFC.Configuration;
+using TuChambaPe.Shared.Infrastructure.Persistence.EFC.Repositories;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddRouting(options => options.LowercaseUrls = true);
+builder.Services.AddControllers(options => options.Conventions.Add(new KebabCaseRouteNamingConvention()));
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Add CORS Policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllPolicy",
+        policy => policy.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
+
+
+if (connectionString == null) throw new InvalidOperationException("Connection string not found.");
+
+System.Console.Write(connectionString);
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    if (builder.Environment.IsDevelopment())
+        options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 35)))
+            .LogTo(Console.WriteLine, LogLevel.Information)
+            .EnableSensitiveDataLogging()
+            .EnableDetailedErrors();
+    else if (builder.Environment.IsProduction())
+        options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 35)))
+            .LogTo(Console.WriteLine, LogLevel.Error);
+});
+
+// Register repositories
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(options =>
+{
+
+    options.SwaggerDoc("v1",
+        new OpenApiInfo
+        {
+            Title = "ACME.TuChambaPe.API",
+            Version = "v1",
+            Description = "ACME Tu Chamba.pe API",
+            TermsOfService = new Uri("https://acme-learning.com/tos"),
+            Contact = new OpenApiContact
+            {
+                Name = "ACME Studios",
+                Email = "adoa2705@gmail.com"
+            },
+            License = new OpenApiLicense
+            {
+                Name = "Apache 2.0",
+                Url = new Uri("https://www.apache.org/licenses/LICENSE-2.0.html")
+            }
+        });
+
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Please enter token",
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        BearerFormat = "JWT",
+        Scheme = "bearer"
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Id = "Bearer",
+                    Type = ReferenceType.SecurityScheme
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+    options.EnableAnnotations();
+});
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+// IAM Bounded Context Injection Configuration
+// TokenSettings Configuration
+builder.Services.Configure<TokenSettings>(builder.Configuration.GetSection("TokenSettings"));
+
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<IAccountCommandService, AccountCommandService>();
+builder.Services.AddScoped<IAccountQueryService, AccountQueryService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IHashingService, HashingService>();
+builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();
+
+builder.Services.AddScoped<IOfferRepository, OfferRepository>();
+builder.Services.AddScoped<IOfferCommandService, OfferCommandService>();
+builder.Services.AddScoped<IOfferQueryService, OfferQueryService>();
+
+builder.Services.AddScoped<IProposalRepository, ProposalRepository>();
+builder.Services.AddScoped<IProposalCommandService, ProposalCommandService>();
+builder.Services.AddScoped<IProposalQueryService, ProposalQueryService>();
+
+// Add Mediator Injection Configuration
+builder.Services.AddScoped(typeof(ICommandPipelineBehavior<>), typeof(LoggingCommandBehavior<>));
+builder.Services.AddCortexMediator(
+    configuration: builder.Configuration,
+    handlerAssemblyMarkerTypes: new[] { typeof(Program) }, configure: options =>
+    {
+        options.AddOpenCommandPipelineBehavior(typeof(LoggingCommandBehavior<>));
+        //options.AddDefaultBehaviors();
+    });
+
+
+// Add services to the container.
+builder.Services.AddControllers();
+// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddOpenApi();
+
+var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<AppDbContext>();
+    context.Database.EnsureCreated();
+    // context.Database.Migrate();
+}
+
+
+// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsStaging() || app.Environment.IsProduction())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+        c.RoutePrefix = string.Empty; // Opcional: para que Swagger sea la página raíz
+        c.DocExpansion(Swashbuckle.AspNetCore.SwaggerUI.DocExpansion.None);
+
+    });
+
+}
+
+app.UseCors("AllowAllPolicy");
+
+app.UseRequestAuthorization();
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
+```
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 
+La ejecución del Swagger con nuestros bounded context principales Offers, Proposals, IAM.
 
+Aquí se puede ver de la IAM.
+[Evidencia](./img/Evidence.png)
+
+Aquí se puede ver la ejecución de offers, con la consulta POST.
+
+[Evidencia de Offers](./img/Offers.jpg)
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
+Se contempla los servicios de Mysql, con Swagger y OpenAPI para la creación de la documentación interactiva y además de la conección con BD.
+
+```cs
+using Microsoft.OpenApi.Models;
+
+using Cortex.Mediator.Behaviors;
+using Cortex.Mediator.Commands;
+using Cortex.Mediator.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using TuChambaPe.IAM.Application.Internal.CommandServices;
+using TuChambaPe.IAM.Application.Internal.OutboundServices;
+using TuChambaPe.IAM.Application.Internal.QueryServices;
+using TuChambaPe.IAM.Domain.Repositories;
+using TuChambaPe.IAM.Domain.Services;
+using TuChambaPe.IAM.Infrastructure.Hashing.BCrypt.Services;
+using TuChambaPe.IAM.Infrastructure.Persistence.EFC.Repositories;
+using TuChambaPe.IAM.Infrastructure.Pipeline.Middleware.Extensions;
+using TuChambaPe.IAM.Infrastructure.Tokens.JWT.Configuration;
+using TuChambaPe.IAM.Infrastructure.Tokens.JWT.Services;
+using TuChambaPe.IAM.Interfaces.ACL;
+using TuChambaPe.IAM.Interfaces.ACL.Services;
+using TuChambaPe.Offers.Application.Internal.CommandServices;
+using TuChambaPe.Offers.Application.Internal.QueryServices;
+using TuChambaPe.Offers.Domain.Repositories;
+using TuChambaPe.Offers.Domain.Services;
+using TuChambaPe.Offers.Infrastructure.Persistence.EFC.Repositories;
+using TuChambaPe.Proposals.Application.Internal.CommandServices;
+using TuChambaPe.Proposals.Application.Internal.QueryServices;
+using TuChambaPe.Proposals.Domain.Repositories;
+using TuChambaPe.Proposals.Domain.Services;
+using TuChambaPe.Proposals.Infrastructure.Persistence.EFC.Repositories;
+using TuChambaPe.Shared.Domain.Repositories;
+using TuChambaPe.Shared.Infrastructure.Interfaces.ASP.Configuration;
+using TuChambaPe.Shared.Infrastructure.Persistence.EFC.Configuration;
+using TuChambaPe.Shared.Infrastructure.Persistence.EFC.Repositories;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddRouting(options => options.LowercaseUrls = true);
+builder.Services.AddControllers(options => options.Conventions.Add(new KebabCaseRouteNamingConvention()));
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Add CORS Policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllPolicy",
+        policy => policy.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
+
+
+if (connectionString == null) throw new InvalidOperationException("Connection string not found.");
+
+System.Console.Write(connectionString);
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    if (builder.Environment.IsDevelopment())
+        options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 35)))
+            .LogTo(Console.WriteLine, LogLevel.Information)
+            .EnableSensitiveDataLogging()
+            .EnableDetailedErrors();
+    else if (builder.Environment.IsProduction())
+        options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 35)))
+            .LogTo(Console.WriteLine, LogLevel.Error);
+});
+
+// Register repositories
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(options =>
+{
+
+    options.SwaggerDoc("v1",
+        new OpenApiInfo
+        {
+            Title = "ACME.TuChambaPe.API",
+            Version = "v1",
+            Description = "ACME Tu Chamba.pe API",
+            TermsOfService = new Uri("https://acme-learning.com/tos"),
+            Contact = new OpenApiContact
+            {
+                Name = "ACME Studios",
+                Email = "adoa2705@gmail.com"
+            },
+            License = new OpenApiLicense
+            {
+                Name = "Apache 2.0",
+                Url = new Uri("https://www.apache.org/licenses/LICENSE-2.0.html")
+            }
+        });
+
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Please enter token",
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        BearerFormat = "JWT",
+        Scheme = "bearer"
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Id = "Bearer",
+                    Type = ReferenceType.SecurityScheme
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+    options.EnableAnnotations();
+});
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+// IAM Bounded Context Injection Configuration
+// TokenSettings Configuration
+builder.Services.Configure<TokenSettings>(builder.Configuration.GetSection("TokenSettings"));
+
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<IAccountCommandService, AccountCommandService>();
+builder.Services.AddScoped<IAccountQueryService, AccountQueryService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IHashingService, HashingService>();
+builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();
+
+builder.Services.AddScoped<IOfferRepository, OfferRepository>();
+builder.Services.AddScoped<IOfferCommandService, OfferCommandService>();
+builder.Services.AddScoped<IOfferQueryService, OfferQueryService>();
+
+builder.Services.AddScoped<IProposalRepository, ProposalRepository>();
+builder.Services.AddScoped<IProposalCommandService, ProposalCommandService>();
+builder.Services.AddScoped<IProposalQueryService, ProposalQueryService>();
+
+// Add Mediator Injection Configuration
+builder.Services.AddScoped(typeof(ICommandPipelineBehavior<>), typeof(LoggingCommandBehavior<>));
+builder.Services.AddCortexMediator(
+    configuration: builder.Configuration,
+    handlerAssemblyMarkerTypes: new[] { typeof(Program) }, configure: options =>
+    {
+        options.AddOpenCommandPipelineBehavior(typeof(LoggingCommandBehavior<>));
+        //options.AddDefaultBehaviors();
+    });
+
+
+// Add services to the container.
+builder.Services.AddControllers();
+// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddOpenApi();
+
+var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<AppDbContext>();
+    context.Database.EnsureCreated();
+    // context.Database.Migrate();
+}
+
+
+// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsStaging() || app.Environment.IsProduction())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+        c.RoutePrefix = string.Empty; // Opcional: para que Swagger sea la página raíz
+        c.DocExpansion(Swashbuckle.AspNetCore.SwaggerUI.DocExpansion.None);
+
+    });
+
+}
+
+app.UseCors("AllowAllPolicy");
+
+app.UseRequestAuthorization();
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
+```
+
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
-
+No se logró el despligue de la aplicación backend.  
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
+[Evidencia de Insight](./img/Insights.png)
 
 
 
