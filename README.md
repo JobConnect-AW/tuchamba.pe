@@ -3905,3 +3905,11 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312391_upc_edu_pe/ETRsN2Qt
 Anexo C:
 About the team:
 https://www.youtube.com/watch?v=5zHzQ5kVb18
+
+Anexo D:
+URL del backend desplegado:
+https://tuchamba-pe-backend-full-1.fly.dev/index.html
+
+Anexo E:
+URL del frontend desplegado:
+https://tuchamba-pe.netlify.app/
