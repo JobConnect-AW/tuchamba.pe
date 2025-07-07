@@ -3805,17 +3805,17 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 4](https://trello.com/invi
     </tbody>
 </table>
 
-#### 5.2.3.5.Execution Evidence for Sprint Review.
+#### 5.2.4.5.Execution Evidence for Sprint Review.
 
 Durante el Sprint 4 se completaron tareas clave que fortalecieron la infraestructura del sistema y mejoraron la calidad del código, garantizando un despliegue más estable y seguro en entornos productivos. Las actividades abarcaron desde la documentación interna hasta ajustes en la configuración de la base de datos y la integración de nuevos contextos en el backend.
 
 El backend ahora expone endpoints REST robustos para cada uno de estos módulos, asegurando compatibilidad con las futuras peticiones del frontend y soportando la lógica de autenticación mediante tokens JWT. Las tareas completadas durante este sprint sientan las bases para un ciclo de despliegue continuo más eficiente y un ecosistema listo para escalar.
 
 
-#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
 
 
-#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
 
 Durante el Sprint 4 se logró la integración completa entre el backend y el frontend de la aplicación, consumiendo correctamente los endpoints definidos en los distintos Bounded Contexts del sistema. Esta integración permitió validar funcionalidades clave como autenticación, registro, gestión de perfiles, ofertas, trabajadores.
 
