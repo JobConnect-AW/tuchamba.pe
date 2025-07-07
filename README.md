@@ -35,7 +35,7 @@
 | 2da     | 15/05/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TP1: Se realizo el segundo sprint del capitulo 5 y las vistas de la aplicacion a partir de sus bounded context con primevue |
 | 3ra     | 12/06/2025 | Chi, Paucar, Hallasi, Oroncoy, Cossar, Mostajo | TB2: Se realizo el segundo sprint del capitulo 5 y las vistas de la aplicacion a partir de sus bounded context con primevue |
 
-</div>
+
 
 # Project Report Collaboration Insights
 
@@ -968,7 +968,7 @@ Empathy Mapping: Usuarios que requieren servicios técnicos
 | TS01 | Integración con pasarela de pagos           | Como developer, quiero integrar Stripe para procesar pagos seguros de suscripciones y servicios.                                                            | **Escenario 1:** Pago exitoso<br>Given un usuario elige un plan, When ingresa datos válidos, Then el sistema confirma el pago y actualiza su estado.<br>**Escenario 2:** Tarjeta rechazada<br>Given datos inválidos, When intenta pagar, Then el sistema muestra error detallado.                                                                                                                              | EP07, EP08       |
 | TS02 | Implementar autenticación JWT               | Como developer, quiero usar JWT para gestionar sesiones seguras y autorización de roles (cliente/trabajador).                                               | **Escenario 1:** Login exitoso<br>Given credenciales válidas, When el usuario inicia sesión, Then recibe un token JWT.<br>**Escenario 2:** Token inválido<br>Given un token expirado, When accede a recursos, Then el sistema deniega el acceso.                                                                                                                                                               | EP01, EP02       |
 | TS03 | Encriptación de datos sensibles             | Como developer, quiero encriptar contraseñas y datos financieros usando bcrypt y AES-256, para cumplir con estándares de seguridad.                         | **Escenario 1:** Registro seguro<br>Given un nuevo usuario, When se registra, Then su contraseña se almacena hasheada.<br>**Escenario 2:** Filtro de datos<br>Given una brecha de seguridad, Then los datos sensibles están ilegibles.                                                                                                                                                                         | EP01, EP04       |
-| TS04 | Validación de formularios multi-nivel       | Como developer, quiero validar campos en frontend (JavaScript) y backend (C#), para prevenir inyecciones SQL.                                               | **Escenario 1:** Correo inválido<br>Given un usuario ingresa "user@", When envía el formulario, Then el sistema bloquea el envío.<br>**Escenario 2:** Script malicioso<br>Given un campo con "<script>", Then el backend lo sanitiza.                                                                                                                                                                          | EP01, EP03       |
+| TS04 | Validación de formularios multi-nivel       | Como developer, quiero validar campos en frontend (JavaScript) y backend (C#), para prevenir inyecciones SQL.                                               | **Escenario 1:** Correo inválido<br>Given un usuario ingresa "user@", When envía el formulario, Then el sistema bloquea el envío.<br>**Escenario 2:** Script malicioso<br>Given un campo con "script", Then el backend lo sanitiza.                                                                                                                                                                          | EP01, EP03       |
 | TS05 | Diseño responsive para dispositivos móviles | Como developer, quiero garantizar que el 95% del sitio sea responsive usando CSS Grid y Flexbox, para móviles y tablets.                                    | **Escenario 1:** Vista móvil<br>Given un smartphone, When el usuario navega, Then los botones y textos se adaptan.<br>**Escenario 2:** Tablet<br>Given una pantalla de 10", Then las imágenes no se pixelan.                                                                                                                                                                                                   | EP09             |
 | TS06 | Endpoint para registro de trabajadores      | Como developer, quiero crear POST /api/workers para registrar perfiles técnicos con validación de habilidades.                                              | **Escenario 1:** Registro exitoso<br>Given datos completos (habilidades, tarifas), When se envía, Then el sistema devuelve ID único.<br>**Escenario 2:** Campos faltantes<br>Given habilidades vacías, Then el sistema rechaza la solicitud.                                                                                                                                                                   | EP03             |
 | TS07 | Endpoint para búsqueda/filtro               | Como developer, quiero desarrollar GET /api/search-worker con filtros dinámicos (ubicación, precio, rating), para clientes.                                 | **Escenario 1:** Búsqueda por ubicación<br>Given "Lima", When se consulta, Then devuelve trabajadores en 10 km.<br>**Escenario 2:** Sin resultados<br>Given filtros muy estrictos, Then sugiere relajar parámetros.                                                                                                                                                                                            | EP05             |
@@ -3770,10 +3770,46 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 4](https://trello.com/invi
 
 #### 5.2.4.4.Development Evidence for Sprint Review.
 
-#### 5.2.2.4.Development Evidence for Sprint Review.
-
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit Id</th>
+        <th>Commit Message</th>
+        <th>Commited on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>79e9b47</td><td>docs: add comment for reviews controller</td><td>07/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>b646dc9</td><td>docs: add commens for reviews infrastructure</td><td>07/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>c8fa5d2</td><td>docs: add comments for reviews application services</td><td>07/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>636f309</td><td>fix: Update connection string</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>b90b992</td><td>fix: Update model</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>84582e1</td><td>secrets</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>34a5a81</td><td>fix: Update env</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>cc371b6</td><td>build: Update appsettings</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>854f4f1</td><td>Merge pull request #6 from JobConnect-AW/flyio-new-files</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>flyio-new-files</td><td>880d8d8</td><td>New files from Fly.io Launch</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>ff35f8c</td><td>chore: Merge branch 'main' of https://github.com/JobConnect-AW/tuchamba.pe-backend</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>hotfix/0.0.1</td><td>7a0d5f6</td><td>fix: Update default connection</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>f5f6d47</td><td>Merge pull request #5 from JobConnect-AW/release/0.0.1</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>release/0.0.1</td><td>d106f26</td><td>build: Deploy finished</td><td>05/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>feature/users2</td><td>10db670</td><td>feat: add Users and Review Context</td><td>04/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>main</td><td>f0a9aa4</td><td>refactor: Update refactor dbcontext</td><td>04/07/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>develop</td><td>af386b5</td><td>Merge pull request #4 from JobConnect-AW/develop</td><td>21/06/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>develop</td><td>2c78f54</td><td>fix: account using</td><td>21/06/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>develop</td><td>aa9c7fb</td><td>fix: Update account</td><td>21/06/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>develop</td><td>413e5ef</td><td>feat: Add proposal bounded context</td><td>21/06/2025</td></tr>
+      <tr><td>tuchamba.pe-backend</td><td>feature/offers</td><td>3dc9e46</td><td>feat: offersss</td><td>21/06/2025</td></tr>
+    </tbody>
+</table>
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
+
+Durante el Sprint 4 se completaron tareas clave que fortalecieron la infraestructura del sistema y mejoraron la calidad del código, garantizando un despliegue más estable y seguro en entornos productivos. Las actividades abarcaron desde la documentación interna hasta ajustes en la configuración de la base de datos y la integración de nuevos contextos en el backend.
+
+El backend ahora expone endpoints REST robustos para cada uno de estos módulos, asegurando compatibilidad con las futuras peticiones del frontend y soportando la lógica de autenticación mediante tokens JWT. Las tareas completadas durante este sprint sientan las bases para un ciclo de despliegue continuo más eficiente y un ecosistema listo para escalar.
 
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
