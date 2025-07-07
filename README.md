@@ -3814,6 +3814,17 @@ El backend ahora expone endpoints REST robustos para cada uno de estos módulos,
 
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review.
 
+![SignUp Auth Controller](./img/signup-controller.png)
+
+![SignIn Auth Controller](./img/signin-controller.png)
+
+![Account Controller](./img/account-controller.png)
+
+![Account Controller](./img/account-controller-1.png)
+
+![Users Controller](./img/Users-controller.png)
+
+![Offers Controller](./img/offers-controller.png)
 
 #### 5.2.4.7.Software Deployment Evidence for Sprint Review.
 
