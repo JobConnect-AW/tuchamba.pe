@@ -3817,10 +3817,36 @@ El backend ahora expone endpoints REST robustos para cada uno de estos módulos,
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
+Durante el Sprint 4 se logró la integración completa entre el backend y el frontend de la aplicación, consumiendo correctamente los endpoints definidos en los distintos Bounded Contexts del sistema. Esta integración permitió validar funcionalidades clave como autenticación, registro, gestión de perfiles, ofertas, trabajadores.
+
+En paralelo, se realizó el deployment del backend en la nube mediante la plataforma Fly.io, asegurando su disponibilidad en un entorno de producción accesible vía web. Este despliegue permitió al equipo realizar pruebas reales desde el frontend conectado al backend desplegado.
+
+A continuación, se presentan las evidencias tanto del funcionamiento integrado del sistema como del proceso de despliegue:
+
+#### Evidencias de Integración Frontend–Backend
+
+![Registro Frontend](./img/register-front.png)
+<p>Formulario de registro de usuario. Al enviar los datos, el frontend realiza una solicitud POST al endpoint <code>/api/v1/authentication/sign-up</code></p>
+
+![Login Frontend](./img/login-front.png)
+<p>Formulario de login de usuario. Al enviar los datos, el frontend realiza una solicitud POST al endpoint <code>/api/v1/authentication/sign-in</code></p>
+
+![Tipo de Usuario](./img/user-front.png)
+
+#### Evidencias del Deployment en Fly.io
+
+![Despligue fly.io](./img/flyio-deploy.png)
+<p>Backend desplegado y accesible</p>
+URL del backend desplegado:
+https://tuchamba-pe-backend-full-1.fly.dev/index.html
+URL del frontend desplegado:
+https://tuchamba-pe.netlify.app/
+
+![Swagger](./img/flyio-1.png)
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
-
+![GitHun Insights](./img/Insights-4.png)
 
 # Conclusiones
 
@@ -3864,3 +3890,7 @@ https://www.figma.com/design/py3rabYJzPcLJN8k0b92su/Aplicaciones-Web?node-id=0-1
 Anexo B:
 URL de las entrevistas:
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312391_upc_edu_pe/ETRsN2Qt-ztDkIH1A5ZO_I4BPW0eZ3x5ieDkQOWZHTL1dA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FthuRz
+
+Anexo C:
+About the team:
+https://www.youtube.com/watch?v=5zHzQ5kVb18
